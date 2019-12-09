@@ -12,3 +12,9 @@
 */
 
 Route::get('/', 'PagesController@landing');
+Route::get('/real-estate-developers', 'PagesController@realestate');
+Route::get('/f-and-b', 'PagesController@fnb');
+Route::get('/retail', 'PagesController@retail');
+Route::get('/contact', 'PagesController@contact');
+Route::get('/office', 'PagesController@offices');
+Route::get('/about', 'PagesController@about');
