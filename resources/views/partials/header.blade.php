@@ -1,19 +1,26 @@
 <header>
-    <nav class="bg-gray-100">
-        <div class="list">
+    <nav class="bg-gray-100 flex justify-between">
+
+        <div class="brand">
+            <a href="/" class="link">
+                <img src="/static/logo.png" alt="">
+            </a>
+
+        </div>
+        <div class="list flex">
             <div class="nav-link">
-                <a href="/" class="link">Home</a>
+
             </div>
             <div class="nav-link-group">
                 <div class="link-head">Homes</div>
-                <div class="drop-down">
+                <div class="drop-down hidden">
                     <a href="/" class="link">Residences</a>
                     <a href="/real-estate-developers" class="link">Real Estate Developers</a>
                 </div>
             </div>
             <div class="nav-link-group">
                 <div class="link-head">Enterprises</div>
-                <div class="drop-down">
+                <div class="drop-down hidden">
                     <a href="/f-and-b" class="link">Food & Beverages</a>
                     <a href="/retail" class="link">Retail</a>
                 </div>

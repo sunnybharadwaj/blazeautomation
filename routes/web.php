@@ -18,3 +18,5 @@ Route::get('/retail', 'PagesController@retail');
 Route::get('/contact', 'PagesController@contact');
 Route::get('/office', 'PagesController@offices');
 Route::get('/about', 'PagesController@about');
+Route::get('/news', 'PagesController@news');
+

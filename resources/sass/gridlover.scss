@@ -1,6 +1,6 @@
 html, .root {
-  font-size: 16px;
-  line-height: 23px;
+  font-size: 18px;
+  line-height: 32px;
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -21,14 +21,18 @@ h1, .h1 {
 h2, .h2 {
   font-size: 2.25em;
   line-height: 1.27777778em;
+  letter-spacing: -0.03em;
   margin-top: 0.63888889em;
   margin-bottom: 0.63888889em;
+  font-weight: bold;
 }
 h3, .h3 {
   font-size: 1.5em;
   line-height: 1.91666667em;
+  letter-spacing: -0.02em;
   margin-top: 0.95833333em;
   margin-bottom: 0em;
+  font-weight: bold;
 }
 h4, .h4 {
   font-size: 1em;
@@ -45,6 +49,7 @@ h5, .h5 {
 p, ul, ol, pre, table, blockquote {
   margin-top: 0em;
   margin-bottom: 1.4375em;
+  line-height: 1.6 !important;
 }
 ul ul, ol ol, ul ol, ol ul {
   margin-top: 0em;

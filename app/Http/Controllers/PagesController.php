@@ -33,4 +33,8 @@ class PagesController extends Controller
     function contact() {
         return view('pages/contact');
     }
+
+    function news() {
+        return view('pages/news');
+    }
 }
