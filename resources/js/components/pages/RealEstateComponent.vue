@@ -7,11 +7,6 @@
                 </div>
             </template>
         </HeroComponent>
-   <HeroComponent>
-       <template slot="text">
-
-       </template>
-   </HeroComponent>
 
 
 

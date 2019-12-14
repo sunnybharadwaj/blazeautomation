@@ -6,13 +6,15 @@
   font-weight: bold;
   padding: 10px 28px;
   margin: 20px 0;
-
-  color: $black;
+  background: $primary;
+  color: white;
   border: 3px solid $primary;
-  &:hover {
+  transition:all 0.2s ease-in-out;
 
-    background: $primary;
-    color: white;
+  &:hover {
+    color: $black;
+    border: 3px solid $primary;
+    background: white;
   }
 }
 
@@ -48,18 +50,6 @@
 
 }
 
-.product-slider {
-  padding: 100px 0;
-  //h3 {
-  //  font-size: 24px;
-  //}
-  p {
-    padding: 10px 20px;
-    font-size: 14px;
-    letter-spacing: -0.02em;
-
-  }
-}
 
 .product-image {
   max-width: 300px;
@@ -69,6 +59,7 @@
 
 
 .header {
+  margin-bottom: 60px;
   .header-text {
     width: 800px;
   }
@@ -81,6 +72,7 @@
     background: lightblue url("/static/hero.jpg") no-repeat fixed center;
   }
   .header-text {
+    opacity: 0.9;
     padding: 40px;
     color: white !important;
     position:absolute;
@@ -88,4 +80,27 @@
     left: 50%;
     transform: translate(-50%,-50%);
   }
+}
+
+.product-slider {
+  padding: 60px 10px;
+  background: $gradient;
+  color: white !important;
+  .swiper-slide {
+    transition: all 0.1s ease-in-out;
+    &:hover {
+      background: rgba(255, 255, 255, 0.09);
+    }
+  }
+  p {
+    padding: 10px 20px;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+
+  }
+}
+
+.nav-bg {
+  background: $gradient;
+  height: 100px;
 }

@@ -11,3 +11,34 @@
 
 @import 'landing';
 @import 'customers';
+@import 'about';
+
+
+//Product Detail Page
+#product-detail-page {
+
+
+  .product-container {
+    padding: 40px 0;
+    .product-image {
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .product-details {
+      padding: 40px 20px;
+
+    }
+
+    h1 {
+      margin-bottom: 24px;
+    }
+    .point {
+      margin-bottom: 16px;
+    }
+
+  }
+
+
+}

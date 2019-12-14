@@ -1,15 +1,20 @@
 <template>
     <div class="product-slider">
+        <div class="container">
+            <h1 class="h2 font-bold text-center mb-12"><strong>Our Products</strong></h1>
+        </div>
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide product-block" v-for="product in products">
-                    <div class="product-image">
-                        <img :src="product.imagepath" alt="">
-                    </div>
-
-                    <h3 class="h4 text-center">{{product.name}}</h3>
-                    <p class="text-center">{{product.desc}}</p>
-                    <router-link :to="`/product/${product.id}`">Click here</router-link>
+                    <a :href="`/product/${product.id}`">
+                        <div class="product-wrapper">
+                            <div class="product-image">
+                                <img :src="product.imagepath" alt="">
+                            </div>
+                            <h3 class="h4 text-center">{{product.name}}</h3>
+                            <p class="text-center">{{product.desc}}</p>
+                        </div>
+                    </a>
                 </div>
             </div>
 

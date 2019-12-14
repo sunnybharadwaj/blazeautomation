@@ -72,7 +72,7 @@
                                 performance and productivity while reducing the risk and keeping your customers
                                 happy. Be
                                 Smart solutions result in better profitability and efficiency.</p>
-                            <router-link to="/f-and-b" class="std-btn">Learn more</router-link>
+                            <a href="/f-and-b" class="std-btn">Learn more</a>
                         </template>
 
                         <template slot="image">

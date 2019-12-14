@@ -1,11 +1,54 @@
 <template>
-    <div>
+    <div id="product-detail-page">
+        <div class="nav-bg"></div>
 
-        {{thisProduct.desc}}
-        <img :src="thisProduct.imagepath" alt="">
-        <h1>{{thisProduct.name}}</h1>
+        <div class="product-container">
+            <div class="container">
+                <div class="flex">
+                    <div class="w-full lg:w-5/12 product-img">
+                        <div class="wrapper">
+                            <img class="mx-auto" :src="thisProduct.imagepath" alt="">
+                        </div>
+                    </div>
+
+                    <div class="w-full lg:w-7/12 product-details">
+                        <h1 class="h2">{{thisProduct.name}}</h1>
+                        <h3 class="h4">{{thisProduct.desc}}</h3>
+                        <div v-if="!thisProduct.desc">
+                            <h3 class="h4">Product details coming soon. </h3>
+                        </div>
+
+                        <div v-if="thisProduct.manualpath">
+                            <a :href="thisProduct.manualpath" download class="std-btn">Download Manual</a>
+                        </div>
+
+                        <div v-if="thisProduct.benefits">
+                            <h4 class="highlight-heading">KEY BENEFITS</h4>
+                            <div v-for="benefit in thisProduct.benefits">
+                                <ul>
+                                    <li class="benefit point"><p>{{benefit}}</p></li>
+                                </ul>
+                            </div>
+                        </div>
 
 
+                        <div v-if="thisProduct.tech">
+                            <h4 class="highlight-heading">TECHNICAL SPECIFICATIONS</h4>
+                            <div v-for="tech in thisProduct.tech">
+                                <ul>
+                                    <li class="point"><p>{{tech}}</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <SliderComponent></SliderComponent>
     </div>
 </template>
 
@@ -76,10 +119,10 @@
                     },
                 wattsup:
                     {
-                        name: "WattsUP Energy Meter",
+                        name: "WattsUP",
                         imagepath: "/static/products/wattsup.png",
                         manualpath: "",
-                        desc: "B.One WattsUP- A Smart Meter to help you know how much electricity your Office / Home is using in real-time with 99% accuracy.",
+                        desc: "A Smart Energy Meter to help you know how much electricity your Office / Home is using in real-time with 99% accuracy.",
                         benefits: [
                             "Budgeting and monitoring of energy loads.",
                             "Real-time data on Running, Off and Stand By loads of all appliances.",

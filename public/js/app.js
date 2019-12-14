@@ -1872,6 +1872,113 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {}
 });
@@ -2302,6 +2409,49 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['product'],
   methods: {
@@ -2334,10 +2484,10 @@ __webpack_require__.r(__webpack_exports__);
         tech: ["Power supply: 5V DC, 3.0A", "Operating conditions: 0~40°C, 0%~90% RH", "Supported protocol: Wi-Fi, LTE, Z-Wave Plus, BT, BLE, Zigbee, and IR", "Z-Wave radio frequency: 868.42MHz (EU) 908.42MHz (US) 921.42 MHz (ANZ)", "Battery Backup: Up to 2 hours", "On-board Sensors: Motion Sensor, Temperature Sensor, and Light Sensor"]
       },
       wattsup: {
-        name: "WattsUP Energy Meter",
+        name: "WattsUP",
         imagepath: "/static/products/wattsup.png",
         manualpath: "",
-        desc: "B.One WattsUP- A Smart Meter to help you know how much electricity your Office / Home is using in real-time with 99% accuracy.",
+        desc: "A Smart Energy Meter to help you know how much electricity your Office / Home is using in real-time with 99% accuracy.",
         benefits: ["Budgeting and monitoring of energy loads.", "Real-time data on Running, Off and Stand By loads of all appliances.", "AI enabled NILM for load detection, optimisation and preventive maintenance of appliances.", "Data on consumption and generation of alternate power such as solar, battery back up and diesel generators.", "Monitoring of the elderly by tracking usage patterns of lights and appliances."],
         tech: ["Operating Voltage & Frequency: 180~260V AC 50Hz", "Load Current: 60A (Max)", "Working & Storage temperature: Operating: 8°-50°C RH≤80%  Storage: -20°-70°C RH≤80%", "Radio Technology: IEEE 802.11b/g/n", "Wireless Type: WiFi 2.4G 1T1R"]
       },
@@ -2412,11 +2562,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
 //
 //
 //
@@ -2712,6 +2857,11 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
 //
 //
 //
@@ -4071,42 +4221,195 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { attrs: { id: "about-page" } }, [
-      _c("div", [
-        _c("section", { attrs: { id: "intro" } }, [
-          _c("div", { staticClass: "container" }, [
-            _c("h1", [_vm._v("About")]),
+      _c("div", { staticClass: "nav-bg" }),
+      _vm._v(" "),
+      _c("section", { attrs: { id: "intro" } }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "flex flex-wrap" }, [
+            _c("div", { staticClass: "w-full lg:w-8/12 flex-container" }, [
+              _c("h1", { staticClass: "highlight mt-10 mb-4" }, [
+                _vm._v("About")
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "max-w-2xl" }, [
+                _c("h3", { staticClass: "mb-4" }, [
+                  _vm._v(
+                    "Blaze Automation is an IoT ( Internet of Things ) company with its offices\n                            in New Jersey, USA and Hyderabad,\n                            India. Blaze has been building Home Automation and Security products for last 8\n                            years. "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("h4", [
+                  _vm._v(
+                    "Blaze has invested\n                            the last three years in research and development of B.One® Hub and AI based IoT\n                            analytics platform, B.One\n                            Hub is a truly intelligent device that is powerful, intuitive, easy-to-use and future\n                            ready. B.One® is a\n                            Smart Intelligent Home Automation and Security System that makes your lives more\n                            efficient and secure."
+                  )
+                ])
+              ])
+            ]),
             _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "Blaze Automation is an IoT ( Internet of Things ) company with its offices in New Jersey, USA and Hyderabad,\n                    India. Blaze has been building Home Automation and Security products for last 8 years. Blaze has invested\n                    the last three years in research and development of B.One® Hub and AI based IoT analytics platform, B.One\n                    Hub is a truly intelligent device that is powerful, intuitive, easy-to-use and future ready. B.One® is a\n                    Smart Intelligent Home Automation and Security System that makes your lives more efficient and secure."
-              )
+            _c("div", { staticClass: "w-full lg:w-4/12 flex-container" }, [
+              _c("div", { staticClass: "img-container" }, [
+                _c("img", { attrs: { src: "/static/logo.png", alt: "" } })
+              ])
             ])
           ])
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "team-list" }, [
-        _c("div", { staticClass: "team-member" }, [
-          _c("div", { staticClass: "image" }),
-          _vm._v(" "),
-          _c("div", { staticClass: "text" }, [
-            _c("div", { staticClass: "heading" }, [
-              _c("h3", [_vm._v("Arjun Valluri")]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Arjun is the Chairman of Blaze Automation and leads the vision and ideation efforts. As a successful serial entrepreneur Arjun has received various awards for his business accomplishments and has made significant investments in Green Energy and Technology sectors."
-                )
-              ]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "He was the Co-Founder, Chairman, President and Chief Executive Officer of Intelligroup ,Inc (acquired by NTT Data). Throughout the years, Arjun has received multiple NJ Fast 50 awards, Var Business 500 Awards, NJ Entrepreneur of the Year awards, and the NJ Ernst and Young Entrepreneur of the Year in 2001."
-                )
+      _c("section"),
+      _vm._v(" "),
+      _c("section", [
+        _c("div", { staticClass: "team-list" }, [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "team-member" }, [
+              _c("div", { staticClass: "flex" }, [
+                _c("div", { staticClass: "image w-full md:w-4/12" }, [
+                  _c("img", {
+                    staticClass: "mx-auto",
+                    attrs: { src: "/static/team/arjun_valluri.jpg", alt: "" }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "text w-full md:w-8/12" }, [
+                  _c("div", { staticClass: "heading" }, [
+                    _c("h3", [_vm._v("Arjun Valluri")]),
+                    _vm._v(" "),
+                    _c("h4", { staticClass: "loud highlight" }, [
+                      _vm._v("Chairman")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "Description" }, [
+                    _c("div", { staticClass: "max-w-xl" }, [
+                      _c("p", [
+                        _vm._v(
+                          "Arjun is the Chairman of Blaze Automation and leads the vision and ideation\n                                        efforts. As a successful serial entrepreneur Arjun has received various awards\n                                        for his business accomplishments and has made significant investments in Green\n                                        Energy and Technology sectors."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "He was the Co-Founder, Chairman, President and Chief Executive Officer of\n                                        Intelligroup ,Inc (acquired by NTT Data). Throughout the years, Arjun has\n                                        received multiple NJ Fast 50 awards, Var Business 500 Awards, NJ Entrepreneur of\n                                        the Year awards, and the NJ Ernst and Young Entrepreneur of the Year in\n                                        2001."
+                        )
+                      ])
+                    ])
+                  ])
+                ])
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "Description" })
+            _c("div", { staticClass: "team-member" }, [
+              _c("div", { staticClass: "flex" }, [
+                _c("div", { staticClass: "image w-full md:w-4/12" }, [
+                  _c("img", {
+                    staticClass: "mx-auto",
+                    attrs: { src: "/static/team/dr_dave_irvine.jpg", alt: "" }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "text w-full md:w-8/12" }, [
+                  _c("div", { staticClass: "heading" }, [
+                    _c("h3", [_vm._v("Dr. Dave Irvine Halliday")]),
+                    _vm._v(" "),
+                    _c("h4", { staticClass: "loud highlight" }, [
+                      _vm._v("Director")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "Description" }, [
+                    _c("div", { staticClass: "max-w-xl" }, [
+                      _c("p", [
+                        _vm._v(
+                          "Dr. Dave MSM, PEng, Professor Emeritus, University of Calgary is a Director at Blaze Automation. He is the founder ofthe NGO: “Light Up The World (LUTW)” (1997). LUTW has facilitated affordable Solid State Lighting systems in 53 countries. He is the Founder for “Visionary Lighting & Energy (VLE) and has worked on Projects with Univ. of Calgary & Mount Royal University (Canada)."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "Dave is an expert in Power Electronics, Solar Photovoltaic Systems and in designing LED Lighting Systems. In recognition of Dr. Dave’s services to humanity he received over two dozen awards including – Rolex Laureate 2002, Tech Museum Laureate 2002, Saatchi and Saatchi Laureate 2003, Meritorious Service Medal (MSM), Gov. of Canada (2005), Honorary Doctorate, Aberdeen University, Scotland (2006), K. Y. LoMedal of the Engineering Institute of Canada (2008)."
+                        )
+                      ])
+                    ])
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "team-member" }, [
+              _c("div", { staticClass: "flex" }, [
+                _c("div", { staticClass: "image w-full md:w-4/12" }, [
+                  _c("img", {
+                    staticClass: "mx-auto",
+                    attrs: {
+                      src: "/static/team/sridhar_ponugupati.jpg",
+                      alt: ""
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "text w-full md:w-8/12" }, [
+                  _c("div", { staticClass: "heading" }, [
+                    _c("h3", [_vm._v("Sridhar Ponugupati")]),
+                    _vm._v(" "),
+                    _c("h4", { staticClass: "loud highlight" }, [
+                      _vm._v("Chief Executive Officer")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "Description" }, [
+                    _c("div", { staticClass: "max-w-xl" }, [
+                      _c("p", [
+                        _vm._v(
+                          "Sridhar is the CEO of Blaze Automation and spearheads strategy, operations, design and development efforts. Sridhar has years of experience in designing and building, Industrial Embedded Security and Automation systems. He was also responsible for Design and Implementation of Security Systems for several Banks and key Government agencies."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "Over the years Sridhar has received various awards from IEEE’s Best circuit designer of the year award, Faraday Memorial award for the design of Solid state Lighting System for the developing world. Stood one among the TOP 20 in Windows Embedded Students Challenge conducted by Microsoft."
+                        )
+                      ])
+                    ])
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "team-member" }, [
+              _c("div", { staticClass: "flex" }, [
+                _c("div", { staticClass: "image w-full md:w-4/12" }, [
+                  _c("img", {
+                    staticClass: "mx-auto",
+                    attrs: { src: "/static/team/sarada_akkineni.jpg", alt: "" }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "text w-full md:w-8/12" }, [
+                  _c("div", { staticClass: "heading" }, [
+                    _c("h3", [_vm._v("Sarada Akkineni")]),
+                    _vm._v(" "),
+                    _c("h4", { staticClass: "loud highlight" }, [
+                      _vm._v("Chairman")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "Description" }, [
+                    _c("div", { staticClass: "max-w-xl" }, [
+                      _c("p", [
+                        _vm._v(
+                          "Sarada is Technical Director at Blaze Automation and brings over 10 years of management experience from flagship telecom companies. Sarada Akkineni is currently responsible for managing software design and development of Blaze Home Automation products."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "Her experience spans a range of technologies including Broadband Networking, Asynchronous Transfer Mode Switches, High speed Routers and VoIP Systems. During her career she has held management positions at Lucent Technologies and Net2Phone, and started her career as a software engineer at Cisco Systems. She interned as a network engineer at Bell Labs. Sarada is a Graduate from University of Illinois, Urbana Champaign."
+                        )
+                      ])
+                    ])
+                  ])
+                ])
+              ])
+            ])
           ])
         ])
       ])
@@ -4544,28 +4847,23 @@ var render = function() {
               _c(
                 "ContentComponent",
                 [
-                  _c(
-                    "template",
-                    { slot: "text" },
-                    [
-                      _c("h4", { staticClass: "h3" }, [
-                        _vm._v("Food and Beverages (F&B)")
-                      ]),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v(
-                          "Automating your Food and Beverage enterprise with Be Smart helps in improving your\n                            performance and productivity while reducing the risk and keeping your customers\n                            happy. Be\n                            Smart solutions result in better profitability and efficiency."
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c(
-                        "router-link",
-                        { staticClass: "std-btn", attrs: { to: "/f-and-b" } },
-                        [_vm._v("Learn more")]
+                  _c("template", { slot: "text" }, [
+                    _c("h4", { staticClass: "h3" }, [
+                      _vm._v("Food and Beverages (F&B)")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Automating your Food and Beverage enterprise with Be Smart helps in improving your\n                            performance and productivity while reducing the risk and keeping your customers\n                            happy. Be\n                            Smart solutions result in better profitability and efficiency."
                       )
-                    ],
-                    1
-                  ),
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      { staticClass: "std-btn", attrs: { href: "/f-and-b" } },
+                      [_vm._v("Learn more")]
+                    )
+                  ]),
                   _vm._v(" "),
                   _c("template", { slot: "image" }, [
                     _c("img", { attrs: { src: "/static/fnb.png", alt: "" } })
@@ -4922,12 +5220,109 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _vm._v("\n\n    " + _vm._s(_vm.thisProduct.desc) + "\n    "),
-    _c("img", { attrs: { src: _vm.thisProduct.imagepath, alt: "" } }),
-    _vm._v(" "),
-    _c("h1", [_vm._v(_vm._s(_vm.thisProduct.name))])
-  ])
+  return _c(
+    "div",
+    { attrs: { id: "product-detail-page" } },
+    [
+      _c("div", { staticClass: "nav-bg" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "product-container" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "flex" }, [
+            _c("div", { staticClass: "w-full lg:w-5/12 product-img" }, [
+              _c("div", { staticClass: "wrapper" }, [
+                _c("img", {
+                  staticClass: "mx-auto",
+                  attrs: { src: _vm.thisProduct.imagepath, alt: "" }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "w-full lg:w-7/12 product-details" }, [
+              _c("h1", { staticClass: "h2" }, [
+                _vm._v(_vm._s(_vm.thisProduct.name))
+              ]),
+              _vm._v(" "),
+              _c("h3", { staticClass: "h4" }, [
+                _vm._v(_vm._s(_vm.thisProduct.desc))
+              ]),
+              _vm._v(" "),
+              !_vm.thisProduct.desc
+                ? _c("div", [
+                    _c("h3", { staticClass: "h4" }, [
+                      _vm._v("Product details coming soon. ")
+                    ])
+                  ])
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.thisProduct.manualpath
+                ? _c("div", [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "std-btn",
+                        attrs: {
+                          href: _vm.thisProduct.manualpath,
+                          download: ""
+                        }
+                      },
+                      [_vm._v("Download Manual")]
+                    )
+                  ])
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.thisProduct.benefits
+                ? _c(
+                    "div",
+                    [
+                      _c("h4", { staticClass: "highlight-heading" }, [
+                        _vm._v("KEY BENEFITS")
+                      ]),
+                      _vm._v(" "),
+                      _vm._l(_vm.thisProduct.benefits, function(benefit) {
+                        return _c("div", [
+                          _c("ul", [
+                            _c("li", { staticClass: "benefit point" }, [
+                              _c("p", [_vm._v(_vm._s(benefit))])
+                            ])
+                          ])
+                        ])
+                      })
+                    ],
+                    2
+                  )
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.thisProduct.tech
+                ? _c(
+                    "div",
+                    [
+                      _c("h4", { staticClass: "highlight-heading" }, [
+                        _vm._v("TECHNICAL SPECIFICATIONS")
+                      ]),
+                      _vm._v(" "),
+                      _vm._l(_vm.thisProduct.tech, function(tech) {
+                        return _c("div", [
+                          _c("ul", [
+                            _c("li", { staticClass: "point" }, [
+                              _c("p", [_vm._v(_vm._s(tech))])
+                            ])
+                          ])
+                        ])
+                      })
+                    ],
+                    2
+                  )
+                : _vm._e()
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("SliderComponent")
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -4969,8 +5364,6 @@ var render = function() {
         ],
         2
       ),
-      _vm._v(" "),
-      _c("HeroComponent", [_c("template", { slot: "text" })], 2),
       _vm._v(" "),
       _c("section", [
         _c(
@@ -5466,33 +5859,30 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "product-slider" }, [
+    _vm._m(0),
+    _vm._v(" "),
     _c("div", { staticClass: "swiper-container" }, [
       _c(
         "div",
         { staticClass: "swiper-wrapper" },
         _vm._l(_vm.products, function(product) {
-          return _c(
-            "div",
-            { staticClass: "swiper-slide product-block" },
-            [
-              _c("div", { staticClass: "product-image" }, [
-                _c("img", { attrs: { src: product.imagepath, alt: "" } })
-              ]),
-              _vm._v(" "),
-              _c("h3", { staticClass: "h4 text-center" }, [
-                _vm._v(_vm._s(product.name))
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "text-center" }, [
-                _vm._v(_vm._s(product.desc))
-              ]),
-              _vm._v(" "),
-              _c("router-link", { attrs: { to: "/product/" + product.id } }, [
-                _vm._v("Click here")
+          return _c("div", { staticClass: "swiper-slide product-block" }, [
+            _c("a", { attrs: { href: "/product/" + product.id } }, [
+              _c("div", { staticClass: "product-wrapper" }, [
+                _c("div", { staticClass: "product-image" }, [
+                  _c("img", { attrs: { src: product.imagepath, alt: "" } })
+                ]),
+                _vm._v(" "),
+                _c("h3", { staticClass: "h4 text-center" }, [
+                  _vm._v(_vm._s(product.name))
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "text-center" }, [
+                  _vm._v(_vm._s(product.desc))
+                ])
               ])
-            ],
-            1
-          )
+            ])
+          ])
         }),
         0
       ),
@@ -5503,7 +5893,18 @@ var render = function() {
     ])
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container" }, [
+      _c("h1", { staticClass: "h2 font-bold text-center mb-12" }, [
+        _c("strong", [_vm._v("Our Products")])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
