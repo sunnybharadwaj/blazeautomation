@@ -5208,7 +5208,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "team-list" }, [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "team-member" }, [
-            _c("div", { staticClass: "flex" }, [
+            _c("div", { staticClass: "flex flex-wrap" }, [
               _c("div", { staticClass: "image w-full md:w-4/12" }, [
                 _c("img", {
                   staticClass: "mx-auto",
@@ -5245,7 +5245,7 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "team-member" }, [
-            _c("div", { staticClass: "flex" }, [
+            _c("div", { staticClass: "flex flex-wrap" }, [
               _c("div", { staticClass: "image w-full md:w-4/12" }, [
                 _c("img", {
                   staticClass: "mx-auto",
@@ -5282,7 +5282,7 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "team-member" }, [
-            _c("div", { staticClass: "flex" }, [
+            _c("div", { staticClass: "flex flex-wrap" }, [
               _c("div", { staticClass: "image w-full md:w-4/12" }, [
                 _c("img", {
                   staticClass: "mx-auto",
@@ -5319,7 +5319,7 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "team-member" }, [
-            _c("div", { staticClass: "flex" }, [
+            _c("div", { staticClass: "flex flex-wrap" }, [
               _c("div", { staticClass: "image w-full md:w-4/12" }, [
                 _c("img", {
                   staticClass: "mx-auto",

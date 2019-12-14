@@ -39,7 +39,7 @@
             <div class="team-list">
                 <div class="container">
                     <div class="team-member">
-                        <div class="flex">
+                        <div class="flex flex-wrap">
                             <div class="image w-full md:w-4/12">
                                 <img class="mx-auto" src="/static/team/arjun_valluri.jpg" alt="">
                             </div>
@@ -67,7 +67,7 @@
 
                     </div>
                     <div class="team-member">
-                        <div class="flex">
+                        <div class="flex flex-wrap">
                             <div class="image w-full md:w-4/12">
                                 <img class="mx-auto" src="/static/team/dr_dave_irvine.jpg" alt="">
                             </div>
@@ -88,7 +88,7 @@
 
                     </div>
                     <div class="team-member">
-                        <div class="flex">
+                        <div class="flex flex-wrap">
                             <div class="image w-full md:w-4/12">
                                 <img class="mx-auto" src="/static/team/sridhar_ponugupati.jpg" alt="">
                             </div>
@@ -109,7 +109,7 @@
 
                     </div>
                     <div class="team-member">
-                        <div class="flex">
+                        <div class="flex flex-wrap">
                             <div class="image w-full md:w-4/12">
                                 <img class="mx-auto" src="/static/team/sarada_akkineni.jpg" alt="">
                             </div>
