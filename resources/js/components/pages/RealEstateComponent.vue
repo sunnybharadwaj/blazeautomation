@@ -8,7 +8,11 @@
             </template>
         </HeroComponent>
 
-
+        <section id="clients">
+            <div class="container">
+                <img class="mx-auto" src="/static/realestate/clients.png" alt="">
+            </div>
+        </section>
 
         <section>
             <div class="container">
@@ -80,8 +84,8 @@
             </div>
         </section>
 
-        <SliderComponent></SliderComponent>
         <ContactFormComponent></ContactFormComponent>
+        <SliderComponent></SliderComponent>
     </div>
 </template>
 

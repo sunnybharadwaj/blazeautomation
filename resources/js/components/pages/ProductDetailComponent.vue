@@ -4,7 +4,7 @@
 
         <div class="product-container">
             <div class="container">
-                <div class="flex">
+                <div class="flex flex-wrap">
                     <div class="w-full lg:w-5/12 product-img">
                         <div class="wrapper">
                             <img class="mx-auto" :src="thisProduct.imagepath" alt="">
@@ -22,7 +22,7 @@
                             <a :href="thisProduct.manualpath" download class="std-btn">Download Manual</a>
                         </div>
 
-                        <div v-if="thisProduct.benefits">
+                        <div v-if="thisProduct.benefits.length">
                             <h4 class="highlight-heading">KEY BENEFITS</h4>
                             <div v-for="benefit in thisProduct.benefits">
                                 <ul>
@@ -32,7 +32,7 @@
                         </div>
 
 
-                        <div v-if="thisProduct.tech">
+                        <div v-if="thisProduct.tech.length">
                             <h4 class="highlight-heading">TECHNICAL SPECIFICATIONS</h4>
                             <div v-for="tech in thisProduct.tech">
                                 <ul>
@@ -49,6 +49,8 @@
 
 
         <SliderComponent></SliderComponent>
+        <ContactFormComponent></ContactFormComponent>
+
     </div>
 </template>
 

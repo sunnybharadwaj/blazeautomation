@@ -130,13 +130,11 @@
 
                     </div>
                 </div>
-
             </div>
         </section>
-
-
+        <ContactFormComponent></ContactFormComponent>
+        <SliderComponent></SliderComponent>
     </div>
-
 </template>
 
 <script>

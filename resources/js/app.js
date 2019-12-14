@@ -1,6 +1,9 @@
 require('./bootstrap');
 import router from './routes'
 
+import ContactFormComponent from './components/partials/ContactFormComponent';
+Vue.component('ContactFormComponent', ContactFormComponent);
+
 import SliderComponent from './components/partials/sliderComponent';
 Vue.component('SliderComponent', SliderComponent);
 
@@ -10,8 +13,6 @@ Vue.component('ContentComponent', ContentComponent);
 import HeroComponent from './components/partials/HeroComponent';
 Vue.component('HeroComponent', HeroComponent);
 
-import ContactFormComponent from './components/partials/ContactFormComponent';
-Vue.component('ContactFormComponent', ContactFormComponent);
 
 new Vue({
     el:'#app',
@@ -32,9 +33,11 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
     var mySwiper = new Swiper ('.swiper-container', {
-        slidesPerView: 4,
+        slidesPerView: 1,
 
-        autoplay: 2000,
+        autoplay: {
+            delay: 3000,
+        },
         speed: 800,
         autoplayDisableOnInteraction: false,
         // Optional parameters
@@ -51,10 +54,36 @@ $(document).ready(function() {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 0,
+            },
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 0,
+            },
+            1024: {
+                slidesPerView: 4,
+                spaceBetween: 0,
+            },
+        },
 
         // And if we need scrollbar
         scrollbar: {
             el: '.swiper-scrollbar',
         },
+    });
+
+    $('#mobile-menu-btn').click(function(){
+        $('.mobile-nav-container').show();
+    });
+
+    $('#mobile-menu-close').click(function() {
+        $('.mobile-nav-container').hide();
     });
 });

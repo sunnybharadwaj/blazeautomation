@@ -12,7 +12,7 @@
                 <div class="footer-nav-section">
                     <div class="footer-heading font-bold">&nbsp;</div>
                     <a href="/https://b1hub.com/" target="_blank" class="footer-nav-link">Home Automation</a>
-                    <a href="/about" class="footer-nav-link">About</a>
+                    <a href="/about-us" class="footer-nav-link">About</a>
                     <a href="/news" class="footer-nav-link">Press</a>
                     <a href="/contact-us" class="footer-nav-link">Contact Us</a>
                 </div>

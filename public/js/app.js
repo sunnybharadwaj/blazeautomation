@@ -1977,8 +1977,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {}
 });
@@ -2149,6 +2147,16 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2550,6 +2558,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {}
 });
@@ -2565,6 +2582,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
 //
 //
 //
@@ -2816,6 +2835,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {}
 });
@@ -2919,6 +2942,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {}
 });
@@ -2934,6 +2967,11 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
 //
 //
 //
@@ -4462,198 +4500,210 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "div",
+    { attrs: { id: "about-page" } },
+    [
+      _c("div", { staticClass: "nav-bg" }),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _c("section"),
+      _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
+      _c("ContactFormComponent"),
+      _vm._v(" "),
+      _c("SliderComponent")
+    ],
+    1
+  )
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { attrs: { id: "about-page" } }, [
-      _c("div", { staticClass: "nav-bg" }),
-      _vm._v(" "),
-      _c("section", { attrs: { id: "intro" } }, [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "flex flex-wrap" }, [
-            _c("div", { staticClass: "w-full lg:w-8/12 flex-container" }, [
-              _c("h1", { staticClass: "highlight mt-10 mb-4" }, [
-                _vm._v("About")
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "max-w-2xl" }, [
-                _c("h3", { staticClass: "mb-4" }, [
-                  _vm._v(
-                    "Blaze Automation is an IoT ( Internet of Things ) company with its offices\n                            in New Jersey, USA and Hyderabad,\n                            India. Blaze has been building Home Automation and Security products for last 8\n                            years. "
-                  )
-                ]),
-                _vm._v(" "),
-                _c("h4", [
-                  _vm._v(
-                    "Blaze has invested\n                            the last three years in research and development of B.One® Hub and AI based IoT\n                            analytics platform, B.One\n                            Hub is a truly intelligent device that is powerful, intuitive, easy-to-use and future\n                            ready. B.One® is a\n                            Smart Intelligent Home Automation and Security System that makes your lives more\n                            efficient and secure."
-                  )
-                ])
-              ])
+    return _c("section", { attrs: { id: "intro" } }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "flex flex-wrap" }, [
+          _c("div", { staticClass: "w-full lg:w-8/12 flex-container" }, [
+            _c("h1", { staticClass: "highlight mt-10 mb-4" }, [
+              _vm._v("About")
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "w-full lg:w-4/12 flex-container" }, [
-              _c("div", { staticClass: "img-container" }, [
-                _c("img", { attrs: { src: "/static/logo.png", alt: "" } })
+            _c("div", { staticClass: "max-w-2xl" }, [
+              _c("h3", { staticClass: "mb-4" }, [
+                _vm._v(
+                  "Blaze Automation is an IoT ( Internet of Things ) company with its offices\n                            in New Jersey, USA and Hyderabad,\n                            India. Blaze has been building Home Automation and Security products for last 8\n                            years. "
+                )
+              ]),
+              _vm._v(" "),
+              _c("h4", [
+                _vm._v(
+                  "Blaze has invested\n                            the last three years in research and development of B.One® Hub and AI based IoT\n                            analytics platform, B.One\n                            Hub is a truly intelligent device that is powerful, intuitive, easy-to-use and future\n                            ready. B.One® is a\n                            Smart Intelligent Home Automation and Security System that makes your lives more\n                            efficient and secure."
+                )
               ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "w-full lg:w-4/12 flex-container" }, [
+            _c("div", { staticClass: "img-container" }, [
+              _c("img", { attrs: { src: "/static/logo.png", alt: "" } })
             ])
           ])
         ])
-      ]),
-      _vm._v(" "),
-      _c("section"),
-      _vm._v(" "),
-      _c("section", [
-        _c("div", { staticClass: "team-list" }, [
-          _c("div", { staticClass: "container" }, [
-            _c("div", { staticClass: "team-member" }, [
-              _c("div", { staticClass: "flex" }, [
-                _c("div", { staticClass: "image w-full md:w-4/12" }, [
-                  _c("img", {
-                    staticClass: "mx-auto",
-                    attrs: { src: "/static/team/arjun_valluri.jpg", alt: "" }
-                  })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", [
+      _c("div", { staticClass: "team-list" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "team-member" }, [
+            _c("div", { staticClass: "flex" }, [
+              _c("div", { staticClass: "image w-full md:w-4/12" }, [
+                _c("img", {
+                  staticClass: "mx-auto",
+                  attrs: { src: "/static/team/arjun_valluri.jpg", alt: "" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "text w-full md:w-8/12" }, [
+                _c("div", { staticClass: "heading" }, [
+                  _c("h3", [_vm._v("Arjun Valluri")]),
+                  _vm._v(" "),
+                  _c("h4", { staticClass: "loud highlight" }, [
+                    _vm._v("Chairman")
+                  ])
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "text w-full md:w-8/12" }, [
-                  _c("div", { staticClass: "heading" }, [
-                    _c("h3", [_vm._v("Arjun Valluri")]),
+                _c("div", { staticClass: "Description" }, [
+                  _c("div", { staticClass: "max-w-xl" }, [
+                    _c("p", [
+                      _vm._v(
+                        "Arjun is the Chairman of Blaze Automation and leads the vision and ideation\n                                        efforts. As a successful serial entrepreneur Arjun has received various awards\n                                        for his business accomplishments and has made significant investments in Green\n                                        Energy and Technology sectors."
+                      )
+                    ]),
                     _vm._v(" "),
-                    _c("h4", { staticClass: "loud highlight" }, [
-                      _vm._v("Chairman")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "Description" }, [
-                    _c("div", { staticClass: "max-w-xl" }, [
-                      _c("p", [
-                        _vm._v(
-                          "Arjun is the Chairman of Blaze Automation and leads the vision and ideation\n                                        efforts. As a successful serial entrepreneur Arjun has received various awards\n                                        for his business accomplishments and has made significant investments in Green\n                                        Energy and Technology sectors."
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v(
-                          "He was the Co-Founder, Chairman, President and Chief Executive Officer of\n                                        Intelligroup ,Inc (acquired by NTT Data). Throughout the years, Arjun has\n                                        received multiple NJ Fast 50 awards, Var Business 500 Awards, NJ Entrepreneur of\n                                        the Year awards, and the NJ Ernst and Young Entrepreneur of the Year in\n                                        2001."
-                        )
-                      ])
+                    _c("p", [
+                      _vm._v(
+                        "He was the Co-Founder, Chairman, President and Chief Executive Officer of\n                                        Intelligroup ,Inc (acquired by NTT Data). Throughout the years, Arjun has\n                                        received multiple NJ Fast 50 awards, Var Business 500 Awards, NJ Entrepreneur of\n                                        the Year awards, and the NJ Ernst and Young Entrepreneur of the Year in\n                                        2001."
+                      )
                     ])
                   ])
                 ])
               ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "team-member" }, [
-              _c("div", { staticClass: "flex" }, [
-                _c("div", { staticClass: "image w-full md:w-4/12" }, [
-                  _c("img", {
-                    staticClass: "mx-auto",
-                    attrs: { src: "/static/team/dr_dave_irvine.jpg", alt: "" }
-                  })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "team-member" }, [
+            _c("div", { staticClass: "flex" }, [
+              _c("div", { staticClass: "image w-full md:w-4/12" }, [
+                _c("img", {
+                  staticClass: "mx-auto",
+                  attrs: { src: "/static/team/dr_dave_irvine.jpg", alt: "" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "text w-full md:w-8/12" }, [
+                _c("div", { staticClass: "heading" }, [
+                  _c("h3", [_vm._v("Dr. Dave Irvine Halliday")]),
+                  _vm._v(" "),
+                  _c("h4", { staticClass: "loud highlight" }, [
+                    _vm._v("Director")
+                  ])
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "text w-full md:w-8/12" }, [
-                  _c("div", { staticClass: "heading" }, [
-                    _c("h3", [_vm._v("Dr. Dave Irvine Halliday")]),
+                _c("div", { staticClass: "Description" }, [
+                  _c("div", { staticClass: "max-w-xl" }, [
+                    _c("p", [
+                      _vm._v(
+                        "Dr. Dave MSM, PEng, Professor Emeritus, University of Calgary is a Director at Blaze Automation. He is the founder ofthe NGO: “Light Up The World (LUTW)” (1997). LUTW has facilitated affordable Solid State Lighting systems in 53 countries. He is the Founder for “Visionary Lighting & Energy (VLE) and has worked on Projects with Univ. of Calgary & Mount Royal University (Canada)."
+                      )
+                    ]),
                     _vm._v(" "),
-                    _c("h4", { staticClass: "loud highlight" }, [
-                      _vm._v("Director")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "Description" }, [
-                    _c("div", { staticClass: "max-w-xl" }, [
-                      _c("p", [
-                        _vm._v(
-                          "Dr. Dave MSM, PEng, Professor Emeritus, University of Calgary is a Director at Blaze Automation. He is the founder ofthe NGO: “Light Up The World (LUTW)” (1997). LUTW has facilitated affordable Solid State Lighting systems in 53 countries. He is the Founder for “Visionary Lighting & Energy (VLE) and has worked on Projects with Univ. of Calgary & Mount Royal University (Canada)."
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v(
-                          "Dave is an expert in Power Electronics, Solar Photovoltaic Systems and in designing LED Lighting Systems. In recognition of Dr. Dave’s services to humanity he received over two dozen awards including – Rolex Laureate 2002, Tech Museum Laureate 2002, Saatchi and Saatchi Laureate 2003, Meritorious Service Medal (MSM), Gov. of Canada (2005), Honorary Doctorate, Aberdeen University, Scotland (2006), K. Y. LoMedal of the Engineering Institute of Canada (2008)."
-                        )
-                      ])
+                    _c("p", [
+                      _vm._v(
+                        "Dave is an expert in Power Electronics, Solar Photovoltaic Systems and in designing LED Lighting Systems. In recognition of Dr. Dave’s services to humanity he received over two dozen awards including – Rolex Laureate 2002, Tech Museum Laureate 2002, Saatchi and Saatchi Laureate 2003, Meritorious Service Medal (MSM), Gov. of Canada (2005), Honorary Doctorate, Aberdeen University, Scotland (2006), K. Y. LoMedal of the Engineering Institute of Canada (2008)."
+                      )
                     ])
                   ])
                 ])
               ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "team-member" }, [
-              _c("div", { staticClass: "flex" }, [
-                _c("div", { staticClass: "image w-full md:w-4/12" }, [
-                  _c("img", {
-                    staticClass: "mx-auto",
-                    attrs: {
-                      src: "/static/team/sridhar_ponugupati.jpg",
-                      alt: ""
-                    }
-                  })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "team-member" }, [
+            _c("div", { staticClass: "flex" }, [
+              _c("div", { staticClass: "image w-full md:w-4/12" }, [
+                _c("img", {
+                  staticClass: "mx-auto",
+                  attrs: { src: "/static/team/sridhar_ponugupati.jpg", alt: "" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "text w-full md:w-8/12" }, [
+                _c("div", { staticClass: "heading" }, [
+                  _c("h3", [_vm._v("Sridhar Ponugupati")]),
+                  _vm._v(" "),
+                  _c("h4", { staticClass: "loud highlight" }, [
+                    _vm._v("Chief Executive Officer")
+                  ])
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "text w-full md:w-8/12" }, [
-                  _c("div", { staticClass: "heading" }, [
-                    _c("h3", [_vm._v("Sridhar Ponugupati")]),
+                _c("div", { staticClass: "Description" }, [
+                  _c("div", { staticClass: "max-w-xl" }, [
+                    _c("p", [
+                      _vm._v(
+                        "Sridhar is the CEO of Blaze Automation and spearheads strategy, operations, design and development efforts. Sridhar has years of experience in designing and building, Industrial Embedded Security and Automation systems. He was also responsible for Design and Implementation of Security Systems for several Banks and key Government agencies."
+                      )
+                    ]),
                     _vm._v(" "),
-                    _c("h4", { staticClass: "loud highlight" }, [
-                      _vm._v("Chief Executive Officer")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "Description" }, [
-                    _c("div", { staticClass: "max-w-xl" }, [
-                      _c("p", [
-                        _vm._v(
-                          "Sridhar is the CEO of Blaze Automation and spearheads strategy, operations, design and development efforts. Sridhar has years of experience in designing and building, Industrial Embedded Security and Automation systems. He was also responsible for Design and Implementation of Security Systems for several Banks and key Government agencies."
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v(
-                          "Over the years Sridhar has received various awards from IEEE’s Best circuit designer of the year award, Faraday Memorial award for the design of Solid state Lighting System for the developing world. Stood one among the TOP 20 in Windows Embedded Students Challenge conducted by Microsoft."
-                        )
-                      ])
+                    _c("p", [
+                      _vm._v(
+                        "Over the years Sridhar has received various awards from IEEE’s Best circuit designer of the year award, Faraday Memorial award for the design of Solid state Lighting System for the developing world. Stood one among the TOP 20 in Windows Embedded Students Challenge conducted by Microsoft."
+                      )
                     ])
                   ])
                 ])
               ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "team-member" }, [
-              _c("div", { staticClass: "flex" }, [
-                _c("div", { staticClass: "image w-full md:w-4/12" }, [
-                  _c("img", {
-                    staticClass: "mx-auto",
-                    attrs: { src: "/static/team/sarada_akkineni.jpg", alt: "" }
-                  })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "team-member" }, [
+            _c("div", { staticClass: "flex" }, [
+              _c("div", { staticClass: "image w-full md:w-4/12" }, [
+                _c("img", {
+                  staticClass: "mx-auto",
+                  attrs: { src: "/static/team/sarada_akkineni.jpg", alt: "" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "text w-full md:w-8/12" }, [
+                _c("div", { staticClass: "heading" }, [
+                  _c("h3", [_vm._v("Sarada Akkineni")]),
+                  _vm._v(" "),
+                  _c("h4", { staticClass: "loud highlight" }, [
+                    _vm._v("Chairman")
+                  ])
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "text w-full md:w-8/12" }, [
-                  _c("div", { staticClass: "heading" }, [
-                    _c("h3", [_vm._v("Sarada Akkineni")]),
+                _c("div", { staticClass: "Description" }, [
+                  _c("div", { staticClass: "max-w-xl" }, [
+                    _c("p", [
+                      _vm._v(
+                        "Sarada is Technical Director at Blaze Automation and brings over 10 years of management experience from flagship telecom companies. Sarada Akkineni is currently responsible for managing software design and development of Blaze Home Automation products."
+                      )
+                    ]),
                     _vm._v(" "),
-                    _c("h4", { staticClass: "loud highlight" }, [
-                      _vm._v("Chairman")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "Description" }, [
-                    _c("div", { staticClass: "max-w-xl" }, [
-                      _c("p", [
-                        _vm._v(
-                          "Sarada is Technical Director at Blaze Automation and brings over 10 years of management experience from flagship telecom companies. Sarada Akkineni is currently responsible for managing software design and development of Blaze Home Automation products."
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v(
-                          "Her experience spans a range of technologies including Broadband Networking, Asynchronous Transfer Mode Switches, High speed Routers and VoIP Systems. During her career she has held management positions at Lucent Technologies and Net2Phone, and started her career as a software engineer at Cisco Systems. She interned as a network engineer at Bell Labs. Sarada is a Graduate from University of Illinois, Urbana Champaign."
-                        )
-                      ])
+                    _c("p", [
+                      _vm._v(
+                        "Her experience spans a range of technologies including Broadband Networking, Asynchronous Transfer Mode Switches, High speed Routers and VoIP Systems. During her career she has held management positions at Lucent Technologies and Net2Phone, and started her career as a software engineer at Cisco Systems. She interned as a network engineer at Bell Labs. Sarada is a Graduate from University of Illinois, Urbana Champaign."
+                      )
                     ])
                   ])
                 ])
@@ -4986,6 +5036,8 @@ var render = function() {
           2
         ),
         _vm._v(" "),
+        _vm._m(0),
+        _vm._v(" "),
         _c("section", [
           _c(
             "div",
@@ -5221,7 +5273,25 @@ var render = function() {
     )
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { attrs: { id: "clients " } }, [
+      _c("div", { staticClass: "py-12" }, [
+        _c("div", { staticClass: "container " }, [
+          _c("div", { staticClass: "max-w-xl mx-auto" }, [
+            _c("img", {
+              staticClass: "mx-auto",
+              attrs: { src: "/static/fnb/clients.png", alt: "" }
+            })
+          ])
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -5521,6 +5591,8 @@ var render = function() {
       _vm._v(" "),
       _vm._m(0),
       _vm._v(" "),
+      _c("ContactFormComponent"),
+      _vm._v(" "),
       _c("SliderComponent")
     ],
     1
@@ -5620,6 +5692,8 @@ var render = function() {
           ],
           2
         ),
+        _vm._v(" "),
+        _vm._m(0),
         _vm._v(" "),
         _c("section", [
           _c(
@@ -5771,15 +5845,33 @@ var render = function() {
           )
         ]),
         _vm._v(" "),
-        _c("SliderComponent"),
+        _c("ContactFormComponent"),
         _vm._v(" "),
-        _c("ContactFormComponent")
+        _c("SliderComponent")
       ],
       1
     )
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { attrs: { id: "clients " } }, [
+      _c("div", { staticClass: "py-12" }, [
+        _c("div", { staticClass: "container " }, [
+          _c("div", { staticClass: "max-w-xl mx-auto" }, [
+            _c("img", {
+              staticClass: "mx-auto",
+              attrs: { src: "/static/offices/clients.png", alt: "" }
+            })
+          ])
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -5809,7 +5901,7 @@ var render = function() {
       _vm._v(" "),
       _c("div", { staticClass: "product-container" }, [
         _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "flex" }, [
+          _c("div", { staticClass: "flex flex-wrap" }, [
             _c("div", { staticClass: "w-full lg:w-5/12 product-img" }, [
               _c("div", { staticClass: "wrapper" }, [
                 _c("img", {
@@ -5852,7 +5944,7 @@ var render = function() {
                   ])
                 : _vm._e(),
               _vm._v(" "),
-              _vm.thisProduct.benefits
+              _vm.thisProduct.benefits.length
                 ? _c(
                     "div",
                     [
@@ -5874,7 +5966,7 @@ var render = function() {
                   )
                 : _vm._e(),
               _vm._v(" "),
-              _vm.thisProduct.tech
+              _vm.thisProduct.tech.length
                 ? _c(
                     "div",
                     [
@@ -5900,7 +5992,9 @@ var render = function() {
         ])
       ]),
       _vm._v(" "),
-      _c("SliderComponent")
+      _c("SliderComponent"),
+      _vm._v(" "),
+      _c("ContactFormComponent")
     ],
     1
   )
@@ -5945,6 +6039,8 @@ var render = function() {
         ],
         2
       ),
+      _vm._v(" "),
+      _vm._m(0),
       _vm._v(" "),
       _c("section", [
         _c(
@@ -6095,14 +6191,28 @@ var render = function() {
         )
       ]),
       _vm._v(" "),
-      _c("SliderComponent"),
+      _c("ContactFormComponent"),
       _vm._v(" "),
-      _c("ContactFormComponent")
+      _c("SliderComponent")
     ],
     1
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { attrs: { id: "clients" } }, [
+      _c("div", { staticClass: "container" }, [
+        _c("img", {
+          staticClass: "mx-auto",
+          attrs: { src: "/static/realestate/clients.png", alt: "" }
+        })
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -6150,6 +6260,8 @@ var render = function() {
           ],
           2
         ),
+        _vm._v(" "),
+        _vm._m(0),
         _vm._v(" "),
         _c("section", [
           _c(
@@ -6305,7 +6417,25 @@ var render = function() {
     )
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { attrs: { id: "clients " } }, [
+      _c("div", { staticClass: "py-12" }, [
+        _c("div", { staticClass: "container " }, [
+          _c("div", { staticClass: "max-w-xl mx-auto" }, [
+            _c("img", {
+              staticClass: "mx-auto",
+              attrs: { src: "/static/retail/clients.png", alt: "" }
+            })
+          ])
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -6329,237 +6459,249 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("section", [
     _c("div", { staticClass: "contact-form text-center" }, [
-      _c("div", { staticClass: "container" }, [
-        _vm._m(0),
-        _vm._v(" "),
-        _c("div", { staticClass: "form-container max-w-md mx-auto" }, [
-          _c("form", { attrs: { method: "POST", action: "/message" } }, [
-            _c("input", {
-              attrs: { type: "hidden", name: "_token" },
-              domProps: { value: _vm.csrf }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-item" }, [
-              _c("label", { attrs: { for: "name" } }, [_vm._v("Full Name")]),
-              _vm._v(" "),
+      _c("div", { staticClass: "py-20" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "loud highlight mb-6" }, [
+            _vm._v("CONTACT US")
+          ]),
+          _vm._v(" "),
+          _vm._m(0),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-12" }),
+          _vm._v(" "),
+          _c("div", { staticClass: "form-container max-w-md mx-auto" }, [
+            _c("form", { attrs: { method: "POST", action: "/message" } }, [
               _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.name,
-                    expression: "name"
-                  }
-                ],
-                attrs: {
-                  required: "",
-                  id: "name",
-                  name: "name",
-                  type: "text",
-                  placeholder: ""
-                },
-                domProps: { value: _vm.name },
-                on: {
-                  input: function($event) {
-                    if ($event.target.composing) {
-                      return
+                attrs: { type: "hidden", name: "_token" },
+                domProps: { value: _vm.csrf }
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-item" }, [
+                _c("label", { attrs: { for: "name" } }, [_vm._v("Full Name")]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.name,
+                      expression: "name"
                     }
-                    _vm.name = $event.target.value
+                  ],
+                  attrs: {
+                    required: "",
+                    id: "name",
+                    name: "name",
+                    type: "text",
+                    placeholder: ""
+                  },
+                  domProps: { value: _vm.name },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.name = $event.target.value
+                    }
                   }
-                }
-              })
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-item" }, [
-              _c("label", { attrs: { for: "phone" } }, [
-                _vm._v("Phone number")
+                })
               ]),
               _vm._v(" "),
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.phone,
-                    expression: "phone"
-                  }
-                ],
-                attrs: {
-                  required: "",
-                  id: "phone",
-                  name: "phone",
-                  type: "number",
-                  placeholder: ""
-                },
-                domProps: { value: _vm.phone },
-                on: {
-                  input: function($event) {
-                    if ($event.target.composing) {
-                      return
+              _c("div", { staticClass: "form-item" }, [
+                _c("label", { attrs: { for: "phone" } }, [
+                  _vm._v("Phone number")
+                ]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.phone,
+                      expression: "phone"
                     }
-                    _vm.phone = $event.target.value
+                  ],
+                  attrs: {
+                    required: "",
+                    id: "phone",
+                    name: "phone",
+                    type: "number",
+                    placeholder: ""
+                  },
+                  domProps: { value: _vm.phone },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.phone = $event.target.value
+                    }
                   }
-                }
-              })
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-item" }, [
-              _c("label", { attrs: { for: "email" } }, [_vm._v("Email")]),
+                })
+              ]),
               _vm._v(" "),
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.email,
-                    expression: "email"
-                  }
-                ],
-                attrs: {
-                  required: "",
-                  id: "email",
-                  name: "email",
-                  type: "email",
-                  placeholder: ""
-                },
-                domProps: { value: _vm.email },
-                on: {
-                  input: function($event) {
-                    if ($event.target.composing) {
-                      return
+              _c("div", { staticClass: "form-item" }, [
+                _c("label", { attrs: { for: "email" } }, [_vm._v("Email")]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.email,
+                      expression: "email"
                     }
-                    _vm.email = $event.target.value
+                  ],
+                  attrs: {
+                    required: "",
+                    id: "email",
+                    name: "email",
+                    type: "email",
+                    placeholder: ""
+                  },
+                  domProps: { value: _vm.email },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.email = $event.target.value
+                    }
                   }
-                }
-              })
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-item" }, [
-              _c("label", { attrs: { for: "location" } }, [_vm._v("Location")]),
+                })
+              ]),
               _vm._v(" "),
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.location,
-                    expression: "location"
-                  }
-                ],
-                attrs: {
-                  required: "",
-                  id: "location",
-                  name: "location",
-                  type: "text",
-                  placeholder: ""
-                },
-                domProps: { value: _vm.location },
-                on: {
-                  input: function($event) {
-                    if ($event.target.composing) {
-                      return
+              _c("div", { staticClass: "form-item" }, [
+                _c("label", { attrs: { for: "location" } }, [
+                  _vm._v("Location")
+                ]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.location,
+                      expression: "location"
                     }
-                    _vm.location = $event.target.value
+                  ],
+                  attrs: {
+                    required: "",
+                    id: "location",
+                    name: "location",
+                    type: "text",
+                    placeholder: ""
+                  },
+                  domProps: { value: _vm.location },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.location = $event.target.value
+                    }
                   }
-                }
-              })
-            ]),
-            _vm._v(" "),
-            _c("label", { attrs: { for: "businesstype" } }, [
-              _vm._v("Type of Business")
-            ]),
-            _vm._v(" "),
-            _c(
-              "select",
-              {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.businesstype,
-                    expression: "businesstype"
-                  }
-                ],
-                attrs: {
-                  required: "",
-                  name: "businesstype",
-                  id: "businesstype"
-                },
-                on: {
-                  change: function($event) {
-                    var $$selectedVal = Array.prototype.filter
-                      .call($event.target.options, function(o) {
-                        return o.selected
-                      })
-                      .map(function(o) {
-                        var val = "_value" in o ? o._value : o.value
-                        return val
-                      })
-                    _vm.businesstype = $event.target.multiple
-                      ? $$selectedVal
-                      : $$selectedVal[0]
-                  }
-                }
-              },
-              [
-                _c("option", { attrs: { value: "Homes", selected: "" } }, [
-                  _vm._v("Homes")
-                ]),
-                _vm._v(" "),
-                _c("option", { attrs: { value: "Real Estates" } }, [
-                  _vm._v("Real Estates")
-                ]),
-                _vm._v(" "),
-                _c("option", { attrs: { value: "Retail" } }, [
-                  _vm._v("Retail")
-                ]),
-                _vm._v(" "),
-                _c("option", { attrs: { value: "F & B" } }, [_vm._v("F & B")]),
-                _vm._v(" "),
-                _c("option", { attrs: { value: "Offices" } }, [
-                  _vm._v("Offices")
-                ]),
-                _vm._v(" "),
-                _c("option", { attrs: { value: "Smart Cities" } }, [
-                  _vm._v("Smart Cities")
-                ])
-              ]
-            ),
-            _vm._v(" "),
-            _c("label", { attrs: { for: "message" } }, [_vm._v("Message")]),
-            _vm._v(" "),
-            _c("textarea", {
-              directives: [
+                })
+              ]),
+              _vm._v(" "),
+              _c("label", { attrs: { for: "businesstype" } }, [
+                _vm._v("Type of Business")
+              ]),
+              _vm._v(" "),
+              _c(
+                "select",
                 {
-                  name: "model",
-                  rawName: "v-model",
-                  value: _vm.message,
-                  expression: "message"
-                }
-              ],
-              attrs: {
-                required: "",
-                name: "message",
-                id: "message",
-                cols: "30",
-                rows: "10"
-              },
-              domProps: { value: _vm.message },
-              on: {
-                input: function($event) {
-                  if ($event.target.composing) {
-                    return
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.businesstype,
+                      expression: "businesstype"
+                    }
+                  ],
+                  attrs: {
+                    required: "",
+                    name: "businesstype",
+                    id: "businesstype"
+                  },
+                  on: {
+                    change: function($event) {
+                      var $$selectedVal = Array.prototype.filter
+                        .call($event.target.options, function(o) {
+                          return o.selected
+                        })
+                        .map(function(o) {
+                          var val = "_value" in o ? o._value : o.value
+                          return val
+                        })
+                      _vm.businesstype = $event.target.multiple
+                        ? $$selectedVal
+                        : $$selectedVal[0]
+                    }
                   }
-                  _vm.message = $event.target.value
+                },
+                [
+                  _c("option", { attrs: { value: "Homes", selected: "" } }, [
+                    _vm._v("Homes")
+                  ]),
+                  _vm._v(" "),
+                  _c("option", { attrs: { value: "Real Estates" } }, [
+                    _vm._v("Real Estates")
+                  ]),
+                  _vm._v(" "),
+                  _c("option", { attrs: { value: "Retail" } }, [
+                    _vm._v("Retail")
+                  ]),
+                  _vm._v(" "),
+                  _c("option", { attrs: { value: "F & B" } }, [
+                    _vm._v("F & B")
+                  ]),
+                  _vm._v(" "),
+                  _c("option", { attrs: { value: "Offices" } }, [
+                    _vm._v("Offices")
+                  ]),
+                  _vm._v(" "),
+                  _c("option", { attrs: { value: "Smart Cities" } }, [
+                    _vm._v("Smart Cities")
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c("label", { attrs: { for: "message" } }, [_vm._v("Message")]),
+              _vm._v(" "),
+              _c("textarea", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.message,
+                    expression: "message"
+                  }
+                ],
+                attrs: {
+                  required: "",
+                  name: "message",
+                  id: "message",
+                  cols: "30",
+                  rows: "10"
+                },
+                domProps: { value: _vm.message },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.message = $event.target.value
+                  }
                 }
-              }
-            }),
-            _vm._v(" "),
-            _c(
-              "button",
-              { staticClass: "std-btn", attrs: { type: "submit" } },
-              [_vm._v("Submit")]
-            )
+              }),
+              _vm._v(" "),
+              _c(
+                "button",
+                { staticClass: "std-btn", attrs: { type: "submit" } },
+                [_vm._v("Submit")]
+              )
+            ])
           ])
         ])
       ])
@@ -6575,7 +6717,7 @@ var staticRenderFns = [
       _vm._v("For a free assessment, share your contact details. "),
       _c("br"),
       _vm._v(
-        "One of our specialists will get in touch\n                with you soon."
+        "One of our specialists will get in touch\n                    with you soon."
       )
     ])
   }
@@ -6658,7 +6800,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "content-block" }, [
-    _c("div", { staticClass: "flex" }, [
+    _c("div", { staticClass: "flex flex-wrap" }, [
       _c("div", { staticClass: "w-full lg:w-7/12 text-content" }, [
         _c("div", { staticClass: "content" }, [_vm._t("text")], 2)
       ]),
@@ -6698,21 +6840,28 @@ var render = function() {
         { staticClass: "swiper-wrapper" },
         _vm._l(_vm.products, function(product) {
           return _c("div", { staticClass: "swiper-slide product-block" }, [
-            _c("a", { attrs: { href: "/product/" + product.id } }, [
-              _c("div", { staticClass: "product-wrapper" }, [
-                _c("div", { staticClass: "product-image" }, [
-                  _c("img", { attrs: { src: product.imagepath, alt: "" } })
-                ]),
-                _vm._v(" "),
-                _c("h3", { staticClass: "h4 text-center" }, [
-                  _vm._v(_vm._s(product.name))
-                ]),
-                _vm._v(" "),
-                _c("p", { staticClass: "text-center" }, [
-                  _vm._v(_vm._s(product.desc))
+            _c(
+              "a",
+              {
+                staticClass: "slider-link",
+                attrs: { href: "/product/" + product.id }
+              },
+              [
+                _c("div", { staticClass: "product-wrapper" }, [
+                  _c("div", { staticClass: "product-image" }, [
+                    _c("img", { attrs: { src: product.imagepath, alt: "" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("h3", { staticClass: "h4 text-center" }, [
+                    _vm._v(_vm._s(product.name))
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "text-center" }, [
+                    _vm._v(_vm._s(product.desc))
+                  ])
                 ])
-              ])
-            ])
+              ]
+            )
           ])
         }),
         0
@@ -21760,21 +21909,23 @@ module.exports = g;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./routes */ "./resources/js/routes.js");
-/* harmony import */ var _components_partials_sliderComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/partials/sliderComponent */ "./resources/js/components/partials/sliderComponent.vue");
-/* harmony import */ var _components_partials_contentBlock__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/partials/contentBlock */ "./resources/js/components/partials/contentBlock.vue");
-/* harmony import */ var _components_partials_HeroComponent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/partials/HeroComponent */ "./resources/js/components/partials/HeroComponent.vue");
-/* harmony import */ var _components_partials_ContactFormComponent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/partials/ContactFormComponent */ "./resources/js/components/partials/ContactFormComponent.vue");
+/* harmony import */ var _components_partials_ContactFormComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/partials/ContactFormComponent */ "./resources/js/components/partials/ContactFormComponent.vue");
+/* harmony import */ var _components_partials_sliderComponent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/partials/sliderComponent */ "./resources/js/components/partials/sliderComponent.vue");
+/* harmony import */ var _components_partials_contentBlock__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/partials/contentBlock */ "./resources/js/components/partials/contentBlock.vue");
+/* harmony import */ var _components_partials_HeroComponent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/partials/HeroComponent */ "./resources/js/components/partials/HeroComponent.vue");
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
 
-Vue.component('SliderComponent', _components_partials_sliderComponent__WEBPACK_IMPORTED_MODULE_1__["default"]);
+Vue.component('ContactFormComponent', _components_partials_ContactFormComponent__WEBPACK_IMPORTED_MODULE_1__["default"]);
 
-Vue.component('ContentComponent', _components_partials_contentBlock__WEBPACK_IMPORTED_MODULE_2__["default"]);
+Vue.component('SliderComponent', _components_partials_sliderComponent__WEBPACK_IMPORTED_MODULE_2__["default"]);
 
-Vue.component('HeroComponent', _components_partials_HeroComponent__WEBPACK_IMPORTED_MODULE_3__["default"]);
+Vue.component('ContentComponent', _components_partials_contentBlock__WEBPACK_IMPORTED_MODULE_3__["default"]);
 
-Vue.component('ContactFormComponent', _components_partials_ContactFormComponent__WEBPACK_IMPORTED_MODULE_4__["default"]);
+Vue.component('HeroComponent', _components_partials_HeroComponent__WEBPACK_IMPORTED_MODULE_4__["default"]);
 new Vue({
   el: '#app',
   router: _routes__WEBPACK_IMPORTED_MODULE_0__["default"]
@@ -21790,9 +21941,13 @@ $(window).scroll(function () {
   }
 });
 $(document).ready(function () {
-  var mySwiper = new Swiper('.swiper-container', {
-    slidesPerView: 4,
-    autoplay: 2000,
+  var _ref;
+
+  var mySwiper = new Swiper('.swiper-container', (_ref = {
+    slidesPerView: 1,
+    autoplay: {
+      delay: 3000
+    },
     speed: 800,
     autoplayDisableOnInteraction: false,
     // Optional parameters
@@ -21807,11 +21962,31 @@ $(document).ready(function () {
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev'
-    },
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar'
     }
+  }, _defineProperty(_ref, "pagination", {
+    el: '.swiper-pagination',
+    clickable: true
+  }), _defineProperty(_ref, "breakpoints", {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 0
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 0
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 0
+    }
+  }), _defineProperty(_ref, "scrollbar", {
+    el: '.swiper-scrollbar'
+  }), _ref));
+  $('#mobile-menu-btn').click(function () {
+    $('.mobile-nav-container').show();
+  });
+  $('#mobile-menu-close').click(function () {
+    $('.mobile-nav-container').hide();
   });
 });
 

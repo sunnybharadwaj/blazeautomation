@@ -1,6 +1,6 @@
 <template>
     <div class="content-block">
-        <div class="flex">
+        <div class="flex flex-wrap">
         <div class="w-full lg:w-7/12 text-content">
             <div class="content">
                 <slot name="text">

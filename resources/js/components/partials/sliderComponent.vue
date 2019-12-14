@@ -6,7 +6,7 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide product-block" v-for="product in products">
-                    <a :href="`/product/${product.id}`">
+                    <a class="slider-link" :href="`/product/${product.id}`">
                         <div class="product-wrapper">
                             <div class="product-image">
                                 <img :src="product.imagepath" alt="">

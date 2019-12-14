@@ -11,23 +11,49 @@ header {
     &.scrolled {
       background: white;
       box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.12);
-      a.link, .link-head {
+      .list a.link, .link-head {
         color: $black;
         &:hover {
           color: $primary;
         }
       }
+      .mobile-nav .mobile-nav-btn{
+
+        color: black;
+        &:focus, &:active {
+          color: $primary;
+        }
+      }
+    }
+    .list {
+      display: none;
+        padding: 25px 0;
+      }
+
+
+
+    @media (min-width: 600px) {
+
+    }
+    @media (min-width: 900px) {
+
+      .mobile-nav {
+        display: none;
+      }
+      .list {
+        display: block;
+      }
+    }
+    @media (min-width: 1200px) {
     }
     .brand {
       max-width: 100px;
       padding: 5px;
     }
 
-    .list {
-      padding: 25px 0;
-    }
+
   }
-  .nav-link, .nav-link-group>.link-head {
+  .list .nav-link, .list .nav-link-group>.link-head {
     display: inline-block;
     font-weight: bold;
     padding: 10px 10px;
@@ -37,7 +63,7 @@ header {
 
 nav {
 
-  .nav-link-group {
+  .list .nav-link-group {
     .drop-down.first {
       min-width: 260px;
     }
@@ -70,8 +96,11 @@ nav {
     }
   }
 
+.list .nav-link-group {
+  display: inline-block;
+}
 
-  a.link, .link-head {
+  .list a.link, .link-head {
     color: white;
     opacity: 0.9;
     font-size: 16px;
@@ -83,6 +112,78 @@ nav {
   }
 
 
+
+  .mobile-nav #mobile-menu-btn .btn{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    color: white;
+    padding:40px 10px 15px !important;
+  }
+
+  &.scrolled {
+    .mobile-nav #mobile-menu-btn .btn{
+      font-size: 20px;
+      font-weight: bold;
+      color: black;
+      padding:40px 10px 15px !important;
+    }
+  }
+
+  .mobile-nav-container {
+    transition: all 0.2s ease-in-out;
+    padding-top: 40px;
+    position: fixed;
+    z-index: 1005;
+    height: 100vh;
+    overflow: scroll-y;
+    width: 100%;
+    background: $gradient;
+    left: 0;
+    top: 0;
+
+
+    #mobile-menu-close {
+      position: fixed;
+      right: 0;
+      top:0;
+      padding: 40px;
+      img {
+        max-width: 20px;
+      }
+    }
+
+    .logo  {
+      img {
+        max-width: 100px;
+        margin:0 auto;
+        padding: 10px;
+      }
+    }
+
+  }
+
+
+  .mobile-nav {
+    .link-head {
+      font-size: 14px;
+      color: $primary !important;
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+      padding-bottom: 10px;
+    }
+
+    .link, .link-head {
+      display: block;
+      width: 100%;
+      color: white;
+      font-size: 24px ;
+      font-weight: bold;
+      padding: 20px 0 ;
+      text-align: center;
+    }
+  }
 
 }
 

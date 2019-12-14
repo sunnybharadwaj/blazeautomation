@@ -9,6 +9,16 @@
                     </div>
                 </template>
             </HeroComponent>
+            <section id="clients ">
+                <div class="py-12">
+                    <div class="container ">
+                        <div class="max-w-xl mx-auto">
+                            <img class="mx-auto" src="/static/fnb/clients.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
             <section>
                 <div class="container">
                     <ContentComponent>
