@@ -9,8 +9,15 @@
     <title>Blaze Automation</title>
 </head>
 <body>
-@include('partials/header')
-@yield('content')
-@include('partials/footer')
+
+@csrf
+<div id="app" class="">
+    @include('partials/header')
+    <router-view></router-view>
+    @include('partials/footer')
+</div>
+
+<script src="/js/jquery.min.js"></script>
+<script src="{{asset('/js/app.js')}}"></script>
 </body>
 </html>

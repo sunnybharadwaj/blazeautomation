@@ -1,0 +1,19 @@
+
+.std-btn {
+  display: inline-block;
+  letter-spacing: -0.03em;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 28px;
+
+  color: $black;
+  border: 3px solid $primary;
+  &:hover {
+
+    background: $primary;
+    color: white;
+  }
+  margin-top: 00px;
+}
+
+

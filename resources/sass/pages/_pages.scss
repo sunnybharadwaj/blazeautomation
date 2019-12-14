@@ -1,0 +1,13 @@
+.page-wrapper .header .image-container {
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-attachment: fixed;
+  background-clip: border-box;
+  background-color: lightblue;
+}
+
+@import 'landing';
+@import 'customers';

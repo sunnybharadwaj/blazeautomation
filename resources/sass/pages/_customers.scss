@@ -1,0 +1,42 @@
+#real-estate-page {
+  &.page-wrapper .header .image-container {
+    height: 100vh;
+    background-image: url('/static/realestate/real_hero.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-color: #ccc;
+    //background: lightblue url("/static/realestate/real_hero.jpg") no-repeat fixed center;
+  }
+}
+
+#retail-page {
+  &.page-wrapper .header .image-container {
+    height: 100vh;
+    background-image: url('/static/retail/retail_hero.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-color: #ccc;
+  }
+}
+
+#fnb-page {
+  &.page-wrapper .header .image-container {
+    height: 100vh;
+    background-image: url('/static/fnb/fnb_hero.jpg');
+  }
+}
+
+#offices-page {
+  &.page-wrapper .header .image-container {
+    height: 100vh;
+    background-image: url('/static/offices/offices_hero.jpg');
+  }
+}

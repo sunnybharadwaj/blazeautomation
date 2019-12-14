@@ -1,0 +1,28 @@
+#landing-page {
+  .container > div {
+    margin-bottom: 40px;
+  }
+
+  .header .image-container {
+    height: 100vh;
+    background: lightblue url("/static/hero.jpg") no-repeat fixed center;
+  }
+
+  h2.h1 {
+    color: $primary;
+  }
+  .text-content {
+    .content {
+      max-width: 640px;
+    }
+
+    h3 {
+      margin-bottom: 15px;
+    }
+    p {
+      margin-bottom: 30px;
+    }
+
+  }
+
+}

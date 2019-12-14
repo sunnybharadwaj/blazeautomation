@@ -1,5 +1,5 @@
 <header>
-    <nav class="bg-gray-100 flex justify-between">
+    <nav class="flex justify-between">
 
         <div class="brand">
             <a href="/" class="link">
@@ -8,13 +8,10 @@
 
         </div>
         <div class="list flex">
-            <div class="nav-link">
-
-            </div>
             <div class="nav-link-group">
                 <div class="link-head">Homes</div>
-                <div class="drop-down hidden">
-                    <a href="/" class="link">Residences</a>
+                <div class="drop-down first">
+                    <a href="https://b1hub.com/" target="_blank" class="link">Residences</a>
                     <a href="/real-estate-developers" class="link">Real Estate Developers</a>
                 </div>
             </div>
@@ -29,13 +26,16 @@
                 <a href="/office" class="link">Offices</a>
             </div>
             <div class="nav-link">
-                <a href="/" class="link">Syncs With</a>
+                <a href="https://b1hub.com/syncswith.html" target="_blank" class="link">Syncs With</a>
+            </div>
+
+            <div class="nav-link">
+                <a href="/about-us" class="link">About</a>
             </div>
 
             <div class="nav-link">
                 <a href="/contact" class="link">Contact Us</a>
             </div>
-
         </div>
     </nav>
 </header>

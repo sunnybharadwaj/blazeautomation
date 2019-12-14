@@ -1,0 +1,124 @@
+//Header
+header {
+  nav {
+    transition: all 0.2s ease-in-out;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0 20px;
+    &.scrolled {
+      background: white;
+      box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.12);
+      a.link, .link-head {
+        color: $black;
+      }
+    }
+    .brand {
+      max-width: 100px;
+      padding: 5px;
+    }
+
+    .list {
+      padding: 25px 0;
+    }
+  }
+  .nav-link, .nav-link-group>.link-head {
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin-right: 10px;
+  }
+}
+
+nav {
+
+  .nav-link-group {
+    .drop-down.first {
+      min-width: 260px;
+    }
+    position:relative;
+    .drop-down {
+      min-width: 200px;
+      background: white;
+      padding: 10px 20px;
+      display: none;
+      position:absolute;
+      a.link {
+        background: white;
+        color: $black;
+        font-weight: bold;
+        padding: 10px;
+        display: block;
+        &:hover {
+            color: $primary;
+        }
+      }
+    }
+    &:hover {
+      .link-head {
+        color: $primary;
+      }
+
+      .drop-down {
+        display: block;
+      }
+    }
+  }
+
+
+  a.link, .link-head {
+    color: white;
+    opacity: 0.9;
+    font-size: 16px;
+    letter-spacing: -0.03em;
+    transition: all 0.1s ease-in-out;
+    &:hover {
+      color: $primary;
+    }
+  }
+
+
+
+}
+
+
+
+
+//Footer
+footer {
+  padding: 60px 0;
+
+  .footer-heading {
+    font-size: 14px;
+    text-transform: uppercase ;
+    margin-bottom: 20px;
+  }
+  .footer-nav-section {
+    margin-left: 40px;
+  }
+  a.footer-nav-link {
+    font-weight: bold;
+    display: block;
+    letter-spacing: -0.02em;
+    margin-bottom: 10px;
+  }
+  .footer-heading {
+    color: $primary
+  }
+
+  .footer-link {
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  .brand {
+    top: -120px;
+    position: absolute;
+    max-width: 100px;
+    padding: 5px;
+  }
+
+  .bottom-nav a {
+    font-size: 14px;
+  }
+}

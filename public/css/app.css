@@ -11437,7 +11437,6 @@ h3, .h3 {
   font-size: 1.5em;
   line-height: 1.91666667em;
   letter-spacing: -0.02em;
-  margin-top: 0.95833333em;
   margin-bottom: 0em;
   font-weight: bold;
 }
@@ -11474,10 +11473,6 @@ hr, .hr {
   margin: -1px 0;
 }
 
-a, b, i, strong, em, small, code {
-  line-height: 0;
-}
-
 sub, sup {
   line-height: 0;
   position: relative;
@@ -11492,12 +11487,156 @@ sub {
   bottom: -0.25em;
 }
 
-.container {
-  margin: 0 auto;
+.std-btn {
+  display: inline-block;
+  letter-spacing: -0.03em;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 28px;
+  color: #010B15;
+  border: 3px solid #eb1f27;
+  margin-top: 0px;
 }
 
-.primary-color {
+.std-btn:hover {
+  background: #eb1f27;
+  color: white;
+}
+
+header nav {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0 20px;
+}
+
+header nav.scrolled {
+  background: white;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.12);
+}
+
+header nav.scrolled a.link, header nav.scrolled .link-head {
+  color: #010B15;
+}
+
+header nav .brand {
+  max-width: 100px;
+  padding: 5px;
+}
+
+header nav .list {
+  padding: 25px 0;
+}
+
+header .nav-link, header .nav-link-group > .link-head {
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px 10px;
+  margin-right: 10px;
+}
+
+nav .nav-link-group {
+  position: relative;
+}
+
+nav .nav-link-group .drop-down.first {
+  min-width: 260px;
+}
+
+nav .nav-link-group .drop-down {
+  min-width: 200px;
+  background: white;
+  padding: 10px 20px;
+  display: none;
+  position: absolute;
+}
+
+nav .nav-link-group .drop-down a.link {
+  background: white;
+  color: #010B15;
+  font-weight: bold;
+  padding: 10px;
+  display: block;
+}
+
+nav .nav-link-group .drop-down a.link:hover {
   color: #eb1f27;
+}
+
+nav .nav-link-group:hover .link-head {
+  color: #eb1f27;
+}
+
+nav .nav-link-group:hover .drop-down {
+  display: block;
+}
+
+nav a.link, nav .link-head {
+  color: white;
+  opacity: 0.9;
+  font-size: 16px;
+  letter-spacing: -0.03em;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+nav a.link:hover, nav .link-head:hover {
+  color: #eb1f27;
+}
+
+footer {
+  padding: 60px 0;
+}
+
+footer .footer-heading {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+footer .footer-nav-section {
+  margin-left: 40px;
+}
+
+footer a.footer-nav-link {
+  font-weight: bold;
+  display: block;
+  letter-spacing: -0.02em;
+  margin-bottom: 10px;
+}
+
+footer .footer-heading {
+  color: #eb1f27;
+}
+
+footer .footer-link {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+footer .brand {
+  top: -120px;
+  position: absolute;
+  max-width: 100px;
+  padding: 5px;
+}
+
+footer .bottom-nav a {
+  font-size: 14px;
+}
+
+.page-wrapper .header .image-container {
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-attachment: fixed;
+  background-clip: border-box;
+  background-color: lightblue;
 }
 
 #landing-page .container > div {
@@ -11525,6 +11664,48 @@ sub {
   margin-bottom: 30px;
 }
 
+#real-estate-page.page-wrapper .header .image-container {
+  height: 100vh;
+  background-image: url("/static/realestate/real_hero.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-attachment: fixed;
+  background-clip: border-box;
+  background-color: #ccc;
+}
+
+#retail-page.page-wrapper .header .image-container {
+  height: 100vh;
+  background-image: url("/static/retail/retail_hero.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-attachment: fixed;
+  background-clip: border-box;
+  background-color: #ccc;
+}
+
+#fnb-page.page-wrapper .header .image-container {
+  height: 100vh;
+  background-image: url("/static/fnb/fnb_hero.jpg");
+}
+
+#offices-page.page-wrapper .header .image-container {
+  height: 100vh;
+  background-image: url("/static/offices/offices_hero.jpg");
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.primary-color {
+  color: #eb1f27;
+}
+
 #product-slider {
   padding: 100px 0;
   background: #b4c2c3;
@@ -11532,74 +11713,6 @@ sub {
 
 section {
   padding: 60px 0;
-}
-
-.std-btn {
-  font-size: 18px;
-  font-weight: bold;
-  padding: 10px 28px;
-  margin-right: 20px;
-  color: #010B15;
-  border: 3px solid #eb1f27;
-}
-
-.std-btn:hover {
-  color: #eb1f27;
-}
-
-header nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding: 0 20px;
-  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.12);
-}
-
-header nav .brand {
-  max-width: 100px;
-  padding: 5px;
-}
-
-header nav .list {
-  padding: 25px 0;
-}
-
-header .nav-link, header .nav-link-group > .link-head {
-  display: inline-block;
-  font-weight: bold;
-  padding: 10px 10px;
-  margin-right: 10px;
-}
-
-footer {
-  padding: 40px 0;
-}
-
-footer .footer-nav-section {
-  margin-left: 40px;
-}
-
-footer a.footer-nav-link {
-  font-weight: bold;
-  display: block;
-  margin-bottom: 40px;
-}
-
-footer .footer-heading {
-  margin-bottom: 30px !important;
-  color: #eb1f27;
-}
-
-footer .footer-link {
-  margin-right: 20px;
-  font-weight: bold;
-}
-
-footer .brand {
-  top: -120px;
-  position: absolute;
-  max-width: 100px;
-  padding: 5px;
 }
 
 @media (min-width: 640px){
