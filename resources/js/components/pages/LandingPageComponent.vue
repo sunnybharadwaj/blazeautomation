@@ -31,7 +31,7 @@
                         </template>
 
                         <template slot="image">
-                            <img src="/static/residences.png" alt="">
+                            <img src="/static/residences.jpg" alt="">
                         </template>
                     </ContentComponent>
                 </div>
@@ -47,7 +47,7 @@
                         </template>
 
                         <template slot="image">
-                            <img src="/static/realestate.png" alt="">
+                            <img src="/static/realestate.jpg" alt="">
                         </template>
                     </ContentComponent>
                 </div>
@@ -92,7 +92,7 @@
                         </template>
 
                         <template slot="image">
-                            <img src="/static/retail.png" alt="">
+                            <img src="/static/retail.jpg" alt="">
                         </template>
                     </ContentComponent>
                 </div>
@@ -113,7 +113,7 @@
                     </template>
 
                     <template slot="image">
-                        <img src="/static/offices.png" alt="">
+                        <img src="/static/offices.jpg" alt="">
                     </template>
                 </ContentComponent>
             </div>

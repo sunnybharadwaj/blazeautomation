@@ -6164,7 +6164,7 @@ var render = function() {
                   _vm._v(" "),
                   _c("template", { slot: "image" }, [
                     _c("img", {
-                      attrs: { src: "/static/residences.png", alt: "" }
+                      attrs: { src: "/static/residences.jpg", alt: "" }
                     })
                   ])
                 ],
@@ -6202,7 +6202,7 @@ var render = function() {
                   _vm._v(" "),
                   _c("template", { slot: "image" }, [
                     _c("img", {
-                      attrs: { src: "/static/realestate.png", alt: "" }
+                      attrs: { src: "/static/realestate.jpg", alt: "" }
                     })
                   ])
                 ],
@@ -6277,7 +6277,7 @@ var render = function() {
                   ]),
                   _vm._v(" "),
                   _c("template", { slot: "image" }, [
-                    _c("img", { attrs: { src: "/static/retail.png", alt: "" } })
+                    _c("img", { attrs: { src: "/static/retail.jpg", alt: "" } })
                   ])
                 ],
                 2
@@ -6319,7 +6319,7 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("template", { slot: "image" }, [
-                  _c("img", { attrs: { src: "/static/offices.png", alt: "" } })
+                  _c("img", { attrs: { src: "/static/offices.jpg", alt: "" } })
                 ])
               ],
               2
