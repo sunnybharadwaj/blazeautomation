@@ -12278,6 +12278,17 @@ footer .footer-menu a.footer-nav-link {
   margin-bottom: 0;
 }
 
+#about-page .team-list .team-member img.mx-auto {
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 900px) {
+  #about-page .team-list .team-member {
+    margin-left: auto;
+  }
+}
+
 #contact-page {
   letter-spacing: -0.02em;
 }
