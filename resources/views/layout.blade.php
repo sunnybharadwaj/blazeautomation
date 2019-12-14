@@ -16,8 +16,28 @@
 <div id="app" class="">
     @include('partials/header')
     <router-view></router-view>
+
+
+    @if (session()->has('message'))
+
+        <div id="success-msg">
+            <div class="h-bar"></div>
+
+            <div class="container">
+                <h3 class="text-center">{{ session()->get('message') }}</h3>
+            </div>
+
+            <a href="#" class="form-success-close">
+                <img src="{{url('/media/icons/icon_close.svg')}}" alt=""
+                     class="image-fluid">
+            </a>
+
+        </div>
+    @endif
     @include('partials/footer')
 </div>
+
+
 
 <script src="/js/jquery.min.js"></script>
 <script src="{{asset('/js/app.js')}}"></script>

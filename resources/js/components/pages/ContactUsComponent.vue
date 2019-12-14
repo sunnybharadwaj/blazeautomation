@@ -1,6 +1,6 @@
 <template>
     <div id="contact-page">
-        <input type="hidden" name="_token" :value="csrf">
+
         <div class="nav-bg"></div>
         <section id="offices">
             <div class="container">
@@ -142,8 +142,7 @@
     export default {
         mounted() {
         },
-        data: () => ({
-            csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
-        }),
+
+
     }
 </script>

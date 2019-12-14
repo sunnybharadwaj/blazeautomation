@@ -11418,7 +11418,6 @@ section {
   font-weight: bold;
   letter-spacing: 0.01em;
   margin: 40px 0 10px;
-  margin: 40px 0 10px;
   color: #eb1f27;
 }
 
@@ -11724,6 +11723,43 @@ textarea {
   font-size: 1em;
   line-height: 1.2857;
   resize: vertical;
+}
+
+#success-msg {
+  background: -webkit-gradient(linear, right top, left top, from(#010B15), to(#0A1F34)) !important;
+  background: linear-gradient("270deg", #010B15, #0A1F34) !important;
+  margin: 0;
+  z-index: 1002;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#success-msg .container {
+  background: -webkit-gradient(linear, right top, left top, from(#010B15), to(#0A1F34));
+  background: linear-gradient("270deg", #010B15, #0A1F34);
+}
+
+#success-msg .h-bar {
+  height: 4px;
+  background: #eb1f27;
+}
+
+#success-msg .container {
+  padding: 20px 20px;
+}
+
+#success-msg h3 {
+  font-size: 1rem;
+  margin: 0;
+  color: white;
+  opacity: 0.8;
+  font-weight: 700;
+}
+
+.contact-form {
+  padding-top: 40px;
 }
 
 header nav {

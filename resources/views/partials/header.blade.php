@@ -34,7 +34,7 @@
             </div>
 
             <div class="nav-link">
-                <a href="/contact" class="link">Contact Us</a>
+                <a href="/contact-us" class="link">Contact Us</a>
             </div>
         </div>
     </nav>

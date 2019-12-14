@@ -11,6 +11,8 @@
 |
 */
 
+Route::post('/message', 'MessageController@store');
+
 Route::get('/{catchall?}', function () {
     return view('layout');
 })->where('catchall', '[\/\w\.-]*');

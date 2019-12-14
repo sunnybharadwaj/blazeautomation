@@ -2135,12 +2135,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {},
-  data: function data() {
-    return {
-      csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content')
-    };
-  }
+  mounted: function mounted() {}
 });
 
 /***/ }),
@@ -2989,8 +2984,46 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+// window.Laravel = <?php echo json_encode(['csrfToken' => csrf_token()]); ?>
 /* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {}
+  mounted: function mounted() {
+    console.log(this.csrf);
+  },
+  data: function data() {
+    return {
+      csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
+      name: '',
+      phone: '',
+      email: '',
+      location: '',
+      businesstype: '',
+      message: ''
+    };
+  },
+  computed: {
+    form_data: function form_data() {
+      return {
+        name: this.name,
+        phone: this.phone,
+        email: this.email,
+        location: this.location,
+        businesstype: this.businesstype,
+        message: this.message
+      };
+    }
+  },
+  methods: {
+    formSubmit: function formSubmit() {
+      console.log("HEY");
+      console.log(this.form_data);
+      axios.post('/message', {
+        data: this.form_data
+      });
+    }
+  }
 });
 
 /***/ }),
@@ -4657,11 +4690,6 @@ var render = function() {
     "div",
     { attrs: { id: "contact-page" } },
     [
-      _c("input", {
-        attrs: { type: "hidden", name: "_token" },
-        domProps: { value: _vm.csrf }
-      }),
-      _vm._v(" "),
       _c("div", { staticClass: "nav-bg" }),
       _vm._v(" "),
       _vm._m(0),
@@ -6299,131 +6327,256 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("section", [
+    _c("div", { staticClass: "contact-form text-center" }, [
+      _c("div", { staticClass: "container" }, [
+        _vm._m(0),
+        _vm._v(" "),
+        _c("div", { staticClass: "form-container max-w-md mx-auto" }, [
+          _c("form", { attrs: { method: "POST", action: "/message" } }, [
+            _c("input", {
+              attrs: { type: "hidden", name: "_token" },
+              domProps: { value: _vm.csrf }
+            }),
+            _vm._v(" "),
+            _c("div", { staticClass: "form-item" }, [
+              _c("label", { attrs: { for: "name" } }, [_vm._v("Full Name")]),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.name,
+                    expression: "name"
+                  }
+                ],
+                attrs: {
+                  required: "",
+                  id: "name",
+                  name: "name",
+                  type: "text",
+                  placeholder: ""
+                },
+                domProps: { value: _vm.name },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.name = $event.target.value
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "form-item" }, [
+              _c("label", { attrs: { for: "phone" } }, [
+                _vm._v("Phone number")
+              ]),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.phone,
+                    expression: "phone"
+                  }
+                ],
+                attrs: {
+                  required: "",
+                  id: "phone",
+                  name: "phone",
+                  type: "number",
+                  placeholder: ""
+                },
+                domProps: { value: _vm.phone },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.phone = $event.target.value
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "form-item" }, [
+              _c("label", { attrs: { for: "email" } }, [_vm._v("Email")]),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.email,
+                    expression: "email"
+                  }
+                ],
+                attrs: {
+                  required: "",
+                  id: "email",
+                  name: "email",
+                  type: "email",
+                  placeholder: ""
+                },
+                domProps: { value: _vm.email },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.email = $event.target.value
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "form-item" }, [
+              _c("label", { attrs: { for: "location" } }, [_vm._v("Location")]),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.location,
+                    expression: "location"
+                  }
+                ],
+                attrs: {
+                  required: "",
+                  id: "location",
+                  name: "location",
+                  type: "text",
+                  placeholder: ""
+                },
+                domProps: { value: _vm.location },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.location = $event.target.value
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("label", { attrs: { for: "businesstype" } }, [
+              _vm._v("Type of Business")
+            ]),
+            _vm._v(" "),
+            _c(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.businesstype,
+                    expression: "businesstype"
+                  }
+                ],
+                attrs: {
+                  required: "",
+                  name: "businesstype",
+                  id: "businesstype"
+                },
+                on: {
+                  change: function($event) {
+                    var $$selectedVal = Array.prototype.filter
+                      .call($event.target.options, function(o) {
+                        return o.selected
+                      })
+                      .map(function(o) {
+                        var val = "_value" in o ? o._value : o.value
+                        return val
+                      })
+                    _vm.businesstype = $event.target.multiple
+                      ? $$selectedVal
+                      : $$selectedVal[0]
+                  }
+                }
+              },
+              [
+                _c("option", { attrs: { value: "Homes", selected: "" } }, [
+                  _vm._v("Homes")
+                ]),
+                _vm._v(" "),
+                _c("option", { attrs: { value: "Real Estates" } }, [
+                  _vm._v("Real Estates")
+                ]),
+                _vm._v(" "),
+                _c("option", { attrs: { value: "Retail" } }, [
+                  _vm._v("Retail")
+                ]),
+                _vm._v(" "),
+                _c("option", { attrs: { value: "F & B" } }, [_vm._v("F & B")]),
+                _vm._v(" "),
+                _c("option", { attrs: { value: "Offices" } }, [
+                  _vm._v("Offices")
+                ]),
+                _vm._v(" "),
+                _c("option", { attrs: { value: "Smart Cities" } }, [
+                  _vm._v("Smart Cities")
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c("label", { attrs: { for: "message" } }, [_vm._v("Message")]),
+            _vm._v(" "),
+            _c("textarea", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.message,
+                  expression: "message"
+                }
+              ],
+              attrs: {
+                required: "",
+                name: "message",
+                id: "message",
+                cols: "30",
+                rows: "10"
+              },
+              domProps: { value: _vm.message },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.message = $event.target.value
+                }
+              }
+            }),
+            _vm._v(" "),
+            _c(
+              "button",
+              { staticClass: "std-btn", attrs: { type: "submit" } },
+              [_vm._v("Submit")]
+            )
+          ])
+        ])
+      ])
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("div", { staticClass: "contact-form text-center" }, [
-        _c("div", { staticClass: "container" }, [
-          _c("h3", [
-            _vm._v("For a free assessment, share your contact details. "),
-            _c("br"),
-            _vm._v("One of our specialists will get in touch with you soon.")
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "form-container max-w-md mx-auto" }, [
-            _c("form", { attrs: { method: "POST", action: "/message" } }, [
-              _c("div", { staticClass: "form-item" }, [
-                _c("label", { attrs: { for: "name" } }, [_vm._v("Full Name")]),
-                _vm._v(" "),
-                _c("input", {
-                  attrs: {
-                    required: "",
-                    id: "name",
-                    name: "name",
-                    type: "text",
-                    placeholder: ""
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "form-item" }, [
-                _c("label", { attrs: { for: "phone" } }, [
-                  _vm._v("Phone number")
-                ]),
-                _vm._v(" "),
-                _c("input", {
-                  attrs: {
-                    required: "",
-                    id: "phone",
-                    name: "phone",
-                    type: "number",
-                    placeholder: ""
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "form-item" }, [
-                _c("label", { attrs: { for: "email" } }, [_vm._v("Email")]),
-                _vm._v(" "),
-                _c("input", {
-                  attrs: {
-                    required: "",
-                    id: "email",
-                    name: "email",
-                    type: "email",
-                    placeholder: ""
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "form-item" }, [
-                _c("label", { attrs: { for: "location" } }, [
-                  _vm._v("Location")
-                ]),
-                _vm._v(" "),
-                _c("input", {
-                  attrs: {
-                    required: "",
-                    id: "location",
-                    name: "location",
-                    type: "text",
-                    placeholder: ""
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("label", { attrs: { for: "typeofbusiness" } }, [
-                _vm._v("Type of Business")
-              ]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { attrs: { required: "", name: "type", id: "typeofbusiness" } },
-                [
-                  _c("option", { attrs: { value: "" } }, [_vm._v("Homes")]),
-                  _vm._v(" "),
-                  _c("option", { attrs: { value: "" } }, [
-                    _vm._v("Real Estates")
-                  ]),
-                  _vm._v(" "),
-                  _c("option", { attrs: { value: "" } }, [_vm._v("Retail")]),
-                  _vm._v(" "),
-                  _c("option", { attrs: { value: "" } }, [_vm._v("F & B")]),
-                  _vm._v(" "),
-                  _c("option", { attrs: { value: "" } }, [_vm._v("Offices")]),
-                  _vm._v(" "),
-                  _c("option", { attrs: { value: "" } }, [
-                    _vm._v("Smart Cities")
-                  ])
-                ]
-              ),
-              _vm._v(" "),
-              _c("label", { attrs: { for: "message" } }, [_vm._v("Message")]),
-              _vm._v(" "),
-              _c("textarea", {
-                attrs: {
-                  required: "",
-                  name: "message",
-                  id: "message",
-                  cols: "30",
-                  rows: "10"
-                }
-              }),
-              _vm._v(" "),
-              _c(
-                "button",
-                { staticClass: "std-btn", attrs: { type: "submit" } },
-                [_vm._v("Submit")]
-              )
-            ])
-          ])
-        ])
-      ])
+    return _c("h3", [
+      _vm._v("For a free assessment, share your contact details. "),
+      _c("br"),
+      _vm._v(
+        "One of our specialists will get in touch\n                with you soon."
+      )
     ])
   }
 ]
@@ -22690,7 +22843,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\n\n\\\n^\n      Expected \"}\".\n    ╷\n264 │ \\\n    │  ^\n    ╵\n  resources/sass/_components.scss 264:2  @import\n  stdin 9:9                              root stylesheet\n      in /Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/resources/sass/_components.scss (line 264, column 2)\n    at /Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/webpack/lib/NormalModule.js:316:20\n    at /Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/loader-runner/lib/LoaderRunner.js:233:18\n    at context.callback (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at /Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass-loader/dist/index.js:89:7\n    at Function.call$2 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:54416:16)\n    at _render_closure1.call$2 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:33511:12)\n    at _RootZone.runBinary$3$3 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:19804:18)\n    at _RootZone.runBinary$3 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:19808:19)\n    at _FutureListener.handleError$1 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:18273:19)\n    at _Future__propagateToListeners_handleError.call$0 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:18561:40)\n    at Object._Future__propagateToListeners (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:3486:88)\n    at _Future._completeError$2 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:18397:9)\n    at _AsyncAwaitCompleter.completeError$2 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:17796:12)\n    at Object._asyncRethrow (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:3242:17)\n    at /Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:10539:20\n    at _wrapJsFunctionForAsync_closure.$protected (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:3265:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:17817:12)\n    at _awaitOnObject_closure0.call$2 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:17809:25)\n    at _RootZone.runBinary$3$3 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:19804:18)\n    at _RootZone.runBinary$3 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:19808:19)\n    at _FutureListener.handleError$1 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:18273:19)\n    at _Future__propagateToListeners_handleError.call$0 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:18561:40)\n    at Object._Future__propagateToListeners (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:3486:88)\n    at _Future._completeError$2 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:18397:9)\n    at _AsyncAwaitCompleter.completeError$2 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:17796:12)\n    at Object._asyncRethrow (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:3242:17)\n    at /Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:12240:20\n    at _wrapJsFunctionForAsync_closure.$protected (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:3265:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:17817:12)\n    at _awaitOnObject_closure0.call$2 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:17809:25)\n    at _RootZone.runBinary$3$3 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:19804:18)\n    at _RootZone.runBinary$3 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:19808:19)\n    at _FutureListener.handleError$1 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:18273:19)\n    at _Future__propagateToListeners_handleError.call$0 (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:18561:40)\n    at Object._Future__propagateToListeners (/Users/sunny/Documents/Work/Chakra/Projects/Blaze Automation/repo/blazeautomation/node_modules/sass/sass.dart.js:3486:88)");
 
 /***/ }),
 
