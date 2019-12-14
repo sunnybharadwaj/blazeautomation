@@ -4,17 +4,17 @@
             <div class="footer-nav-section flex">
                 <div class="footer-nav-section">
                     <div class="footer-heading font-bold">For Enterprises</div>
-                    <a href="/retail" class="footer-nav-link">Real Estate Developers</a>
-                    <a href="/retail" class="footer-nav-link">Food &amp; Beverages</a>
-                    <a href="/retail" class="footer-nav-link">Office Spaces</a>
+                    <a href="/real-estate-developers" class="footer-nav-link">Real Estate Developers</a>
+                    <a href="/f-and-b" class="footer-nav-link">Food &amp; Beverages</a>
                     <a href="/retail" class="footer-nav-link">Retail</a>
+                    <a href="/offices" class="footer-nav-link">Office Spaces</a>
                 </div>
                 <div class="footer-nav-section">
                     <div class="footer-heading font-bold">&nbsp;</div>
-                    <a href="/about" class="footer-nav-link">Home Automation</a>
+                    <a href="/https://b1hub.com/" target="_blank" class="footer-nav-link">Home Automation</a>
                     <a href="/about" class="footer-nav-link">About</a>
                     <a href="/news" class="footer-nav-link">Press</a>
-                    <a href="/news" class="footer-nav-link">Contact Us</a>
+                    <a href="/contact-us" class="footer-nav-link">Contact Us</a>
                 </div>
 
 

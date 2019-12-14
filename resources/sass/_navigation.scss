@@ -96,7 +96,7 @@ footer {
   .footer-heading {
     font-size: 14px;
     text-transform: uppercase ;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .footer-nav-section {
     margin-right: 40px;
@@ -106,16 +106,22 @@ footer {
     display: block;
     letter-spacing: -0.02em;
     margin-bottom: 10px;
+    &:hover {
+      color: $primary !important;
+    }
   }
   .footer-heading {
-    color: $primary
+    color: $primary;
   }
 
   .footer-link {
     margin-right: 20px;
     font-weight: bold;
     &:last-of-type {
-      margin-right: 12px;
+      margin-right: 13px;
+    }
+    &:hover {
+      color: $primary;
     }
   }
   .brand {

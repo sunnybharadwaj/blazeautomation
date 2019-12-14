@@ -11758,10 +11758,6 @@ textarea {
   font-weight: 700;
 }
 
-.contact-form {
-  padding-top: 40px;
-}
-
 header nav {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -11858,7 +11854,7 @@ footer {
 footer .footer-heading {
   font-size: 14px;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 footer .footer-nav-section {
@@ -11872,6 +11868,10 @@ footer a.footer-nav-link {
   margin-bottom: 10px;
 }
 
+footer a.footer-nav-link:hover {
+  color: #eb1f27 !important;
+}
+
 footer .footer-heading {
   color: #eb1f27;
 }
@@ -11882,7 +11882,11 @@ footer .footer-link {
 }
 
 footer .footer-link:last-of-type {
-  margin-right: 12px;
+  margin-right: 13px;
+}
+
+footer .footer-link:hover {
+  color: #eb1f27;
 }
 
 footer .brand {
