@@ -11583,7 +11583,7 @@ a.std-link {
 
 .header .image-container {
   height: 100vh;
-  background: lightblue url("/static/hero.jpg") no-repeat fixed center;
+  background: #010B15 url("/static/hero.jpg") no-repeat fixed center;
 }
 
 .header .header-text {
@@ -11908,7 +11908,7 @@ footer .bottom-nav a {
   background-origin: padding-box;
   background-attachment: fixed;
   background-clip: border-box;
-  background-color: lightblue;
+  background-color: linear-gradient("270deg", #010B15, #0A1F34);
 }
 
 #landing-page .container > div {
@@ -11959,7 +11959,7 @@ footer .bottom-nav a {
   background-origin: padding-box;
   background-attachment: fixed;
   background-clip: border-box;
-  background-color: #ccc;
+  background-color: #010B15;
 }
 
 #retail-page.page-wrapper .header .image-container {
@@ -11971,7 +11971,7 @@ footer .bottom-nav a {
   background-origin: padding-box;
   background-attachment: fixed;
   background-clip: border-box;
-  background-color: #ccc;
+  background-color: #010B15;
 }
 
 #fnb-page.page-wrapper .header .image-container {
@@ -11982,7 +11982,7 @@ footer .bottom-nav a {
   background-origin: padding-box;
   background-attachment: fixed;
   background-clip: border-box;
-  background-color: #ccc;
+  background-color: #010B15;
 }
 
 #offices-page.page-wrapper .header .image-container {
