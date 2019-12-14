@@ -2000,8 +2000,147 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {}
+  mounted: function mounted() {},
+  data: function data() {
+    return {
+      csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+    };
+  }
 });
 
 /***/ }),
@@ -2254,6 +2393,39 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {}
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/NewsComponent.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/NewsComponent.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
 //
 //
 //
@@ -2767,6 +2939,50 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -4437,9 +4653,266 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div")
+  return _c(
+    "div",
+    { attrs: { id: "contact-page" } },
+    [
+      _c("input", {
+        attrs: { type: "hidden", name: "_token" },
+        domProps: { value: _vm.csrf }
+      }),
+      _vm._v(" "),
+      _c("div", { staticClass: "nav-bg" }),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
+      _c("section", { attrs: { id: "form" } }, [_c("ContactFormComponent")], 1),
+      _vm._v(" "),
+      _c("SliderComponent")
+    ],
+    1
+  )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { attrs: { id: "offices" } }, [
+      _c("div", { staticClass: "container" }, [
+        _c("h2", { staticClass: "loud highlight " }, [_vm._v("Our offices")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex" }, [
+          _c("div", { staticClass: "flex-wrapper w-full md:1/2 lg:1/4" }, [
+            _c("div", { staticClass: "address" }, [
+              _c("div", { staticClass: "heading" }, [
+                _c("h3", [_vm._v("Experience Center")])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "address-detail" }, [
+                _c("p", [
+                  _vm._v("\n                                Plot No.873/A, "),
+                  _c("br"),
+                  _vm._v("Door No.8-2-293/82/A/873/A, "),
+                  _c("br"),
+                  _vm._v(
+                    "Rd Number 45, Jubilee Hills,\n                                "
+                  ),
+                  _c("br"),
+                  _vm._v(
+                    "Hyderabad,\n                                Telangana 500033\n                            "
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "map" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "std-link",
+                    attrs: {
+                      href:
+                        "https://www.google.com/maps/place/Blaze+Automation+Experience+Center/@17.4307019,78.3998833,17z/data=!3m1!4b1!4m5!3m4!1s0x3bcb910d2387c8cf:0xf2483aec64d12fd2!8m2!3d17.4306968!4d78.402072?shorturl=1",
+                      target: "_blank"
+                    }
+                  },
+                  [_vm._v("Find on Map")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "contact" }, [
+                _c("div", { staticClass: "item" }, [
+                  _vm._v(
+                    "\n                                1800-212-5828\n                            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "item" })
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "flex-wrapper w-full md:1/2 lg:1/4" }, [
+            _c("div", { staticClass: "address" }, [
+              _c("div", { staticClass: "heading" }, [
+                _c("h3", [_vm._v("R&D Center")])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "address-detail" }, [
+                _c("p", [
+                  _vm._v(
+                    "\n                                Quadrant – 2,10th Floor"
+                  ),
+                  _c("br"),
+                  _vm._v(
+                    "\n                                Cyber Towers, Madhapur,"
+                  ),
+                  _c("br"),
+                  _vm._v(
+                    "\n                                Hyderabad, Telangana 500081"
+                  ),
+                  _c("br"),
+                  _vm._v(" "),
+                  _c("br")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "map" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "std-link",
+                    attrs: {
+                      href:
+                        "https://www.google.com/maps/place/Blaze+Automation+(+R%26D+Centre+)/@17.4501797,78.3793814,17z/data=!4m5!3m4!1s0x3bcb912e7e30bd21:0x4233d2c890258cd6!8m2!3d17.4503!4d78.381157?shorturl=1",
+                      target: "_blank"
+                    }
+                  },
+                  [_vm._v("Find on Map")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "contact" }, [
+                _c("div", { staticClass: "item" }, [
+                  _vm._v(
+                    "\n                                1800-212-5828\n                            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "item" })
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "flex-wrapper w-full md:1/2 lg:1/4" }, [
+            _c("div", { staticClass: "address" }, [
+              _c("div", { staticClass: "heading" }, [
+                _c("h3", [_vm._v("Blaze Automation Inc")])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "address-detail" }, [
+                _c("p", [
+                  _vm._v("\n                                125 Village, "),
+                  _c("br"),
+                  _vm._v(
+                    "\n                                Boulevard Suite 320, "
+                  ),
+                  _c("br"),
+                  _vm._v(
+                    "\n                                Princeton, NJ-08540, "
+                  ),
+                  _c("br"),
+                  _vm._v(
+                    "\n                                United States of America\n                            "
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "map" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "std-link",
+                    attrs: {
+                      href:
+                        "https://www.google.com/maps/place/B1hub/@40.35523,-74.6143876,17z/data=!3m1!4b1!4m5!3m4!1s0x89c3e76deb49e999:0xa0f19be5fdc17ecb!8m2!3d40.3552259!4d-74.6121989?shorturl=1",
+                      target: "_blank"
+                    }
+                  },
+                  [_vm._v("Find on Map")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "contact" }, [
+                _c("div", { staticClass: "item" }, [
+                  _vm._v(
+                    "\n                                1888-810-4071\n                            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "item" })
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "flex-wrapper w-full md:1/2 lg:1/4" }, [
+            _c("div", { staticClass: "address" }, [
+              _c("div", { staticClass: "heading" }, [
+                _c("h3", [_vm._v("Australia Office")])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "address-detail" }, [
+                _c("p", [
+                  _vm._v("\n                                5, Newfield Road,"),
+                  _c("br"),
+                  _vm._v("\n                                Parahills West,"),
+                  _c("br"),
+                  _vm._v(
+                    "\n                                South Australia – 5096"
+                  ),
+                  _c("br"),
+                  _vm._v(" "),
+                  _c("br")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "map" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "std-link",
+                    attrs: {
+                      href:
+                        "https://www.google.com/maps/place/The+Light+Factory/@-34.8062245,138.6336449,17z/data=!3m1!4b1!4m5!3m4!1s0x6ab0b69f02eaaaab:0xfb4c72528cfb9f84!8m2!3d-34.8062245!4d138.6358336",
+                      target: "_blank"
+                    }
+                  },
+                  [_vm._v("Find on Map")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "contact" }, [
+                _c("div", { staticClass: "item" }, [
+                  _vm._v(
+                    "\n                                1800-180-810\n\n                            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "item" })
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "section",
+      { staticClass: "text-center py-12", attrs: { id: "email" } },
+      [
+        _c("div", { staticClass: "max-w-4xl mx-auto" }, [
+          _c("div", { staticClass: "container" }, [
+            _c("h2", [
+              _vm._v(
+                "\n                    If you'd like to write to us, please reach us at "
+              ),
+              _c("br"),
+              _c("span", { staticClass: "highlight" }, [
+                _vm._v("support@blazeautomation.com")
+              ])
+            ])
+          ])
+        ])
+      ]
+    )
+  }
+]
 render._withStripped = true
 
 
@@ -4987,6 +5460,86 @@ var staticRenderFns = [
           _vm._v(
             "Be Smart enables enterprises achieve their Energy Management, Automation and Security goals through Artificial Intelligence and Machine Learning. It helps IoTize businesses such as retail and F&B chains by delivering real time data about energy consumption, occupancy levels and security threats. Be Smart ensures an ROI within 6 months.\n                    "
           )
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/NewsComponent.vue?vue&type=template&id=5cf4bac4&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/NewsComponent.vue?vue&type=template&id=5cf4bac4& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("div", { staticClass: "nav-bg" }),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _c("SliderComponent")
+    ],
+    1
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "py-24", attrs: { id: "header" } }, [
+      _c("div", { staticClass: "container" }, [
+        _c("h1", { staticClass: "highlight mb-6" }, [_vm._v("Press")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "max-w-4xl" }, [
+          _c("h2", { staticClass: "mb-3" }, [
+            _vm._v("Get in touch with us at "),
+            _c(
+              "a",
+              {
+                staticClass: "highlight",
+                attrs: {
+                  href: "mailto:b1@blazeautomation.com",
+                  target: "_blank"
+                }
+              },
+              [_vm._v("b1@blazeautomation.com")]
+            ),
+            _vm._v(" for more info, or to speak with a member of our team.")
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "std-btn",
+              attrs: {
+                href:
+                  "https://www.dropbox.com/sh/65cltm2k84l8wlh/AABjXIXJ4WSN63-5qB9Yj8Jfa?dl=0",
+                target: "_blank"
+              }
+            },
+            [_vm._v("Download Press Kit")]
+          ),
+          _vm._v(" "),
+          _c("a", { staticClass: "std-btn", attrs: { href: "/contact-us" } }, [
+            _vm._v("Contact Us")
+          ])
         ])
       ])
     ])
@@ -5746,9 +6299,134 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div")
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("div", { staticClass: "contact-form text-center" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("h3", [
+            _vm._v("For a free assessment, share your contact details. "),
+            _c("br"),
+            _vm._v("One of our specialists will get in touch with you soon.")
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "form-container max-w-md mx-auto" }, [
+            _c("form", { attrs: { method: "POST", action: "/message" } }, [
+              _c("div", { staticClass: "form-item" }, [
+                _c("label", { attrs: { for: "name" } }, [_vm._v("Full Name")]),
+                _vm._v(" "),
+                _c("input", {
+                  attrs: {
+                    required: "",
+                    id: "name",
+                    name: "name",
+                    type: "text",
+                    placeholder: ""
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-item" }, [
+                _c("label", { attrs: { for: "phone" } }, [
+                  _vm._v("Phone number")
+                ]),
+                _vm._v(" "),
+                _c("input", {
+                  attrs: {
+                    required: "",
+                    id: "phone",
+                    name: "phone",
+                    type: "number",
+                    placeholder: ""
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-item" }, [
+                _c("label", { attrs: { for: "email" } }, [_vm._v("Email")]),
+                _vm._v(" "),
+                _c("input", {
+                  attrs: {
+                    required: "",
+                    id: "email",
+                    name: "email",
+                    type: "email",
+                    placeholder: ""
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-item" }, [
+                _c("label", { attrs: { for: "location" } }, [
+                  _vm._v("Location")
+                ]),
+                _vm._v(" "),
+                _c("input", {
+                  attrs: {
+                    required: "",
+                    id: "location",
+                    name: "location",
+                    type: "text",
+                    placeholder: ""
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("label", { attrs: { for: "typeofbusiness" } }, [
+                _vm._v("Type of Business")
+              ]),
+              _vm._v(" "),
+              _c(
+                "select",
+                { attrs: { required: "", name: "type", id: "typeofbusiness" } },
+                [
+                  _c("option", { attrs: { value: "" } }, [_vm._v("Homes")]),
+                  _vm._v(" "),
+                  _c("option", { attrs: { value: "" } }, [
+                    _vm._v("Real Estates")
+                  ]),
+                  _vm._v(" "),
+                  _c("option", { attrs: { value: "" } }, [_vm._v("Retail")]),
+                  _vm._v(" "),
+                  _c("option", { attrs: { value: "" } }, [_vm._v("F & B")]),
+                  _vm._v(" "),
+                  _c("option", { attrs: { value: "" } }, [_vm._v("Offices")]),
+                  _vm._v(" "),
+                  _c("option", { attrs: { value: "" } }, [
+                    _vm._v("Smart Cities")
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c("label", { attrs: { for: "message" } }, [_vm._v("Message")]),
+              _vm._v(" "),
+              _c("textarea", {
+                attrs: {
+                  required: "",
+                  name: "message",
+                  id: "message",
+                  cols: "30",
+                  rows: "10"
+                }
+              }),
+              _vm._v(" "),
+              _c(
+                "button",
+                { staticClass: "std-btn", attrs: { type: "submit" } },
+                [_vm._v("Submit")]
+              )
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -5859,7 +6537,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "product-slider" }, [
-    _vm._m(0),
+    _c("div", { staticClass: "container" }),
     _vm._v(" "),
     _c("div", { staticClass: "swiper-container" }, [
       _c(
@@ -5893,18 +6571,7 @@ var render = function() {
     ])
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("h1", { staticClass: "h2 font-bold text-center mb-12" }, [
-        _c("strong", [_vm._v("Our Products")])
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -21304,6 +21971,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/pages/NewsComponent.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/pages/NewsComponent.vue ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _NewsComponent_vue_vue_type_template_id_5cf4bac4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NewsComponent.vue?vue&type=template&id=5cf4bac4& */ "./resources/js/components/pages/NewsComponent.vue?vue&type=template&id=5cf4bac4&");
+/* harmony import */ var _NewsComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NewsComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/pages/NewsComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _NewsComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _NewsComponent_vue_vue_type_template_id_5cf4bac4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _NewsComponent_vue_vue_type_template_id_5cf4bac4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/pages/NewsComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/NewsComponent.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/pages/NewsComponent.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NewsComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./NewsComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/NewsComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NewsComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/NewsComponent.vue?vue&type=template&id=5cf4bac4&":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/components/pages/NewsComponent.vue?vue&type=template&id=5cf4bac4& ***!
+  \****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NewsComponent_vue_vue_type_template_id_5cf4bac4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./NewsComponent.vue?vue&type=template&id=5cf4bac4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/NewsComponent.vue?vue&type=template&id=5cf4bac4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NewsComponent_vue_vue_type_template_id_5cf4bac4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NewsComponent_vue_vue_type_template_id_5cf4bac4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/components/pages/OfficesComponent.vue":
 /*!************************************************************!*\
   !*** ./resources/js/components/pages/OfficesComponent.vue ***!
@@ -21892,6 +22628,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_pages_AboutComponent__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/pages/AboutComponent */ "./resources/js/components/pages/AboutComponent.vue");
 /* harmony import */ var _components_pages_ContactUsComponent__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/pages/ContactUsComponent */ "./resources/js/components/pages/ContactUsComponent.vue");
 /* harmony import */ var _components_pages_ProductDetailComponent__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/pages/ProductDetailComponent */ "./resources/js/components/pages/ProductDetailComponent.vue");
+/* harmony import */ var _components_pages_NewsComponent__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/pages/NewsComponent */ "./resources/js/components/pages/NewsComponent.vue");
+
 
 
 
@@ -21913,6 +22651,9 @@ var routes = [{
 }, {
   path: '/f-and-b',
   component: _components_pages_FnbComponent__WEBPACK_IMPORTED_MODULE_2__["default"]
+}, {
+  path: '/news',
+  component: _components_pages_NewsComponent__WEBPACK_IMPORTED_MODULE_9__["default"]
 }, {
   path: '/office',
   component: _components_pages_OfficesComponent__WEBPACK_IMPORTED_MODULE_5__["default"]

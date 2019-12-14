@@ -1,7 +1,7 @@
 <template>
     <div class="product-slider">
         <div class="container">
-            <h1 class="h2 font-bold text-center mb-12"><strong>Our Products</strong></h1>
+            <!--<h1 class="h2 font-bold text-center mb-12"><strong>Our Products</strong></h1>-->
         </div>
         <div class="swiper-container">
             <div class="swiper-wrapper">

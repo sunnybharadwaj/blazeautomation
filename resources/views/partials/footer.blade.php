@@ -13,7 +13,7 @@
                     <div class="footer-heading font-bold">&nbsp;</div>
                     <a href="/about" class="footer-nav-link">Home Automation</a>
                     <a href="/about" class="footer-nav-link">About</a>
-                    <a href="/news" class="footer-nav-link">News</a>
+                    <a href="/news" class="footer-nav-link">Press</a>
                     <a href="/news" class="footer-nav-link">Contact Us</a>
                 </div>
 

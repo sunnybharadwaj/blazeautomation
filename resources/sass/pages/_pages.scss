@@ -13,11 +13,35 @@
 @import 'customers';
 @import 'about';
 
+//Contact page
+#contact-page {
+  letter-spacing: -0.02em;
+
+  .contact {
+    .item {
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+  }
+  #offices {
+    h2.loud {
+      font-size: 24px;
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
+    h3 {
+      font-size: 22px;
+    }
+    text-align: center;
+    .flex-wrapper {
+      padding: 20px 20px;
+    }
+  }
+}
+
 
 //Product Detail Page
 #product-detail-page {
-
-
   .product-container {
     padding: 40px 0;
     .product-image {

@@ -8,6 +8,7 @@ import OfficesPage from './components/pages/OfficesComponent'
 import AboutPage from './components/pages/AboutComponent'
 import ContactPage from './components/pages/ContactUsComponent'
 import ProductDetailPage from './components/pages/ProductDetailComponent'
+import NewsPage from './components/pages/NewsComponent'
 
 let routes = [
     {
@@ -25,6 +26,10 @@ let routes = [
     {
         path: '/f-and-b',
         component: FnBPage
+    },
+    {
+      path:'/news',
+      component: NewsPage
     },
     {
         path: '/office',
