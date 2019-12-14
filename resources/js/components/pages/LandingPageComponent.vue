@@ -3,25 +3,24 @@
 
 
         <h1 class="hidden">Blaze Automation - Smart Automation Systems</h1>
-        <div class="header">
-            <div class="image-container">
-            </div>
-            <div class="hidden">
-                <h2>All Things. Be One<sup>®</sup>.</h2>
-                <h2>Smart Automation Systems</h2>
-            </div>
-        </div>
+        <HeroComponent>
+            <template slot="text">
+            </template>
+        </HeroComponent>
 
         <section id="homes">
             <div class="container">
                 <div class="desc">
                     <h2 class="h1 primary-color">Home Automation</h2>
                     <div class="desc font-bold max-w-5xl">
-                        <h2>
+                        <h3 class="h2">
                             B.One®’s affordable home automation makes your life more convenient and your home safer.
-                        </h2>
+                        </h3>
 
                     </div>
+                </div>
+                <div class="page-text">
+
                 </div>
                 <div class="residences">
                     <ContentComponent>
@@ -65,24 +64,24 @@
                 <div class="desc">
                     <div class="max-w-4xl">
                         <h2 class="h1">Enterprises</h2>
-                        <p>Be Smart platform enables enterprises achieve their Energy Management, Automation and
+                        <h3 class="h2 mb-12">Be Smart platform enables enterprises achieve their Energy Management, Automation and
                             Security
                             goals
                             through Artificial Intelligence and Machine Learning. It delivers real time data about
                             energy
-                            consumption, occupancy levels and security threats. Be Smart ensures an ROI of 6 months</p>
+                            consumption, occupancy levels and security threats. This platform ensures an ROI of 6 months.</h3>
                     </div>
 
                 </div>
                 <div class="fnb">
                     <ContentComponent>
                         <template slot="text">
-                            <h3>Food and Beverages (F&B)</h3>
+                            <h4 class="h3">Food and Beverages (F&B)</h4>
                             <p>Automating your Food and Beverage enterprise with Be Smart helps in improving your
                                 performance and productivity while reducing the risk and keeping your customers
                                 happy. Be
                                 Smart solutions result in better profitability and efficiency.</p>
-                            <a href="/f-and-b" class="std-btn">Learn more</a>
+                            <router-link to="/f-and-b" class="std-btn">Learn more</router-link>
                         </template>
 
                         <template slot="image">
@@ -111,14 +110,15 @@
 
         <section id="offices">
             <div class="container">
+
+                        <h2 class="h1">Offices</h2>
                 <ContentComponent>
                     <template slot="text">
-                        <h2>Offices</h2>
                         <p>Automating your offices can make life easier. Temperature and lighting in offices has a
                             demonstrable effect on your employees’ well-being and productivity. Well-lit and
                             well-designed
                             environments enhance your brand’s image and help you retain high-value employees.</p>
-                        <p>nd Security goals through Artificial Intelligence and Machine Learning. It helps IoTize
+                        <p>Land Security goals through Artificial Intelligence and Machine Learning. It helps IoTize
                             offices
                             and co-working spaces by delivering real time data about energy consumption, occupancy
                             levels

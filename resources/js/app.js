@@ -7,6 +7,12 @@ Vue.component('SliderComponent', SliderComponent);
 import ContentComponent from './components/partials/contentBlock';
 Vue.component('ContentComponent', ContentComponent);
 
+import HeroComponent from './components/partials/HeroComponent';
+Vue.component('HeroComponent', HeroComponent);
+
+import ContactFormComponent from './components/partials/ContactFormComponent';
+Vue.component('ContactFormComponent', ContactFormComponent);
+
 new Vue({
     el:'#app',
     router
@@ -25,9 +31,8 @@ $(window).scroll(function() {
 });
 
 $(document).ready(function() {
-    var mySwiper = new Swiper ('.slider-container', {
+    var mySwiper = new Swiper ('.swiper-container', {
         slidesPerView: 4,
-        spaceBetween: 30,
 
         autoplay: 2000,
         speed: 800,

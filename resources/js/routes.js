@@ -7,6 +7,7 @@ import RetailPage from './components/pages/RetailComponent'
 import OfficesPage from './components/pages/OfficesComponent'
 import AboutPage from './components/pages/AboutComponent'
 import ContactPage from './components/pages/ContactUsComponent'
+import ProductDetailPage from './components/pages/ProductDetailComponent'
 
 let routes = [
     {
@@ -36,7 +37,13 @@ let routes = [
     {
         path: '/contact-us',
         component: ContactPage
-    }
+    },
+    {
+        path: '/product/:product',
+        component: ProductDetailPage,
+        props: true,
+        name: 'Product'
+    },
 ];
 
 const router = new VueRouter({

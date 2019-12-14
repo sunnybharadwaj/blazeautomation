@@ -4,6 +4,7 @@ header {
     transition: all 0.2s ease-in-out;
     background: transparent;
     position: fixed;
+    z-index: 1000;
     top: 0;
     width: 100%;
     padding: 0 20px;

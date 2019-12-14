@@ -1,28 +1,98 @@
 <template>
     <div id="real-estate-page" class="page-wrapper">
-        <div >
-            <div class="header">
-                <div class="image-container">
-                </div>
-                <div class="hidden">
-                    <h2>All Things. Be One<sup>®</sup>.</h2>
-                    <h2>Smart Automation Systems</h2>
-                </div>
+   <HeroComponent>
+       <template slot="text">
+           <h1>Affordable Wireless Automation & Security</h1>
+       </template>
+   </HeroComponent>
+
+
+
+        <section>
+            <div class="container">
+                <ContentComponent>
+                    <template slot="text">
+                        <h3>Residences</h3>
+                        <p>Home automation offers control over every important system within a residence, such
+                            as
+                            electricity, lighting, HVAC, curtains, entertainment and security through a single,
+                            easy to
+                            use
+                            mobile app.</p>
+                        <a href="https://b1hub.com/" target="_blank" class="std-btn">Learn more</a>
+                    </template>
+
+                    <template slot="image">
+                        <img src="/static/residences.png" alt="">
+                    </template>
+                </ContentComponent>
             </div>
-        </div>
+        </section>
 
+        <section>
+            <div class="container">
+                <ContentComponent>
+                    <template slot="text">
+                        <h3>Residences</h3>
+                        <p>Home automation offers control over every important system within a residence, such
+                            as
+                            electricity, lighting, HVAC, curtains, entertainment and security through a single,
+                            easy to
+                            use
+                            mobile app.</p>
+                        <a href="https://b1hub.com/" target="_blank" class="std-btn">Learn more</a>
+                    </template>
 
+                    <template slot="image">
+                        <img src="/static/residences.png" alt="">
+                    </template>
+                </ContentComponent>
+            </div>
+        </section>
 
-        <h1>Real Estate Development</h1>
-        <ul>
-            <li>Affordable Wireless Automation & Security</li>
-            <li>Clients</li>
-            <li>Central Monitoring and Controlling Station for communities</li>
-            <li>Easy Installation</li>
-            <li>Safety and Security</li>
-            <li>Energy Savings</li>
-            <li>Contact Us</li>
-        </ul>
+        <section>
+            <div class="container">
+                <ContentComponent>
+                    <template slot="text">
+                        <h3>Residences</h3>
+                        <p>Home automation offers control over every important system within a residence, such
+                            as
+                            electricity, lighting, HVAC, curtains, entertainment and security through a single,
+                            easy to
+                            use
+                            mobile app.</p>
+                        <a href="https://b1hub.com/" target="_blank" class="std-btn">Learn more</a>
+                    </template>
+
+                    <template slot="image">
+                        <img src="/static/residences.png" alt="">
+                    </template>
+                </ContentComponent>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <ContentComponent>
+                    <template slot="text">
+                        <h3>Residences</h3>
+                        <p>Home automation offers control over every important system within a residence, such
+                            as
+                            electricity, lighting, HVAC, curtains, entertainment and security through a single,
+                            easy to
+                            use
+                            mobile app.</p>
+                        <a href="https://b1hub.com/" target="_blank" class="std-btn">Learn more</a>
+                    </template>
+
+                    <template slot="image">
+                        <img src="/static/residences.png" alt="">
+                    </template>
+                </ContentComponent>
+            </div>
+        </section>
+        <ContactForm></ContactForm>
+        <SliderComponent></SliderComponent>
     </div>
 </template>
 
