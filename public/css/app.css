@@ -12012,10 +12012,17 @@ nav .mobile-nav .link, nav .mobile-nav .link-head {
   display: block;
   width: 100%;
   color: white;
-  font-size: 24px;
   font-weight: bold;
   padding: 20px 0;
   text-align: center;
+}
+
+nav .mobile-nav .link {
+  font-size: 24px;
+}
+
+nav .mobile-nav .link-head {
+  font-size: 14px;
 }
 
 footer {
