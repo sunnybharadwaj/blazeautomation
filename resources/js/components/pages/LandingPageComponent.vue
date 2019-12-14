@@ -27,7 +27,7 @@
                         <template slot="text">
                             <h3>Residences</h3>
                             <p>Home automation offers control over every important system within a residence, such as electricity, lighting, HVAC, curtains, entertainment and security, through a single, easy to use mobile app. B.One™’s affordable home automation makes your life more convenient, and your home safer.</p>
-                            <a href="https://b1hub.com/" target="_blank" class="std-btn">Learn more</a>
+                            <a href="https://b1hub.com/" rel="noreferrer" target="_blank" class="std-btn">Learn more</a>
                         </template>
 
                         <template slot="image">

@@ -6156,7 +6156,11 @@ var render = function() {
                       "a",
                       {
                         staticClass: "std-btn",
-                        attrs: { href: "https://b1hub.com/", target: "_blank" }
+                        attrs: {
+                          href: "https://b1hub.com/",
+                          rel: "noreferrer",
+                          target: "_blank"
+                        }
                       },
                       [_vm._v("Learn more")]
                     )
