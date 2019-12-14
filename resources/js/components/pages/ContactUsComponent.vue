@@ -5,7 +5,7 @@
         <section id="offices">
             <div class="container">
                 <h2 class="loud highlight ">Our offices</h2>
-                <div class="flex">
+                <div class="flex flex-wrap">
                     <div class="flex-wrapper w-full md:1/2 lg:1/4">
                         <div class="address">
                             <div class="heading">

@@ -5406,7 +5406,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "container" }, [
         _c("h2", { staticClass: "loud highlight " }, [_vm._v("Our offices")]),
         _vm._v(" "),
-        _c("div", { staticClass: "flex" }, [
+        _c("div", { staticClass: "flex flex-wrap" }, [
           _c("div", { staticClass: "flex-wrapper w-full md:1/2 lg:1/4" }, [
             _c("div", { staticClass: "address" }, [
               _c("div", { staticClass: "heading" }, [
