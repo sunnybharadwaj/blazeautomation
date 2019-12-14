@@ -6,9 +6,7 @@
   .h1 {
     margin-bottom: 40px;
   }
-  p {
-    margin-bottom: 20px;
-  }
+
 
   .h2 {
     margin-bottom: 60px !important;
@@ -25,13 +23,5 @@
   h2.h1 {
     color: $primary;
   }
-  .text-content {
-    .content {
-      max-width: 640px;
-    }
-  }
 
-  .content-block {
-    margin: 60px 0;
-  }
 }

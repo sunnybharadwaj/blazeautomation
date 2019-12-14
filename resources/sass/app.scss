@@ -4,61 +4,16 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
 @import "variables";
-
+@import "general";
 @import "gridlover";
 @import "components";
 @import "navigation";
 @import "pages/pages";
 
-.container {
-  margin: 0 auto;
-  padding: 0 30px;
-}
-
-.primary-color, .highlight {
-  color: $primary;
-}
-
-.header {
-  position: relative;
-  .image-container {
-    height: 100vh;
-    background: lightblue url("/static/hero.jpg") no-repeat fixed center;
-  }
-  .header-text {
-    padding: 40px;
-    color: white !important;
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-  }
-}
 
 
 
 
 
 
-.product-slider {
-  padding: 100px 0;
-  //h3 {
-  //  font-size: 24px;
-  //}
-  p {
-    padding: 10px 20px;
-    font-size: 14px;
-    letter-spacing: -0.02em;
-
-  }
-}
-
-.product-image {
-  max-width: 300px;
-  padding: 20px 70px;
-}
-
-section {
-  padding: 30px 0;
-}
 

@@ -11401,6 +11401,19 @@ video {
   z-index: auto;
 }
 
+.container {
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.primary-color, .highlight {
+  color: #eb1f27;
+}
+
+section {
+  padding: 30px 0;
+}
+
 html, .root {
   font-size: 18px;
   line-height: 32px;
@@ -11418,14 +11431,15 @@ body, .article {
 
 h1, .h1 {
   font-size: 3.375em;
-  line-height: 1.27777778em;
+  line-height: 1.1577778em;
   font-weight: bold;
+  letter-spacing: -0.04em;
 }
 
 h2, .h2 {
   font-size: 2.25em;
-  line-height: 1.4em;
-  letter-spacing: -0.03em;
+  line-height: 1.3em;
+  letter-spacing: -0.04em;
   font-weight: bold;
 }
 
@@ -11491,6 +11505,73 @@ sub {
 .std-btn:hover {
   background: #eb1f27;
   color: white;
+}
+
+.content-block {
+  padding: 10px 20px 0 0;
+}
+
+.content-block .text-content .content {
+  max-width: 600px;
+}
+
+.content-block .image img {
+  max-width: 100%;
+}
+
+.content-block h2, .content-block h3, .content-block .h2, .content-block .h3 {
+  line-height: 1.2;
+  margin-bottom: 18px;
+}
+
+.content-block .content-block {
+  margin: 60px 0;
+}
+
+.content-block p {
+  margin-bottom: 20px;
+}
+
+.product-slider {
+  padding: 100px 0;
+}
+
+.product-slider p {
+  padding: 10px 20px;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+}
+
+.product-image {
+  max-width: 300px;
+  padding: 20px 70px;
+}
+
+.header {
+  position: relative;
+}
+
+.header .header-text {
+  width: 800px;
+}
+
+.header h1 {
+  margin-bottom: 20px;
+}
+
+.header .image-container {
+  height: 100vh;
+  background: lightblue url("/static/hero.jpg") no-repeat fixed center;
+}
+
+.header .header-text {
+  padding: 40px;
+  color: white !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 header nav {
@@ -11638,10 +11719,6 @@ footer .bottom-nav a {
   margin-bottom: 40px;
 }
 
-#landing-page p {
-  margin-bottom: 20px;
-}
-
 #landing-page .h2 {
   margin-bottom: 60px !important;
   font-weight: normal;
@@ -11655,12 +11732,22 @@ footer .bottom-nav a {
   color: #eb1f27;
 }
 
-#landing-page .text-content .content {
-  max-width: 640px;
+.page-wrapper.customer-page .text-container {
+  position: relative;
 }
 
-#landing-page .content-block {
-  margin: 60px 0;
+.page-wrapper.customer-page .text-container .icon {
+  display: block;
+  margin: 30px auto;
+}
+
+.page-wrapper.customer-page .text-container .icon img {
+  max-width: 140px;
+  margin: 0 auto;
+}
+
+.page-wrapper.customer-page .content-block .text-content {
+  padding: 40px 0;
 }
 
 #real-estate-page.page-wrapper .header .image-container {
@@ -11688,60 +11775,19 @@ footer .bottom-nav a {
 }
 
 #fnb-page.page-wrapper .header .image-container {
-  height: 100vh;
   background-image: url("/static/fnb/fnb_hero.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-attachment: fixed;
+  background-clip: border-box;
+  background-color: #ccc;
 }
 
 #offices-page.page-wrapper .header .image-container {
   height: 100vh;
   background-image: url("/static/offices/offices_hero.jpg");
-}
-
-.container {
-  margin: 0 auto;
-  padding: 0 30px;
-}
-
-.primary-color, .highlight {
-  color: #eb1f27;
-}
-
-.header {
-  position: relative;
-}
-
-.header .image-container {
-  height: 100vh;
-  background: lightblue url("/static/hero.jpg") no-repeat fixed center;
-}
-
-.header .header-text {
-  padding: 40px;
-  color: white !important;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-.product-slider {
-  padding: 100px 0;
-}
-
-.product-slider p {
-  padding: 10px 20px;
-  font-size: 14px;
-  letter-spacing: -0.02em;
-}
-
-.product-image {
-  max-width: 300px;
-  padding: 20px 70px;
-}
-
-section {
-  padding: 30px 0;
 }
 
 @media (min-width: 640px){

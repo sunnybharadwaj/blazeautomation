@@ -1923,6 +1923,108 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {}
 });
@@ -2063,22 +2165,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {}
 });
@@ -2094,6 +2180,87 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2337,12 +2504,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {}
 });
@@ -2358,6 +2519,77 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -3926,32 +4158,266 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _c(
+      "div",
+      { staticClass: "page-wrapper customer-page", attrs: { id: "fnb-page" } },
+      [
+        _c(
+          "HeroComponent",
+          [
+            _c("template", { slot: "text" }, [
+              _c("div", { staticClass: "text-container" }, [
+                _c("h1", { staticClass: "h1" }, [
+                  _vm._v("IoTize your Enterprise")
+                ]),
+                _c("span", { staticClass: "icon" }, [
+                  _c("img", { attrs: { src: "/static/b1.png", alt: "" } })
+                ]),
+                _vm._v(" "),
+                _c("h2", [_vm._v("Guaranteed ROI in 6 months")])
+              ])
+            ])
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c("section", [
+          _c(
+            "div",
+            { staticClass: "container" },
+            [
+              _c(
+                "ContentComponent",
+                [
+                  _c("template", { slot: "text" }, [
+                    _c("h2", [
+                      _vm._v("Central Monitoring and Controlling Station")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Centralized Dashboard to monitor energy, security and occupancy of all your outlets on one screen. Real time monitoring, reporting and analysis of performance & usage vs preset budget. Dashboards can be customized to suit your business requirements."
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("template", { slot: "image" }, [
+                    _c("div", { staticClass: "max-w-xs mx-auto" }, [
+                      _c("img", {
+                        attrs: {
+                          src: "/static/fnb/central_monitoring_station.png",
+                          alt: ""
+                        }
+                      })
+                    ])
+                  ])
+                ],
+                2
+              )
+            ],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("section", [
+          _c(
+            "div",
+            { staticClass: "container" },
+            [
+              _c(
+                "ContentComponent",
+                [
+                  _c("template", { slot: "text" }, [
+                    _c("h2", [
+                      _vm._v(
+                        "A satisfied customer is likely to spend more time at your establishment. "
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Adaptive Intelligence platform monitors store occupancy as well as outside and inside temperature in order to determine optimum temperature ensuring customer comfort."
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("template", { slot: "image" }, [
+                    _c("div", { staticClass: "max-w-xs mx-auto" }, [
+                      _c("img", {
+                        attrs: {
+                          src: "/static/fnb/customer_comfort.png",
+                          alt: ""
+                        }
+                      })
+                    ])
+                  ])
+                ],
+                2
+              )
+            ],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("section", [
+          _c(
+            "div",
+            { staticClass: "container" },
+            [
+              _c(
+                "ContentComponent",
+                [
+                  _c("template", { slot: "text" }, [
+                    _c("h2", [
+                      _vm._v(
+                        "Food Refrigeration Monitoring and Regulatory Compliance"
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "To reduce food wastage and maintain food safety, our Food Refrigeration Monitoring sensors track real-time functioning of all refrigeration units and graph temperature fluctuations over time and allow for adjustments to be made in order to stay compliant with storage condition standards."
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("template", { slot: "image" }, [
+                    _c("div", { staticClass: "max-w-xs mx-auto" }, [
+                      _c("img", {
+                        attrs: {
+                          src: "/static/fnb/regulatorycompliance.png",
+                          alt: ""
+                        }
+                      })
+                    ])
+                  ])
+                ],
+                2
+              )
+            ],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("section", [
+          _c(
+            "div",
+            { staticClass: "container" },
+            [
+              _c(
+                "ContentComponent",
+                [
+                  _c("template", { slot: "text" }, [
+                    _c("h2", [
+                      _vm._v(
+                        "NILM (Non Intrusive Load Monitoring) for Load Detection and Optimization"
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Monitors running, standby and off loads in real-time. Through the power of AI (Artificial intelligence) and NILM,  Be Smart can help in preventive maintenance while achieving significant reduction in unplanned downtime and increase asset reliability by providing early detection and warning of issues, inefficiencies and errors. It sends an alert in case any equipment is malfunctioning or in need of preventive maintenance and/or servicing."
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("template", { slot: "image" }, [
+                    _c("div", { staticClass: "max-w-xs mx-auto" }, [
+                      _c("img", {
+                        attrs: { src: "/static/fnb/nilm.png", alt: "" }
+                      })
+                    ])
+                  ])
+                ],
+                2
+              )
+            ],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("section", [
+          _c(
+            "div",
+            { staticClass: "container" },
+            [
+              _c(
+                "ContentComponent",
+                [
+                  _c("template", { slot: "text" }, [
+                    _c("h2", [_vm._v("Safety and Security")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "By automating your enterprise using Be Smart solutions, you can know the exact time your outlet has been opened and closed, without having to depend entirely on the staff. Also, prevent theft with our security systems and reduce concerns related to cash register transactions. "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("template", { slot: "image" }, [
+                    _c("div", { staticClass: "max-w-xs mx-auto" }, [
+                      _c("img", {
+                        attrs: {
+                          src: "/static/fnb/safety_security.png",
+                          alt: ""
+                        }
+                      })
+                    ])
+                  ])
+                ],
+                2
+              )
+            ],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("section", [
+          _c(
+            "div",
+            { staticClass: "container" },
+            [
+              _c(
+                "ContentComponent",
+                [
+                  _c("template", { slot: "text" }, [
+                    _c("h2", [_vm._v("Energy Savings")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Inefficient energy management is expensive This reduces the loss of energy due to ‘leakage’ as well. An automated energy management system can optimize HVAC energy use without manager or staff involvement, reducing energy bills by 20%. "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("template", { slot: "image" }, [
+                    _c("div", { staticClass: "max-w-xs mx-auto" }, [
+                      _c("img", {
+                        attrs: {
+                          src: "/static/fnb/energy_savings.png",
+                          alt: ""
+                        }
+                      })
+                    ])
+                  ])
+                ],
+                2
+              )
+            ],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("ContactFormComponent"),
+        _vm._v(" "),
+        _c("SliderComponent")
+      ],
+      1
+    )
+  ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("div", { staticClass: "page-wrapper", attrs: { id: "fnb-page" } }, [
-        _c("div", { staticClass: "header" }, [
-          _c("div", { staticClass: "image-container" }),
-          _vm._v(" "),
-          _c("div", { staticClass: "hidden" }, [
-            _c("h2", [
-              _vm._v("All Things. Be One"),
-              _c("sup", [_vm._v("®")]),
-              _vm._v(".")
-            ]),
-            _vm._v(" "),
-            _c("h2", [_vm._v("Smart Automation Systems")])
-          ])
-        ])
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -4001,7 +4467,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("p", [
                       _vm._v(
-                        "Home automation offers control over every important system within a residence, such\n                            as\n                            electricity, lighting, HVAC, curtains, entertainment and security through a single,\n                            easy to\n                            use\n                            mobile app."
+                        "Home automation offers control over every important system within a residence, such as electricity, lighting, HVAC, curtains, entertainment and security, through a single, easy to use mobile app. B.One™’s affordable home automation makes your life more convenient, and your home safer."
                       )
                     ]),
                     _vm._v(" "),
@@ -4159,13 +4625,13 @@ var render = function() {
                 _c("template", { slot: "text" }, [
                   _c("p", [
                     _vm._v(
-                      "Automating your offices can make life easier. Temperature and lighting in offices has a\n                        demonstrable effect on your employees’ well-being and productivity. Well-lit and\n                        well-designed\n                        environments enhance your brand’s image and help you retain high-value employees."
+                      "Automating your offices can make work-life easier. Temperature and lighting in offices have a demonstrable effect on your employees' well-being and productivity. Well-lit and well-designed environments enhance your brand's image and help you retain high-value employees."
                     )
                   ]),
                   _vm._v(" "),
                   _c("p", [
                     _vm._v(
-                      "Land Security goals through Artificial Intelligence and Machine Learning. It helps IoTize\n                        offices\n                        and co-working spaces by delivering real time data about energy consumption, occupancy\n                        levels\n                        and security threats. Be Smart ensures an ROI of 6 months. "
+                      "Be Smart enables offices achieve their Energy Management, Automation and Security goals through Artificial Intelligence and Machine Learning. It helps IoTize offices and co-working spaces by delivering real time data about energy consumption, occupancy levels and security threats. Be Smart ensures an ROI within 6 months."
                     )
                   ]),
                   _vm._v(" "),
@@ -4216,12 +4682,12 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "desc" }, [
-      _c("div", { staticClass: "max-w-4xl" }, [
+      _c("div", { staticClass: "max-w-5xl" }, [
         _c("h2", { staticClass: "h1" }, [_vm._v("Enterprises")]),
         _vm._v(" "),
         _c("h3", { staticClass: "h2 mb-12" }, [
           _vm._v(
-            "Be Smart platform enables enterprises achieve their Energy Management, Automation and\n                        Security\n                        goals\n                        through Artificial Intelligence and Machine Learning. It delivers real time data about\n                        energy\n                        consumption, occupancy levels and security threats. This platform ensures an ROI of 6 months."
+            "Be Smart enables enterprises achieve their Energy Management, Automation and Security goals through Artificial Intelligence and Machine Learning. It helps IoTize businesses such as retail and F&B chains by delivering real time data about energy consumption, occupancy levels and security threats. Be Smart ensures an ROI within 6 months.\n                    "
           )
         ])
       ])
@@ -4249,36 +4715,192 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "div",
-        { staticClass: "page-wrapper", attrs: { id: "offices-page" } },
-        [
-          _c("div", { staticClass: "header" }, [
-            _c("div", { staticClass: "image-container" }),
-            _vm._v(" "),
-            _c("div", { staticClass: "hidden" }, [
-              _c("h2", [
-                _vm._v("All Things. Be One"),
-                _c("sup", [_vm._v("®")]),
-                _vm._v(".")
-              ]),
-              _vm._v(" "),
-              _c("h2", [_vm._v("Smart Automation Systems")])
+  return _c("div", [
+    _c(
+      "div",
+      {
+        staticClass: "page-wrapper customer-page",
+        attrs: { id: "offices-page" }
+      },
+      [
+        _c(
+          "HeroComponent",
+          [
+            _c("template", { slot: "text" }, [
+              _c("div", { staticClass: "text-container" }, [
+                _c("h1", { staticClass: "h1" }, [
+                  _vm._v("IoTize your Office Space")
+                ]),
+                _c("span", { staticClass: "icon" }, [
+                  _c("img", { attrs: { src: "/static/b1.png", alt: "" } })
+                ]),
+                _vm._v(" "),
+                _c("h2", [_vm._v("Guaranteed ROI in 6 months")])
+              ])
             ])
-          ])
-        ]
-      )
-    ])
-  }
-]
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c("section", [
+          _c(
+            "div",
+            { staticClass: "container" },
+            [
+              _c(
+                "ContentComponent",
+                [
+                  _c("template", { slot: "text" }, [
+                    _c("h2", [_vm._v("Employee Comfort")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Employees’ productivity can get affected if the temperature in the office is too hot or\n                            too cold. Ensure employee comfort by using our solutions to control the temperature."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Adaptive Intelligence monitors office occupancy as well as outside and inside temperature\n                            in order to determine optimum temperature ensuring employee comfort."
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("template", { slot: "image" }, [
+                    _c("div", { staticClass: "max-w-xs mx-auto" }, [
+                      _c("img", {
+                        attrs: {
+                          src: "/static/offices/employee_comfort.png",
+                          alt: ""
+                        }
+                      })
+                    ])
+                  ])
+                ],
+                2
+              )
+            ],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("section", [
+          _c(
+            "div",
+            { staticClass: "container" },
+            [
+              _c(
+                "ContentComponent",
+                [
+                  _c("template", { slot: "text" }, [
+                    _c("h2", [_vm._v("Conference Room Automation")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Conference rooms play an important role in any office be it for internal meetings with\n                            team members or external meetings with stakeholders, customers, etc. Automating your\n                            conference room gives you one touch control over lighting, air conditioning, projectors\n                            and much more, increasing efficiency while reducing energy costs. "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("template", { slot: "image" }, [
+                    _c("div", { staticClass: "max-w-xs mx-auto" }, [
+                      _c("img", {
+                        attrs: {
+                          src: "/static/offices/conference_room.png",
+                          alt: ""
+                        }
+                      })
+                    ])
+                  ])
+                ],
+                2
+              )
+            ],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("section", [
+          _c(
+            "div",
+            { staticClass: "container" },
+            [
+              _c(
+                "ContentComponent",
+                [
+                  _c("template", { slot: "text" }, [
+                    _c("h2", [_vm._v("Safety and Security")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Using our sensors, building security can be monitored from anywhere in the world. Be\n                            notified anytime there is any kind of security breach or concern even in the event of a\n                            power outage using 4G SIM and 4 hour built-in battery."
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("template", { slot: "image" }, [
+                    _c("div", { staticClass: "max-w-xs mx-auto" }, [
+                      _c("img", {
+                        attrs: {
+                          src: "/static/offices/safety_security.png",
+                          alt: ""
+                        }
+                      })
+                    ])
+                  ])
+                ],
+                2
+              )
+            ],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("section", [
+          _c(
+            "div",
+            { staticClass: "container" },
+            [
+              _c(
+                "ContentComponent",
+                [
+                  _c("template", { slot: "text" }, [
+                    _c("h2", [_vm._v("Energy Savings")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Automate your rooms, cafeterias and much more. Our cloud connected energy meter helps\n                            control and optimize energy usage, cutting energy costs by 20%. "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("template", { slot: "image" }, [
+                    _c("div", { staticClass: "max-w-xs mx-auto" }, [
+                      _c("img", {
+                        attrs: {
+                          src: "/static/offices/energy_savings.png",
+                          alt: ""
+                        }
+                      })
+                    ])
+                  ])
+                ],
+                2
+              )
+            ],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("SliderComponent"),
+        _vm._v(" "),
+        _c("ContactFormComponent")
+      ],
+      1
+    )
+  ])
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -4331,18 +4953,25 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "page-wrapper", attrs: { id: "real-estate-page" } },
+    {
+      staticClass: "page-wrapper customer-page",
+      attrs: { id: "real-estate-page" }
+    },
     [
       _c(
         "HeroComponent",
         [
           _c("template", { slot: "text" }, [
-            _c("h1", [_vm._v("Affordable Wireless Automation & Security")])
+            _c("div", { staticClass: "text-container" }, [
+              _c("h1", [_vm._v("Affordable Wireless Automation & Security")])
+            ])
           ])
         ],
         2
       ),
       _vm._v(" "),
+      _c("HeroComponent", [_c("template", { slot: "text" })], 2),
+      _vm._v(" "),
       _c("section", [
         _c(
           "div",
@@ -4352,28 +4981,29 @@ var render = function() {
               "ContentComponent",
               [
                 _c("template", { slot: "text" }, [
-                  _c("h3", [_vm._v("Residences")]),
-                  _vm._v(" "),
-                  _c("p", [
+                  _c("h2", [
                     _vm._v(
-                      "Home automation offers control over every important system within a residence, such\n                         as\n                         electricity, lighting, HVAC, curtains, entertainment and security through a single,\n                         easy to\n                         use\n                         mobile app."
+                      "Central Monitoring and Controlling Station for communities"
                     )
                   ]),
                   _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "std-btn",
-                      attrs: { href: "https://b1hub.com/", target: "_blank" }
-                    },
-                    [_vm._v("Learn more")]
-                  )
+                  _c("p", [
+                    _vm._v(
+                      "Centralized Dashboard to monitor energy, security and occupancy of all your outlets on one screen. Real time monitoring, reporting and analysis of performance & usage vs preset budget. Dashboards can be customized to suit your business requirements."
+                    )
+                  ])
                 ]),
                 _vm._v(" "),
                 _c("template", { slot: "image" }, [
-                  _c("img", {
-                    attrs: { src: "/static/residences.png", alt: "" }
-                  })
+                  _c("div", { staticClass: "max-w-xs mx-auto" }, [
+                    _c("img", {
+                      attrs: {
+                        src:
+                          "/static/realestate/central_monitoring_station.png",
+                        alt: ""
+                      }
+                    })
+                  ])
                 ])
               ],
               2
@@ -4392,28 +5022,24 @@ var render = function() {
               "ContentComponent",
               [
                 _c("template", { slot: "text" }, [
-                  _c("h3", [_vm._v("Residences")]),
+                  _c("h2", [_vm._v("Easy Installation")]),
                   _vm._v(" "),
                   _c("p", [
                     _vm._v(
-                      "Home automation offers control over every important system within a residence, such\n                         as\n                         electricity, lighting, HVAC, curtains, entertainment and security through a single,\n                         easy to\n                         use\n                         mobile app."
+                      "Easy, wireless installation that takes less than 3 hours. Works even in the event of a power outage using LTE and a 4 hour built-in power backup, making the entire process hassle free. "
                     )
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "std-btn",
-                      attrs: { href: "https://b1hub.com/", target: "_blank" }
-                    },
-                    [_vm._v("Learn more")]
-                  )
+                  ])
                 ]),
                 _vm._v(" "),
                 _c("template", { slot: "image" }, [
-                  _c("img", {
-                    attrs: { src: "/static/residences.png", alt: "" }
-                  })
+                  _c("div", { staticClass: "max-w-xs mx-auto" }, [
+                    _c("img", {
+                      attrs: {
+                        src: "/static/realestate/easy_installation.png",
+                        alt: ""
+                      }
+                    })
+                  ])
                 ])
               ],
               2
@@ -4432,28 +5058,24 @@ var render = function() {
               "ContentComponent",
               [
                 _c("template", { slot: "text" }, [
-                  _c("h3", [_vm._v("Residences")]),
+                  _c("h2", [_vm._v("Safety and Security")]),
                   _vm._v(" "),
                   _c("p", [
                     _vm._v(
-                      "Home automation offers control over every important system within a residence, such\n                         as\n                         electricity, lighting, HVAC, curtains, entertainment and security through a single,\n                         easy to\n                         use\n                         mobile app."
+                      "Artificial intelligence can be used to automate threat detection and perhaps more proactively alert us if something looks suspicious. No matter where you are, get real time alerts when there is any breach of security, ensuring maximum safety."
                     )
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "std-btn",
-                      attrs: { href: "https://b1hub.com/", target: "_blank" }
-                    },
-                    [_vm._v("Learn more")]
-                  )
+                  ])
                 ]),
                 _vm._v(" "),
                 _c("template", { slot: "image" }, [
-                  _c("img", {
-                    attrs: { src: "/static/residences.png", alt: "" }
-                  })
+                  _c("div", { staticClass: "max-w-xs mx-auto" }, [
+                    _c("img", {
+                      attrs: {
+                        src: "/static/realestate/safety_security.png",
+                        alt: ""
+                      }
+                    })
+                  ])
                 ])
               ],
               2
@@ -4472,28 +5094,24 @@ var render = function() {
               "ContentComponent",
               [
                 _c("template", { slot: "text" }, [
-                  _c("h3", [_vm._v("Residences")]),
+                  _c("h2", [_vm._v("Energy Savings")]),
                   _vm._v(" "),
                   _c("p", [
                     _vm._v(
-                      "Home automation offers control over every important system within a residence, such\n                         as\n                         electricity, lighting, HVAC, curtains, entertainment and security through a single,\n                         easy to\n                         use\n                         mobile app."
+                      "Energy savings leading to monetary savings, through planned use of connected appliances. Nearly 20% savings in electrical usage over time."
                     )
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "std-btn",
-                      attrs: { href: "https://b1hub.com/", target: "_blank" }
-                    },
-                    [_vm._v("Learn more")]
-                  )
+                  ])
                 ]),
                 _vm._v(" "),
                 _c("template", { slot: "image" }, [
-                  _c("img", {
-                    attrs: { src: "/static/residences.png", alt: "" }
-                  })
+                  _c("div", { staticClass: "max-w-xs mx-auto" }, [
+                    _c("img", {
+                      attrs: {
+                        src: "/static/realestate/energy_savings.png",
+                        alt: ""
+                      }
+                    })
+                  ])
                 ])
               ],
               2
@@ -4503,9 +5121,9 @@ var render = function() {
         )
       ]),
       _vm._v(" "),
-      _c("ContactForm"),
+      _c("SliderComponent"),
       _vm._v(" "),
-      _c("SliderComponent")
+      _c("ContactFormComponent")
     ],
     1
   )
@@ -4532,32 +5150,188 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _c(
+      "div",
+      {
+        staticClass: "page-wrapper customer-page",
+        attrs: { id: "retail-page" }
+      },
+      [
+        _c(
+          "HeroComponent",
+          [
+            _c("template", { slot: "text" }, [
+              _c("div", { staticClass: "text-container" }, [
+                _c("h1", { staticClass: "h1" }, [
+                  _vm._v("IoTize your Enterprise")
+                ]),
+                _c("span", { staticClass: "icon" }, [
+                  _c("img", { attrs: { src: "/static/b1.png", alt: "" } })
+                ]),
+                _vm._v(" "),
+                _c("h2", [_vm._v("Guaranteed ROI in 6 months")])
+              ])
+            ])
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c("section", [
+          _c(
+            "div",
+            { staticClass: "container" },
+            [
+              _c(
+                "ContentComponent",
+                [
+                  _c("template", { slot: "text" }, [
+                    _c("h2", [
+                      _vm._v("Central Monitoring and Controlling Station")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Centralized Dashboard to monitor energy, security and occupancy of all your outlets on one screen. Real time monitoring, reporting and analysis of performance & usage vs preset budget. Dashboards can be customized to suit your business requirements."
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("template", { slot: "image" }, [
+                    _c("div", { staticClass: "max-w-xs mx-auto" }, [
+                      _c("img", {
+                        attrs: {
+                          src: "/static/retail/central_monitoring_station.png",
+                          alt: ""
+                        }
+                      })
+                    ])
+                  ])
+                ],
+                2
+              )
+            ],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("section", [
+          _c(
+            "div",
+            { staticClass: "container" },
+            [
+              _c(
+                "ContentComponent",
+                [
+                  _c("template", { slot: "text" }, [
+                    _c("h2", [_vm._v("Customer Comfort")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Be Smart Adaptive Intelligence monitors store occupancy as well as outside and inside temperature in order to determine optimum temperature ensuring customer comfort. "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("template", { slot: "image" }, [
+                    _c("div", { staticClass: "max-w-xs mx-auto" }, [
+                      _c("img", {
+                        attrs: {
+                          src: "/static/retail/customer_comfort.png",
+                          alt: ""
+                        }
+                      })
+                    ])
+                  ])
+                ],
+                2
+              )
+            ],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("section", [
+          _c(
+            "div",
+            { staticClass: "container" },
+            [
+              _c(
+                "ContentComponent",
+                [
+                  _c("template", { slot: "text" }, [
+                    _c("h2", [_vm._v("Safety and Security")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Prevent theft by monitoring and  getting real time alerts when there is any breach of security. "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("template", { slot: "image" }, [
+                    _c("div", { staticClass: "max-w-xs mx-auto" }, [
+                      _c("img", {
+                        attrs: {
+                          src: "/static/retail/safety_security.png",
+                          alt: ""
+                        }
+                      })
+                    ])
+                  ])
+                ],
+                2
+              )
+            ],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("section", [
+          _c(
+            "div",
+            { staticClass: "container" },
+            [
+              _c(
+                "ContentComponent",
+                [
+                  _c("template", { slot: "text" }, [
+                    _c("h2", [_vm._v("Energy Savings")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Be Smart  monitors energy consumption in real-time and pushes a notification in case the budget is exceeded. Cloud connected energy meter helps control and optimize energy usage, reducing energy costs by 20%."
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("template", { slot: "image" }, [
+                    _c("div", { staticClass: "max-w-xs mx-auto" }, [
+                      _c("img", {
+                        attrs: {
+                          src: "/static/retail/energy_savings.png",
+                          alt: ""
+                        }
+                      })
+                    ])
+                  ])
+                ],
+                2
+              )
+            ],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("ContactFormComponent"),
+        _vm._v(" "),
+        _c("SliderComponent")
+      ],
+      1
+    )
+  ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("div", { staticClass: "page-wrapper", attrs: { id: "retail-page" } }, [
-        _c("div", { staticClass: "header" }, [
-          _c("div", { staticClass: "image-container" }),
-          _vm._v(" "),
-          _c("div", { staticClass: "hidden" }, [
-            _c("h2", [
-              _vm._v("All Things. Be One"),
-              _c("sup", [_vm._v("®")]),
-              _vm._v(".")
-            ]),
-            _vm._v(" "),
-            _c("h2", [_vm._v("Smart Automation Systems")])
-          ])
-        ])
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 

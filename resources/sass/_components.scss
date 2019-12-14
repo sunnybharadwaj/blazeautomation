@@ -17,3 +17,75 @@
 }
 
 
+.content-block {
+  padding: 10px 20px 0 0;
+  .text-content {
+    .content {
+      max-width: 600px;
+    }
+  }
+
+  .image {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  h2, h3, .h2, .h3 {
+    line-height: 1.2;
+    margin-bottom: 18px;
+  }
+
+  .content-block {
+    margin: 60px 0;
+
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+
+}
+
+.product-slider {
+  padding: 100px 0;
+  //h3 {
+  //  font-size: 24px;
+  //}
+  p {
+    padding: 10px 20px;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+
+  }
+}
+
+.product-image {
+  max-width: 300px;
+  padding: 20px 70px;
+}
+
+
+
+.header {
+  .header-text {
+    width: 800px;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  position: relative;
+  .image-container {
+    height: 100vh;
+    background: lightblue url("/static/hero.jpg") no-repeat fixed center;
+  }
+  .header-text {
+    padding: 40px;
+    color: white !important;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+}

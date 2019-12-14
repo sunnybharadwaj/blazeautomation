@@ -1,3 +1,27 @@
+.page-wrapper.customer-page {
+  .text-container {
+    position: relative;
+    .icon {
+      display: block;
+      margin:30px auto;
+      img {
+        max-width: 140px;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .content-block {
+    .text-content {
+
+      padding:40px 0;
+    }
+
+    }
+}
+
+
+
 #real-estate-page {
   &.page-wrapper .header .image-container {
     height: 100vh;
@@ -29,9 +53,17 @@
 
 #fnb-page {
   &.page-wrapper .header .image-container {
-    height: 100vh;
     background-image: url('/static/fnb/fnb_hero.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-color: #ccc;
   }
+
+
 }
 
 #offices-page {
@@ -39,4 +71,6 @@
     height: 100vh;
     background-image: url('/static/offices/offices_hero.jpg');
   }
+
+
 }
