@@ -2991,7 +2991,7 @@ __webpack_require__.r(__webpack_exports__);
       },
       flooddetector: {
         name: "Flood Detector",
-        imagepath: "/static/products/flooddetector.jpg",
+        imagepath: "/static/products/flooddetector.png",
         manualpath: "",
         desc: "B.One Flood Sensor alerts the connected Z-Wave Controller in times of Flood.",
         benefits: [],
@@ -2999,7 +2999,7 @@ __webpack_require__.r(__webpack_exports__);
       },
       motionsensor: {
         name: "Motion Sensor",
-        imagepath: "/static/products/motionsensor.jpg",
+        imagepath: "/static/products/motionsensor.png",
         manualpath: "/static/products/manuals/Motion_Sensor_UserManual.pdf",
         desc: "B.One Motion sensor is a Z-Wave based ultra low power consuming P.I.R motion detector. It communicates with an associated Z-Wave Controller / Gateway whenever there is a human motion in its vicinity",
         benefits: ["Z-Wave plus certified for wide compatibility ( 500 series )", "Supports S2 protected mode with AES-128 bit encryption.", "Upon tampering or detection of vibration / shock, the sensor reports to the connected Controller / Gateway automatically.", "Battery lasts for up to 1 year when operated for 10 times per day.", "Motion Sensor can even alert Controller / Gateway of low battery status.", "Supports OTA firmware updates."],
@@ -3015,7 +3015,7 @@ __webpack_require__.r(__webpack_exports__);
       },
       domesiren: {
         name: "Dome Siren",
-        imagepath: "/static/products/siren.jpg",
+        imagepath: "/static/products/siren.png",
         manualpath: "/static/products/manuals/Siren_UserManual.pdf",
         desc: "B.One’s Z-Wave based wireless dome siren with strobe light helps alert owners in case of a security breach or a safety concern.",
         benefits: ["Z-Wave plus certified for wide compatibility ( 500 series )", "Supports S2 protected mode with AES-128 bit encryption.", "Provides visual alerts via strobe lite.", "B.One dome siren also acts as a Z-Wave signal repeater.", "Supports OTA firmware updates."],
@@ -3023,7 +3023,7 @@ __webpack_require__.r(__webpack_exports__);
       },
       dimmer: {
         name: "Dimmer",
-        imagepath: "/static/products/dimmer.jpg"
+        imagepath: "/static/products/dimmer.png"
       },
       dualrelay: {
         name: "Dual Relay Switch",
