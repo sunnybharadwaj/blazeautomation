@@ -123,7 +123,18 @@ a.std-link {
   position: relative;
   .image-container {
     height: 100vh;
-    background: #010B15 url("/static/hero.jpg") no-repeat fixed center;
+    background: #010B15 url("/static/hero.jpg") no-repeat center;
+    @media (min-width: 600px) {
+background-attachment: scroll;
+    }
+    @media (min-width: 900px) {
+      background-attachment: fixed;
+    }
+    @media (min-width: 1200px) {
+
+      background: #010B15 url("/static/hero.jpg") no-repeat center;
+    }
+
 
   }
   .header-text {

@@ -8,8 +8,8 @@
                 <div class="swiper-slide product-block" v-for="product in products">
                     <a class="slider-link" :href="`/product/${product.id}`">
                         <div class="product-wrapper">
-                            <div class="product-image">
-                                <img :src="product.imagepath" alt="">
+                            <div class="product-image mx-auto">
+                                <img  :src="product.imagepath" alt="">
                             </div>
                             <h3 class="h4 text-center">{{product.name}}</h3>
                             <p class="text-center">{{product.desc}}</p>
@@ -158,7 +158,7 @@
                 flooddetector:
                     {
                         name: "Flood Detector",
-                        imagepath: "/static/products/flooddetector.jpg",
+                        imagepath: "/static/products/flooddetector.png",
                         manualpath: "",
                         desc: "B.One Flood Sensor alerts the connected Z-Wave Controller in times of Flood.",
                         benefits: [],
@@ -167,7 +167,7 @@
                 motionsensor:
                     {
                         name: "Motion Sensor",
-                        imagepath: "/static/products/motionsensor.jpg",
+                        imagepath: "/static/products/motionsensor.png",
                         manualpath: "/static/products/manuals/Motion_Sensor_UserManual.pdf",
                         desc: "B.One Motion sensor is a Z-Wave based ultra low power consuming P.I.R motion detector. It communicates with an associated Z-Wave Controller / Gateway whenever there is a human motion in its vicinity",
                         benefits: [
@@ -222,7 +222,7 @@
                 domesiren:
                     {
                         name: "Dome Siren",
-                        imagepath: "/static/products/siren.jpg",
+                        imagepath: "/static/products/siren.png",
                         manualpath: "/static/products/manuals/Siren_UserManual.pdf",
                         desc: "B.One’s Z-Wave based wireless dome siren with strobe light helps alert owners in case of a security breach or a safety concern.",
                         benefits: [
@@ -248,7 +248,7 @@
                 dimmer:
                     {
                         name: "Dimmer",
-                        imagepath: "/static/products/dimmer.jpg"
+                        imagepath: "/static/products/dimmer.png"
                     },
                 dualrelay:
                     {
@@ -379,7 +379,7 @@
         {
             id: 'flooddetector',
             name: "Flood Detector",
-            imagepath: "/static/products/flooddetector.jpg",
+            imagepath: "/static/products/flooddetector.png",
             manualpath: "",
             desc: "B.One Flood Sensor alerts the connected Z-Wave Controller in times of Flood.",
             benefits: [],
@@ -388,7 +388,7 @@
         {
             id: 'motionsensor',
             name: "Motion Sensor",
-            imagepath: "/static/products/motionsensor.jpg",
+            imagepath: "/static/products/motionsensor.png",
             manualpath: "/static/products/manuals/Motion_Sensor_UserManual.pdf",
             desc: "B.One Motion sensor is a Z-Wave based ultra low power consuming P.I.R motion detector. It communicates with an associated Z-Wave Controller / Gateway whenever there is a human motion in its vicinity",
             benefits: [
@@ -443,7 +443,7 @@
         {
             id: 'domesiren',
             name: "Dome Siren",
-            imagepath: "/static/products/siren.jpg",
+            imagepath: "/static/products/siren.png",
             manualpath: "/static/products/manuals/Siren_UserManual.pdf",
             desc: "B.One’s Z-Wave based wireless dome siren with strobe light helps alert owners in case of a security breach or a safety concern.",
             benefits: [
@@ -469,7 +469,7 @@
         {
             id: 'dimmer',
             name: "Dimmer",
-            imagepath: "/static/products/dimmer.jpg"
+            imagepath: "/static/products/dimmer.png"
         },
         {
             id: 'dualrelay',
