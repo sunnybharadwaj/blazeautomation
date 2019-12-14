@@ -25,9 +25,9 @@
             <div class="brand">
                 <img src="/static/logo.png" alt="">
             </div>
-            <a href="/news" class="footer-link">Privacy Policy</a>
-            <a href="/news" class="footer-link">Copyright Dispute Policy</a>
-            <a href="/news" class="footer-link">Terms of Use</a>
+            <a href="/privacy-policy" class="footer-link">Privacy Policy</a>
+            <a href="/copyright-dispute-policy" class="footer-link">Copyright Dispute Policy</a>
+            <a href="/terms-of-use" class="footer-link">Terms of Use</a>
         </div>
 
         <div class="mobile-footer">

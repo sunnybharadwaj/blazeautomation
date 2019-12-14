@@ -9,6 +9,9 @@ import AboutPage from './components/pages/AboutComponent'
 import ContactPage from './components/pages/ContactUsComponent'
 import ProductDetailPage from './components/pages/ProductDetailComponent'
 import NewsPage from './components/pages/NewsComponent'
+import CopyrightPage from './components/pages/CopyrightComponent'
+import TermsPage from './components/pages/TermsComponent'
+import PrivacyPage from './components/pages/PrivacyComponent'
 
 let routes = [
     {
@@ -49,6 +52,18 @@ let routes = [
         props: true,
         name: 'Product'
     },
+    {
+        path:'/copyright-dispute-policy',
+        component: CopyrightPage
+    },
+    {
+        path:'/terms-of-use',
+        component: TermsPage
+    },
+    {
+        path:'/privacy-policy',
+        component: PrivacyPage
+    }
 ];
 
 const router = new VueRouter({
