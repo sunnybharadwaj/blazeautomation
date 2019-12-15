@@ -40,8 +40,8 @@
 
 
 
-<script defer async src="/js/jquery.min.js"></script>
-<script defer async src="{{asset('/js/app.js')}}"></script>
-<script defer async src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="{{asset('/js/app.js')}}"></script>
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 </body>
 </html>
