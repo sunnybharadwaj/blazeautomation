@@ -9,7 +9,7 @@
   background: $primary;
   color: white;
   border: 3px solid $primary;
-  transition:all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 
   &:hover {
     color: $black;
@@ -33,11 +33,10 @@ a.std-link {
 .content-block {
   .flex {
     flex-direction: column-reverse;
-    .image,.content {
+    .image, .content {
       margin-bottom: 20px;
     }
   }
-
 
   @media (min-width: 600px) {
 
@@ -77,16 +76,12 @@ a.std-link {
     margin-bottom: 20px;
   }
 
-
 }
-
 
 .product-image {
   max-width: 300px;
   padding: 20px 70px;
 }
-
-
 
 .header {
   margin-bottom: 60px;
@@ -94,7 +89,7 @@ a.std-link {
     width: 100% !important;
     h1 {
       width: 280px;
-      margin:0 auto 20px;
+      margin: 0 auto 20px;
     }
     h2 {
       max-width: 700px;
@@ -103,7 +98,7 @@ a.std-link {
     @media (min-width: 600px) {
       h1 {
         width: 320px;
-        margin:0 auto 20px;
+        margin: 0 auto 20px;
       }
     }
     @media (min-width: 900px) {
@@ -112,7 +107,6 @@ a.std-link {
       }
     }
     @media (min-width: 1200px) {
-
 
     }
 
@@ -125,7 +119,7 @@ a.std-link {
     height: 100vh;
     background: #010B15 url("/static/hero.jpg") no-repeat center;
     @media (min-width: 600px) {
-background-attachment: scroll;
+      background-attachment: scroll;
     }
     @media (min-width: 900px) {
       background-attachment: fixed;
@@ -135,32 +129,34 @@ background-attachment: scroll;
       background: #010B15 url("/static/hero.jpg") no-repeat center;
     }
 
-
   }
   .header-text {
     opacity: 0.9;
     padding: 40px;
     color: white !important;
-    position:absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
   }
 }
 
 .product-slider {
-  .swiper-button-next, .swiper-button-prev {
-    color: $primary {
-      padding: 20px;
-      transform: scale(1.2);
-    }
+  .bsmart {
+    max-width: 100px;
+    margin: 0 auto 20px;
   }
-  padding: 60px 10px;
+  .swiper-button-next, .swiper-button-prev {
+    color: $primary;
+    padding: 60px 20px;
+    transform: scale(1.2);
+  }
+  padding: 60px 10px 30px;
   background: $gradient;
   color: white !important;
   .swiper-slide {
     transition: all 0.1s ease-in-out;
-    .slider-link{
+    .slider-link {
       height: 100%;
     }
     &:hover {
@@ -168,10 +164,10 @@ background-attachment: scroll;
     }
   }
   p {
-    padding: 10px 20px;
+    padding: 10px 30px;
     font-size: 14px;
     letter-spacing: -0.02em;
-    margin-bottom:30px;
+    margin-bottom: 30px;
   }
 }
 
@@ -189,7 +185,7 @@ background-attachment: scroll;
 }
 
 label {
-  display:block;
+  display: block;
   font-size: 18px;
   font-weight: bold;
   letter-spacing: -0.03em;
@@ -205,32 +201,32 @@ input {
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
   outline: 0;
-  -webkit-tap-highlight-color: rgba(255,255,255,0);
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   text-align: left;
   line-height: 1.21428571em;
-  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
   padding: .67857143em 1em;
   background: #fff;
-  border: 1px solid rgba(34,36,38,.15);
-  color: rgba(0,0,0,.87);
+  border: 1px solid rgba(34, 36, 38, .15);
+  color: rgba(0, 0, 0, .87);
   border-radius: .28571429rem;
-  -webkit-transition: border-color .1s ease,-webkit-box-shadow .1s ease;
-  transition: border-color .1s ease,-webkit-box-shadow .1s ease;
-  transition: box-shadow .1s ease,border-color .1s ease;
-  transition: box-shadow .1s ease,border-color .1s ease,-webkit-box-shadow .1s ease;
+  -webkit-transition: border-color .1s ease, -webkit-box-shadow .1s ease;
+  transition: border-color .1s ease, -webkit-box-shadow .1s ease;
+  transition: box-shadow .1s ease, border-color .1s ease;
+  transition: box-shadow .1s ease, border-color .1s ease, -webkit-box-shadow .1s ease;
   -webkit-box-shadow: none;
   box-shadow: none;
   &:active {
-    border-color: rgba(0,0,0,.3);
+    border-color: rgba(0, 0, 0, .3);
     background: #fafafa;
-    color: rgba(0,0,0,.87);
+    color: rgba(0, 0, 0, .87);
     -webkit-box-shadow: none;
     box-shadow: none;
   }
   &:focus {
     border-color: #85b7d9;
     background: #fff;
-    color: rgba(0,0,0,.8);
+    color: rgba(0, 0, 0, .8);
     -webkit-box-shadow: none;
     box-shadow: none;
   }
@@ -247,9 +243,9 @@ select {
   -webkit-box-shadow: 0 0 0 0 transparent inset;
   box-shadow: 0 0 0 0 transparent inset;
   padding: .62em 1em;
-  color: rgba(0,0,0,.87);
-  -webkit-transition: color .1s ease,border-color .1s ease;
-  transition: color .1s ease,border-color .1s ease;
+  color: rgba(0, 0, 0, .87);
+  -webkit-transition: color .1s ease, border-color .1s ease;
+  transition: color .1s ease, border-color .1s ease;
   -webkit-writing-mode: horizontal-tb !important;
   text-rendering: auto;
   letter-spacing: normal;
@@ -277,17 +273,17 @@ textarea {
   width: 100%;
   margin: 0;
   -webkit-appearance: none;
-  tap-highlight-color: rgba(255,255,255,0);
+  tap-highlight-color: rgba(255, 255, 255, 0);
   padding: .78571429em 1em;
   background: #fff;
-  border: 1px solid rgba(34,36,38,.15);
+  border: 1px solid rgba(34, 36, 38, .15);
   outline: 0;
-  color: rgba(0,0,0,.87);
+  color: rgba(0, 0, 0, .87);
   border-radius: .28571429rem;
   -webkit-box-shadow: 0 0 0 0 transparent inset;
   box-shadow: 0 0 0 0 transparent inset;
-  -webkit-transition: color .1s ease,border-color .1s ease;
-  transition: color .1s ease,border-color .1s ease;
+  -webkit-transition: color .1s ease, border-color .1s ease;
+  transition: color .1s ease, border-color .1s ease;
   font-size: 1em;
   line-height: 1.2857;
   resize: vertical;
@@ -308,7 +304,6 @@ textarea {
   .container {
     padding: 20px 20px;
   }
-
 
   z-index: 1002;
   position: fixed;

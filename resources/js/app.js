@@ -44,7 +44,6 @@ $(document).ready(function() {
         // direction: 'vertical',
         loop: true,
 
-        // If we need pagination
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
@@ -54,23 +53,23 @@ $(document).ready(function() {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
         breakpoints: {
             640: {
                 slidesPerView: 1,
                 spaceBetween: 0,
             },
             768: {
-                slidesPerView: 3,
+                slidesPerView: 2,
                 spaceBetween: 0,
             },
             1024: {
-                slidesPerView: 4,
+                slidesPerView: 3,
                 spaceBetween: 0,
             },
+            1200: {
+                slidesPerView: 4,
+                spaceBetween: 0,
+            }
         },
 
         // And if we need scrollbar

@@ -14,7 +14,7 @@
                     <h2 class="h1 primary-color">Home Automation</h2>
                     <div class="desc font-bold max-w-5xl">
                         <h3 class="h2">
-                            B.One®’s affordable home automation makes your life more convenient and your home safer.
+                            B.One<sup>®</sup> ’s affordable home automation makes your life more convenient and your home safer.
                         </h3>
 
                     </div>
@@ -57,7 +57,7 @@
         <section id="enterprises">
             <div class="container">
                 <div class="desc">
-                    <div class="max-w-5xl">
+                    <div class="max-w-4xl">
                         <h2 class="h1">Enterprises</h2>
                         <h3 class="h2 mb-12">Be Smart enables enterprises achieve their Energy Management, Automation and Security goals through Artificial Intelligence and Machine Learning. It helps IoTize businesses such as retail and F&B chains by delivering real time data about energy consumption, occupancy levels and security threats. Be Smart ensures an ROI within 6 months.
                         </h3>

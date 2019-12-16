@@ -14,14 +14,43 @@
 
 //Contact page
 #contact-page {
-  letter-spacing: -0.02em;
 
+
+  letter-spacing: -0.02em;
+  #email {
+    padding-bottom: 0 !important;
+    h2.email-cta {
+      margin-bottom: 0;
+      font-size:20px;
+      .highlight {
+        font-size:20px;
+      }
+      @media (min-width: 600px) {
+      }
+      @media (min-width: 900px) {
+        font-size:32px;
+        .highlight {
+          font-size:32px;
+        }
+      }
+      @media (min-width: 1200px) {
+
+      }
+    }
+
+  }
   .contact {
     .item {
       margin-bottom: 10px;
       font-weight: bold;
     }
+
+
+
+
   }
+
+
   #offices {
     h2.loud {
       font-size: 24px;
@@ -43,14 +72,20 @@
 #product-detail-page {
   .product-container {
     padding: 40px 0;
-    .product-image {
+    .product-img {
+      .wrapper {
+        padding: 30px 10px;
+        margin-right: 10px;
+        background: $gradient;
+      }
+
       img {
         max-width: 100%;
       }
     }
 
     .product-details {
-      padding: 40px 20px;
+      padding: 40px 30px;
 
     }
 
@@ -62,6 +97,7 @@
     }
 
   }
+
 
 
 }

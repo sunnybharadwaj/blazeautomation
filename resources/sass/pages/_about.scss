@@ -34,6 +34,9 @@
   .team-list {
     .team-member {
       margin-bottom: 60px;
+      .heading h4 {
+        margin-top: 0;
+      }
       &:last-of-type {
         margin-bottom: 0;
       }

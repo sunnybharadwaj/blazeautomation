@@ -6,25 +6,31 @@
   .h1 {
     margin-bottom: 40px;
   }
-
   #enterprises h3.h2 {
-    font-size: 20px;
+    font-size: 20px ;
     line-height: 1.5;
   }
-  @media (min-width: 600px) {
 
+  @media (min-width: 600px) {
+    #enterprises h3.h2 {
+      font-size: 20px;
+      line-height: 1.5;
+    }
   }
   @media (min-width: 900px) {
-
+    #enterprises h3.h2 {
+      font-size: 24px;
+      line-height: 1.5;
+    }
   }
   @media (min-width: 1200px) {
-
+    #enterprises h3.h2 {
+      font-size: 24px;
+      line-height: 1.5;
+    }
   }
 
   .h2 {
-
-
-
     margin-bottom: 60px !important;
     &.content-block {
 

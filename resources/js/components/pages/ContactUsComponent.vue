@@ -1,12 +1,11 @@
 <template>
     <div id="contact-page">
-
         <div class="nav-bg"></div>
         <section id="offices">
             <div class="container">
                 <h2 class="loud highlight ">Our offices</h2>
                 <div class="flex flex-wrap">
-                    <div class="flex-wrapper w-full md:1/2 lg:1/4">
+                    <div class="flex-wrapper w-full md:w-1/2 xl:w-1/4">
                         <div class="address">
                             <div class="heading">
                                 <h3>Experience Center</h3>
@@ -34,7 +33,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex-wrapper w-full md:1/2 lg:1/4">
+                    <div class="flex-wrapper w-full md:w-1/2 xl:w-1/4">
                         <div class="address">
                             <div class="heading">
                                 <h3>R&D Center</h3>
@@ -61,7 +60,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex-wrapper w-full md:1/2 lg:1/4">
+                    <div class="flex-wrapper w-full md:w-1/2 xl:w-1/4">
                         <div class="address">
                             <div class="heading">
                                 <h3>Blaze Automation Inc</h3>
@@ -88,7 +87,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex-wrapper w-full md:1/2 lg:1/4">
+                    <div class="flex-wrapper w-full md:w-1/2 xl:w-1/4">
                         <div class="address">
                             <div class="heading">
                                 <h3>Australia Office</h3>
@@ -125,7 +124,7 @@
         <section id="email" class="text-center py-12">
             <div class="max-w-4xl mx-auto">
                 <div class="container">
-                    <h2>
+                    <h2 class="email-cta">
                         If you'd like to write to us, please reach us at <br/><span class="highlight">support@blazeautomation.com</span>
                     </h2>
                 </div>
