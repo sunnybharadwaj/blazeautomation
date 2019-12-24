@@ -40,7 +40,7 @@
             <div class="footer-nav-section flex flex-wrap">
                 <div class="footer-nav-section">
                     <a href="/about-us" class="footer-nav-link">About</a>
-                    <a href="/news" class="footer-nav-link">Press</a>
+                    <a href="/news" class="footer-nav-link">News</a>
                     <a href="/contact-us" class="footer-nav-link">Contact Us</a>
                 </div>
                 <div class="footer-nav-section">

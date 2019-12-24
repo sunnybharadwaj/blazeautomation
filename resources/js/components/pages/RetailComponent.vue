@@ -83,6 +83,7 @@
             </section>
             <section id="clients ">
                 <div class="py-12">
+                    <h3 class="loud text-center primary-color mb-12">Clients</h3>
                     <div class="container ">
                         <div class="max-w-xl mx-auto">
                             <img class="mx-auto" src="/static/retail/clients.png" alt="">

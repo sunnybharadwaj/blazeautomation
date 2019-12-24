@@ -4,21 +4,20 @@
 
         </div>
 
-        <section id="intro">
+        <section id="intro mt-5">
             <div class="container">
                 <div class="flex flex-wrap">
-                    <div class="w-full lg:w-8/12 flex-container">
-                        <h1 class="highlight mt-10 mb-4 loud h5">About us</h1>
+                    <div class="w-full lg:w-8/12 py-10 lg:pr-8 flex-container">
                         <div class="max-w-3xl">
                             <h3 class="h4 mb-4">Blaze Automation is an IoT ( Internet of Things ) company with its offices
                                 in New Jersey, USA and Hyderabad,
                                 India. Blaze has been building Home Automation and Security products for last 8
                                 years. </h3>
                             <h4 class="h5 font-normal">Blaze has invested
-                                the last three years in research and development of B.One <sup class="r">®</sup> Hub and AI based IoT
+                                the last three years in research and development of B.One<sup class="r">®</sup> Hub and AI based IoT
                                 analytics platform, B.One
                                 Hub is a truly intelligent device that is powerful, intuitive, easy-to-use and future
-                                ready. B.One® is a
+                                ready. B.One<sup class="r">®</sup> is a
                                 Smart Intelligent Home Automation and Security System that makes your lives more
                                 efficient and secure.</h4>
                         </div>
@@ -41,13 +40,13 @@
                     <div class="team-member">
                         <div class="flex flex-wrap">
                             <div class="image w-full md:w-4/12">
-                                <img class="mx-auto" src="/static/team/arjun_valluri.jpg" alt="">
-                            </div>
-                            <div class="text w-full md:w-8/12">
                                 <div class="heading">
                                     <h3>BHEEMUDU</h3>
                                     <h4 class="loud highlight">MANAGING DIRECTOR</h4>
                                 </div>
+                            </div>
+                            <div class="text w-full md:w-8/12">
+
                                 <div class="Description">
                                     <div class="max-w-xl">
                                         <p>Bheemudu is the managing Director of Blaze Automation India business and leads the vision and mission of the company. He is a successful entrepreneur and runs Spark group of companies.</p>
@@ -62,13 +61,12 @@
                     <div class="team-member">
                         <div class="flex flex-wrap">
                             <div class="image w-full md:w-4/12">
-                                <img class="mx-auto" src="/static/team/dr_dave_irvine.jpg" alt="">
-                            </div>
-                            <div class="text w-full md:w-8/12">
                                 <div class="heading">
                                     <h3>SOBHAN</h3>
                                     <h4 class="loud highlight">CHIEF EXECUTIVE OFFICER</h4>
                                 </div>
+                            </div>
+                            <div class="text w-full md:w-8/12">
                                 <div class="Description">
                                     <div class="max-w-xl">
                                         <p>Sobhan is the CEO of Blaze Automation India Business and spearheads Strategy, Alliances & Partnerships Operations and IT services.</p>
@@ -82,12 +80,11 @@
                     </div>
                     <div class="team-member">
                         <div class="flex flex-wrap">
-
+                            <div class="heading">
+                                <h3>AJIT</h3>
+                                <h4 class="loud highlight">MARKETING & <br/>SALES DIRECTOR</h4>
+                            </div>
                             <div class="text w-full md:w-8/12 mx-auto">
-                                <div class="heading">
-                                    <h3>AJIT</h3>
-                                    <h4 class="loud highlight">MARKETING & SALES DIRECTOR</h4>
-                                </div>
                                 <div class="Description">
                                     <div class="max-w-xl">
                                         <p>Ajit is Marketing & Sales director. He has over 24 years of experience in Education, IT, and Office Automation sector. Ajit has worked extensively across different functional areas spanning across Sales and marketing.</p>

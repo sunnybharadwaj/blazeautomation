@@ -24,28 +24,38 @@
 
                         <div v-if="thisProduct.benefits.length">
                             <h4 class="highlight-heading">KEY BENEFITS</h4>
-                            <div v-for="benefit in thisProduct.benefits">
+                            <div v-for="(benefit,key) in thisProduct.benefits">
                                 <ul>
-                                    <li class="benefit point"><p>{{benefit}}</p></li>
-                                </ul>
-                            </div>
-                        </div>
-
-
-                        <div v-if="thisProduct.tech.length">
-                            <h4 class="highlight-heading">TECHNICAL SPECIFICATIONS</h4>
-                            <div v-for="tech in thisProduct.tech">
-                                <ul>
-                                    <li class="point"><p>{{tech}}</p></li>
+                                    <li class="benefit point" >
+                                        <div class="flex">
+                                            <span>{{key+1}}</span>.&nbsp;&nbsp;<span>{{benefit}}</span>
+                                        </div>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
+
+
+
                 </div>
 
             </div>
         </div>
 
+        <div class="tech-specs" v-if="thisProduct.tech.length">
+            <div class="container">
+                <div >
+                    <h4 class="loud mb-6">TECHNICAL SPECIFICATIONS</h4>
+                    <div v-for="tech in thisProduct.tech">
+                        <ul>
+                            <li class="point"><p>{{tech}}</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
 
         <SliderComponent></SliderComponent>

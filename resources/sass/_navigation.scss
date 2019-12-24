@@ -137,7 +137,7 @@ nav {
     position: fixed;
     z-index: 1005;
     height: 100vh;
-    overflow: scroll-y;
+    overflow: scroll;
     width: 100%;
     background: $gradient;
     left: 0;
@@ -192,7 +192,6 @@ nav {
       font-size: 14px;
     }
   }
-
 }
 
 
@@ -200,7 +199,7 @@ nav {
 
 //Footer
 footer {
-  background: #444444;
+  background: $gray;
   color: $white;
   padding: 60px 0 20px;
 

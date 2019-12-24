@@ -4,7 +4,7 @@
             <HeroComponent>
                 <template slot="text">
                     <div class="text-container">
-                        <h1 class="h1">IoTize your Office Space</h1><span class="icon"><img src="/static/b1.png" alt=""></span>
+                        <h1 class="h1">IoTize your Office with </h1><span class="icon"><img src="/static/b1.png" alt=""></span>
                         <h2>Guaranteed ROI in 6 months</h2>
                     </div>
                 </template>

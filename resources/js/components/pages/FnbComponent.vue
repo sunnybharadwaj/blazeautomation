@@ -98,7 +98,7 @@
                     <ContentComponent>
                         <template slot="text">
                             <h2>Energy Savings</h2>
-                            <p>Inefficient energy management is expensive This reduces the loss of energy due to ‘leakage’ as well. An automated energy management system can optimize HVAC energy use without manager or staff involvement, reducing energy bills by 20%. </p>
+                            <p>Inefficient energy management is expensive. This reduces the loss of energy due to ‘leakage’ as well. An automated energy management system can optimize HVAC energy use without manager or staff involvement, reducing energy bills by 20%. </p>
                         </template>
 
                         <template slot="image">

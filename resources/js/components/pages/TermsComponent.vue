@@ -165,7 +165,7 @@
         </div>
     </div>
 </template>
-<style>
+<style scoped>
     h1 {
         margin-bottom: 36px;
     }

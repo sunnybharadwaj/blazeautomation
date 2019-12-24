@@ -80,6 +80,7 @@
             </div>
         </section>
         <section id="clients">
+            <h3 class="loud text-center primary-color mb-12">Clients</h3>
             <div class="container">
                 <img class="mx-auto" src="/static/realestate/clients.png" alt="">
             </div>

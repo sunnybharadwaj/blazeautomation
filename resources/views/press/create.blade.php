@@ -9,8 +9,6 @@
     @csrf
     <div class="field">
         <input id="image" class="file-input" type="file" name="imagepath" value="{{old('imagepath')}}">
-
-
     </div>
     <div class="field">
         <textarea name="headline" type="text"></textarea>

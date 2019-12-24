@@ -5,7 +5,7 @@
             <div class="max-w-2xl mx-auto">
                 <div class="max-w-xs mx-auto">
                     <!--<img class="bsmart" src="/static/b1.png" alt="">-->
-                    <h2 class="loud primary-color text-center">OUR PRODUCTS</h2>
+                    <h2 class="loud primary-color text-center mb-6">OUR PRODUCTS</h2>
                 </div>
                 <h3 class="h4 text-center mb-4">Automate your homes, offices and enterprises with Be Smart extensive range of products.</h3>
             </div>
@@ -34,7 +34,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
     .swiper-slide {
         min-height: 300px;
     }

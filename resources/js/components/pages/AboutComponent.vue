@@ -7,8 +7,7 @@
         <section id="intro">
             <div class="container">
                 <div class="flex flex-wrap">
-                    <div class="w-full lg:w-8/12 flex-container">
-                        <h1 class="highlight mt-10 mb-4 loud h5">About us</h1>
+                    <div class="w-full lg:w-8/12 py-10 lg:pr-8 flex-container">
                         <div class="max-w-3xl">
                             <h3 class="h4 mb-4">Blaze Automation is an IoT ( Internet of Things ) company with its offices
                                 in New Jersey, USA and Hyderabad,

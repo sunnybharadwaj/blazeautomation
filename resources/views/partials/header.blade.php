@@ -14,14 +14,14 @@
                     <img class="mx-auto" src="/static/logo.png" alt="">
                 </a>
                 <div class="nav-link-group">
-                    <div class="link-head">Homes</div>
+                    {{--<div class="link-head">Homes</div>--}}
                     <div class="">
                         <a href="https://b1hub.com/" target="_blank" class="link">Residences</a>
                         <a href="/real-estate-developers" class="link">Real Estate Developers</a>
                     </div>
                 </div>
                 <div class="nav-link-group">
-                    <div class="link-head">Enterprises</div>
+                    {{--<div class="link-head">Enterprises</div>--}}
                     <div class="">
                         <a href="/f-and-b" class="link">Food & Beverages</a>
                         <a href="/retail" class="link">Retail</a>
@@ -31,7 +31,7 @@
                     <a href="/office" class="link">Offices</a>
                 </div>
                 <div class="nav-link">
-                    <a href="https://b1hub.com/syncswith.html" target="_blank" class="link">Syncs With</a>
+                    <a href="https://b1hub.com/syncswith.html" target="_blank" class="link">Syncs With<sup class="r">®</sup></a>
                 </div>
 
                 <div class="nav-link">
