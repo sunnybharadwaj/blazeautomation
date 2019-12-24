@@ -26,7 +26,7 @@ class PressController extends Controller
         $image_path = $image_upload->store('press/logos', ['disk' => 'public']);
         $data->imagepath = $image_path;
         PressPost::create((array)$data);
-        return redirect('/api/press');
+        return redirect('/admin/press');
 
     }
 
