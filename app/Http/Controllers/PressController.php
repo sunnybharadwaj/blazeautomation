@@ -10,7 +10,8 @@ class PressController extends Controller
 
     public function index()
     {
-        return view('press.index');
+        $data = PressPost::all();
+        return view('press.index', compact('data'));
     }
 
     public function create()
@@ -47,6 +48,6 @@ class PressController extends Controller
     public function destroy($id)
     {
         PressPost::find($id)->delete();
-        return redirect('press.create');
+        return redirect('admin/press/');
     }
 }

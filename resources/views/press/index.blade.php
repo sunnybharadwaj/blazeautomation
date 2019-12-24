@@ -1,3 +1,19 @@
+<ul>
+@foreach($data as $post)
+
+        <li type="disc">
+            <img src="/storage/{{$post->imagepath}}" alt="">
+            <form action="/admin/press/{{$post->id}}" method="POST">
+                @csrf
+                {{method_field('DELETE')}}
+                <button type="submit">Delete</button>
+            </form>
+
+        </li>
+
+@endforeach
+</ul>
+
 
 <a href="/admin/press/create">Add new</a>
 
