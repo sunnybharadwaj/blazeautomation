@@ -80,9 +80,11 @@
                     </div>
                     <div class="team-member">
                         <div class="flex flex-wrap">
+                            <div class="image w-full md:w-4/12">
                             <div class="heading">
                                 <h3>AJIT</h3>
                                 <h4 class="loud highlight">MARKETING & <br/>SALES DIRECTOR</h4>
+                            </div>
                             </div>
                             <div class="text w-full md:w-8/12 mx-auto">
                                 <div class="Description">
