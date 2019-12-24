@@ -19,6 +19,7 @@
     <router-view></router-view>
 
 
+
     @if (session()->has('message'))
 
         <div id="success-msg">

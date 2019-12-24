@@ -2,6 +2,9 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 @import "~swiper/css/swiper.min.css";
+@import "~semantic-ui-form/form.min.css";
+@import "~semantic-ui-dropdown/dropdown.min.css";
+@import "~semantic-ui-message/message.min.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
 @import "variables";
@@ -13,8 +16,43 @@
 
 
 
+.r {
+  display: inline-block;
+  transform: scale(0.7);
+}
 
 
+#india-notification {
 
+
+  p {
+    margin: 0;
+  }
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  color: $white;
+  background: $gradient;
+  text-align: center;
+  padding: 20px 20px;
+  z-index: 15000;
+  border-top: 3px solid $primary;
+}
+
+.close-btn {
+  font-size: 12px;
+  position: absolute;
+  right: 20px;
+  top: 3px;
+  bottom: 0;
+  padding: 20px;
+  color: white;
+  opacity: 0.5;
+  &:hover {
+    cursor: pointer;
+    opacity: 1;
+  }
+}
 
 

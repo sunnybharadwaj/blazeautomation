@@ -15,10 +15,10 @@
                                 India. Blaze has been building Home Automation and Security products for last 8
                                 years. </h3>
                             <h4 class="h5 font-normal">Blaze has invested
-                                the last three years in research and development of B.One <sup class="r">®</sup> Hub and AI based IoT
+                                the last three years in research and development of B.One<sup class="r">®</sup> Hub and AI based IoT
                                 analytics platform, B.One
                                 Hub is a truly intelligent device that is powerful, intuitive, easy-to-use and future
-                                ready. B.One® is a
+                                ready. B.One<sup class="r">®</sup> is a
                                 Smart Intelligent Home Automation and Security System that makes your lives more
                                 efficient and secure.</h4>
                         </div>

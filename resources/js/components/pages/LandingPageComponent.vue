@@ -8,11 +8,14 @@
             </template>
         </HeroComponent>
 
+        <!--<div :v-if="this.data.iso === 'IN'">{{this.data.iso}}</div>-->
+
         <section id="homes">
             <div class="container">
                 <div class="desc">
                     <h2 class="h1 primary-color">Home Automation</h2>
                     <div class="desc max-w-5xl">
+
                         <!--<h3 class="h3 font-normal">-->
                             <!--B.One<sup>®</sup> ’s affordable home automation makes your life more convenient and your home safer.-->
                         <!--</h3>-->
@@ -26,7 +29,7 @@
                     <ContentComponent>
                         <template slot="text">
                             <h4>Residences</h4>
-                            <p>Home automation offers control over every important system within a residence, such as electricity, lighting, HVAC, curtains, entertainment and security, through a single, easy to use mobile app. B.One™’s affordable home automation makes your life more convenient, and your home safer.</p>
+                            <p>Home automation offers control over every important system within a residence, such as electricity, lighting, HVAC, curtains, entertainment and security, through a single, easy to use mobile app. B.One<sup class="r">®</sup>’s affordable home automation makes your life more convenient, and your home safer.</p>
                             <a href="https://b1hub.com/" rel="noreferrer" target="_blank" class="std-btn">Know More</a>
                         </template>
 
@@ -59,7 +62,7 @@
                 <div class="desc">
                     <div class="max-w-4xl">
                         <h2 class="h1">Enterprise Automation</h2>
-                        <h3 class="h2 mb-12">Be Smart enables enterprises achieve their Energy Management, Automation and Security goals through Artificial Intelligence and Machine Learning. It helps IoTize businesses such as retail and F&B chains by delivering real time data about energy consumption, occupancy levels and security threats. Be Smart ensures an ROI within 6 months.
+                        <h3 class="h2 mb-12">Be Smart enables enterprises to achieve their Energy Management, Automation and Security goals through Artificial Intelligence and Machine Learning. It helps IoTize businesses such as retail and F&B chains by delivering real time data about energy consumption, occupancy levels and security threats. Be Smart ensures an ROI within 6 months.
                         </h3>
                     </div>
 
@@ -119,13 +122,39 @@
             </div>
         </section>
         <!--<ContactFormComponent></ContactFormComponent>-->
+
+        <div v-if="india" id="india-notification">
+            <div class="close-btn" @click="india=!india">
+                [x] Close
+            </div>
+            <p>Looks like you're visiting from India.  <a class="primary-color" href="http://blazeautomation.in">Click here to go to <strong>blazeautomation.in</strong></a></p>
+        </div>
         <SliderComponent></SliderComponent>
     </div>
 </template>
 
 <script>
     export default {
+
         mounted() {
+            axios.get('/api/location')
+                .then(response => {
+                    this.data=response.data;
+                    if(this.data.iso === "IN") {
+                        this.india = true;
+                    }
+                });
+        },
+        data(){
+            return {
+                data: null,
+                india: false
+            }
+        },
+        computed: {
+            thisProduct() {
+                return this.getData(this.product);
+            }
         }
     }
 </script>

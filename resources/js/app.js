@@ -2,6 +2,7 @@ require('./bootstrap');
 import $ from 'jquery';
 // import Swiper from 'swiper'
 import Swiper from 'swiper';
+import 'semantic-ui-form'
 
 import router from './routes_com'
 
@@ -35,7 +36,10 @@ $(window).scroll(function() {
     }
 });
 
+
 $(document).ready(function() {
+
+
     var mySwiper = new Swiper ('.swiper-container', {
         slidesPerView: 1,
 

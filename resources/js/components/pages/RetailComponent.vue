@@ -10,15 +10,7 @@
                 </template>
             </HeroComponent>
 
-            <section id="clients ">
-                <div class="py-12">
-                    <div class="container ">
-                        <div class="max-w-xl mx-auto">
-                            <img class="mx-auto" src="/static/retail/clients.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </section>
+
 
             <section>
                 <div class="container">
@@ -87,6 +79,15 @@
 
                         </template>
                     </ContentComponent>
+                </div>
+            </section>
+            <section id="clients ">
+                <div class="py-12">
+                    <div class="container ">
+                        <div class="max-w-xl mx-auto">
+                            <img class="mx-auto" src="/static/retail/clients.png" alt="">
+                        </div>
+                    </div>
                 </div>
             </section>
             <ContactFormComponent></ContactFormComponent>
