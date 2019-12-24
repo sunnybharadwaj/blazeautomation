@@ -1,8 +1,8 @@
 config.php
-routes.php
+routes_com.php
 schedule-*
 compiled.php
 services.json
 events.scanned.php
-routes.scanned.php
+routes_com.scanned.php
 down

@@ -6,7 +6,7 @@
                 <div class="max-w-xs mx-auto">
                     <img class="bsmart" src="/static/b1.png" alt="">
                 </div>
-                <h3 class="text-center mb-4">Automate your homes, offices and enterprises with Be Smart extensive range of products.</h3>
+                <h3 class="h4 text-center mb-4">Automate your homes, offices and enterprises with Be Smart extensive range of products.</h3>
             </div>
 
         </div>
@@ -18,8 +18,8 @@
                             <div class="product-image mx-auto">
                                 <img :src="product.imagepath" alt="">
                             </div>
-                            <h3 class="h4 text-center">{{product.name}}</h3>
-                            <p class="text-center">{{product.desc}}</p>
+                            <h3 class="h5 text-center">{{product.name}}</h3>
+                            <!--<p class="text-center">{{product.desc}}</p>-->
                         </div>
                     </a>
                 </div>
@@ -48,7 +48,7 @@
                 products: products,
                 eazy:
                     {
-                        name: "B.One Eazy®",
+                        name: "B.One Eazy",
                         imagepath: "/static/products/b1easy.png",
                         manualpath: "/static/products/manuals/B.One_Easy_UserManual.pdf",
                         desc: "The revolutionary automation device that will make your life smarter than ever before. Now get used to enjoying complete control over all the IR devices and Wi-Fi enabled smart devices at your home/business.",
@@ -70,10 +70,10 @@
                     },
                 edge:
                     {
-                        name: "B.One Edge®",
+                        name: "B.One Edge",
                         imagepath: "/static/products/b1edge.png",
                         manualpath: "/static/products/manuals/B.One_Edge_UserManual.pdf",
-                        desc: "B.One Edge® incorporates a state-of-the-art parallel processing architecture with Hard Real Time Performance to make it the fastest and first of its kind Edge Computing IOT gateway in the market.",
+                        desc: "B.One Edge incorporates a state-of-the-art parallel processing architecture with Hard Real Time Performance to make it the fastest and first of its kind Edge Computing IOT gateway in the market.",
                         benefits: [
                             "Edge is a multi-protocol gateway with Z-Wave, Zigbee, BLE, BT, Wi-Fi (Dual Band), LTE Cat 4 and Universal Infrared Remote Learner and Repeater.",
                             "Delivers ultra low latency and high real-time experience in command execution and performance. Enables faster communication of real-time data from smart devices and published services.",
@@ -269,7 +269,7 @@
     const products = [
         {
             id: 'eazy',
-            name: "B.One Eazy®",
+            name: "B.One Eazy",
             imagepath: "/static/products/b1easy.png",
             manualpath: "/static/products/manuals/B.One_Easy_UserManual.pdf",
             desc: "The revolutionary automation device that will make your life smarter than ever before. Now get used to enjoying complete control over all the IR devices and Wi-Fi enabled smart devices at your home/business.",
@@ -291,10 +291,10 @@
         },
         {
             id: 'edge',
-            name: "B.One Edge®",
+            name: "B.One Edge",
             imagepath: "/static/products/b1edge.png",
             manualpath: "/static/products/manuals/B.One_Edge_UserManual.pdf",
-            desc: "B.One Edge® incorporates a state-of-the-art parallel processing architecture with Hard Real Time Performance to make it the fastest and first of its kind Edge Computing IOT gateway in the market.",
+            desc: "B.One Edge incorporates a state-of-the-art parallel processing architecture with Hard Real Time Performance to make it the fastest and first of its kind Edge Computing IOT gateway in the market.",
             benefits: [
                 "Edge is a multi-protocol gateway with Z-Wave, Zigbee, BLE, BT, Wi-Fi (Dual Band), LTE Cat 4 and Universal Infrared Remote Learner and Repeater.",
                 "Delivers ultra low latency and high real-time experience in command execution and performance. Enables faster communication of real-time data from smart devices and published services.",

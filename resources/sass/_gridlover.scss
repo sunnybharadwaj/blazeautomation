@@ -5,7 +5,7 @@ html, .root {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   @media (min-width: 600px) {
-    font-size: 18px;
+    font-size: 16px;
   }
 @media (min-width: 1200px) {
   font-size: 18px;
@@ -18,31 +18,33 @@ body, .article {
   margin: auto;
 }
 h1, .h1 {
-  font-size: 3.375em;
+  font-size: 3.052em;
   line-height: 1.1577778em;
   font-weight: bold;
   letter-spacing: -0.04em;
 }
 h2, .h2 {
-  font-size: 2.25em;
+  font-size: 2.441em;
   line-height: 1.3em;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.05em;
   font-weight: bold;
 }
 h3, .h3 {
-  font-size: 1.5em;
+  font-size: 1.953em;
   line-height: 1.4em;
-  letter-spacing: -0.03em !important;
+  letter-spacing: -0.03em;
   font-weight: bold;
   margin-bottom: 12px;
 }
 h4, .h4 {
-  font-size: 1em;
+  font-size: 1.563em;
+  font-weight: bold;
   letter-spacing: -0.02em;
-  line-height: 1.6;
+  line-height: 1.4;
+  margin-top:0;
 }
 h5, .h5 {
-  font-size: 1em;
+  font-size: 1.25em;
   line-height: 1.4375em;
 }
 p, ul, ol, pre, table, blockquote {
@@ -54,6 +56,8 @@ ul ul, ol ol, ul ol, ol ul {
   margin-top: 0em;
   margin-bottom: 0em;
 }
+
+
 
 /* Let's make sure all's aligned */
 hr, .hr {

@@ -13,7 +13,7 @@ import CopyrightPage from './components/pages/CopyrightComponent'
 import TermsPage from './components/pages/TermsComponent'
 import PrivacyPage from './components/pages/PrivacyComponent'
 
-let routes = [
+let routes_com = [
     {
         path: '/',
         component: LandingPage
@@ -68,7 +68,7 @@ let routes = [
 
 const router = new VueRouter({
     mode: 'history',
-    routes,
+    routes: routes_com,
     scrollBehavior (to, from, savedPosition) {
         return { x: 0, y: 0}
     }

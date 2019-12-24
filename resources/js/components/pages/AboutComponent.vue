@@ -8,14 +8,14 @@
             <div class="container">
                 <div class="flex flex-wrap">
                     <div class="w-full lg:w-8/12 flex-container">
-                        <h1 class="highlight mt-10 mb-4">About</h1>
-                        <div class="max-w-2xl">
-                            <h3 class="mb-4">Blaze Automation is an IoT ( Internet of Things ) company with its offices
+                        <h1 class="highlight mt-10 mb-4 loud h5">About us</h1>
+                        <div class="max-w-3xl">
+                            <h3 class="h4 mb-4">Blaze Automation is an IoT ( Internet of Things ) company with its offices
                                 in New Jersey, USA and Hyderabad,
                                 India. Blaze has been building Home Automation and Security products for last 8
                                 years. </h3>
-                            <h4>Blaze has invested
-                                the last three years in research and development of B.One® Hub and AI based IoT
+                            <h4 class="h5 font-normal">Blaze has invested
+                                the last three years in research and development of B.One <sup class="r">®</sup> Hub and AI based IoT
                                 analytics platform, B.One
                                 Hub is a truly intelligent device that is powerful, intuitive, easy-to-use and future
                                 ready. B.One® is a
@@ -57,7 +57,7 @@
                                         <p>He was the Co-Founder, Chairman, President and Chief Executive Officer of
                                             Intelligroup ,Inc (acquired by NTT Data). Throughout the years, Arjun has
                                             received multiple NJ Fast 50 awards, Var Business 500 Awards, NJ Entrepreneur of
-                                            the Year awards, and the NJ Ernst and Young Entrepreneur of the Year in
+                                            the Year awards, and the NJ Ernst &amp; Young Entrepreneur of the Year in
                                             2001.</p>
                                     </div>
 

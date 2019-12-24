@@ -1,5 +1,9 @@
 require('./bootstrap');
-import router from './routes'
+import $ from 'jquery';
+// import Swiper from 'swiper'
+import Swiper from 'swiper';
+
+import router from './routes_com'
 
 import ContactFormComponent from './components/partials/ContactFormComponent';
 Vue.component('ContactFormComponent', ContactFormComponent);

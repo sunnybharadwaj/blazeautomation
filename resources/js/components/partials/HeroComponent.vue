@@ -5,8 +5,8 @@
                 <div class="overlay p-2">
                     <div class="header-text text-center">
                         <slot name="text">
-                            <h1>All Things, Be One<sup>®</sup></h1>
-                            <h2>Smart automation systems for your Home or Enterprise needs.</h2>
+                            <h1>All Things. Be One<sup>®</sup></h1>
+
                         </slot>
                     </div>
                 </div>
