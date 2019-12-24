@@ -11,6 +11,7 @@
 |
 */
 
+use MaxMind\Db\Reader;
 
 Route::post('/message', 'MessageController@store');
 Route::get('/api/press', function() {
