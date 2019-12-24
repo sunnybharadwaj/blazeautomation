@@ -37,7 +37,7 @@
 
         <section id="header" class="py-24">
             <div class="container text-center">
-                <h1 class="highlight mb-6">News</h1>
+                <!--<h1 class="highlight mb-6">News</h1>-->
                 <div class="max-w-4xl mx-auto">
                     <h4 class="mb-3">Get in touch with us at <a href="support@blazeautomation.com" class="highlight"
                                                                 target="_blank">support@blazeautomation.com</a> for more
