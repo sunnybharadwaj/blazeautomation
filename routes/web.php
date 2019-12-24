@@ -20,8 +20,8 @@ Route::get('/api/press', function() {
 Route::resource('/admin/press', 'PressController');
 
 Route::get('/api/location', function() {
-//    '183.83.75.232'
-    $arr_ip = geoip()->getLocation($_SERVER['REMOTE_ADDR']);
+//
+    $arr_ip = geoip()->getLocation('183.83.75.232');
     $data = [
         "iso" => $arr_ip->iso_code,
         "location" => $arr_ip->country
