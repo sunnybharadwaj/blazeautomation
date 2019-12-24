@@ -22,7 +22,8 @@ Route::resource('/admin/press', 'PressController');
 
 Route::get('/api/location', function() {
 //
-    $arr_ip = geoip()->getLocation(Request::ip());
+    dd(Request::ip());
+    $arr_ip = geoip()->getLocation();
     $data = [
         "iso" => $arr_ip->iso_code,
         "location" => $arr_ip->country
