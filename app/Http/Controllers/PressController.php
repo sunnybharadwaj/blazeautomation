@@ -46,6 +46,6 @@ class PressController extends Controller
 
     public function destroy($id)
     {
-        //
+
     }
 }

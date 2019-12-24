@@ -3,22 +3,33 @@
         <div class="nav-bg"></div>
 
         <div class="cards">
-            <div class="text-center loud">Press Releases & Updates</div>
-            <div class="container">
+            <div class="text-center loud py-8">Press Releases & Updates</div>
+            <div class="news-wrapper container">
                 <div class="flex flex-wrap">
-                    <div class=" w-full md:w-1/2 lg:w-1/3" v-for="news in data">
-                        <div class="news-card text-center">
+                    <div class="w-full md:w-1/2 lg:w-1/3" v-for="news in data">
+                        <div class="press-card">
+                            <div class=" rounded overflow-hidden shadow-lg">
+                                <div class="top ">
+                                    <div class="image-wrapper">
+                                        <img class="w-full" :src="'/storage/' + news.imagepath" alt="Sunset in the mountains">
+                                    </div>
 
-                            <div class="logo">
-                                <img  :src="'/storage/' + news.imagepath" alt="">
-                            </div>
-                            <div class="headline">
-                                <p class="font-bold">{{news.headline}}</p>
-                            </div>
-                            <div class="link">
-                                <a :href="news.url" class="std-btn">Visit</a>
+                                </div>
+
+                                <div class="bottom px-6 py-4">
+                                    <div class="headline">
+                                        <p class="font-bold text-center">{{news.headline}}</p>
+                                    </div>
+                                    <div class="link text-center">
+                                        <a :href="news.url" target="_blank" class="std-link">Read More</a>
+                                    </div>
+
+                                </div>
+
                             </div>
                         </div>
+
+
                     </div>
                 </div>
             </div>
