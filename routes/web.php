@@ -11,7 +11,7 @@
 |
 */
 
-use MaxMind\Db\Reader;
+use GeoIp2\Database\Reader;
 
 Route::post('/message', 'MessageController@store');
 Route::get('/api/press', function() {
