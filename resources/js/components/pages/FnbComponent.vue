@@ -30,7 +30,7 @@
                 <div class="container">
                     <ContentComponent>
                         <template slot="text">
-                            <h2>A satisfied customer is likely to spend more time at your establishment. </h2>
+                            <h2>Customer Comfort</h2>
                             <p>Adaptive Intelligence platform monitors store occupancy as well as outside and inside temperature in order to determine optimum temperature ensuring customer comfort.</p>
 
                         </template>
@@ -112,6 +112,7 @@
             <section id="clients ">
                 <div class="py-12">
                     <div class="container ">
+                        <h3 class="loud text-center primary-color mb-12">Clients</h3>
                         <div class="max-w-xl mx-auto">
                             <img class="mx-auto" src="/static/fnb/clients.png" alt="">
                         </div>
