@@ -62,7 +62,7 @@
                 <div class="desc">
                     <div class="max-w-4xl">
                         <h2 class="h1">Enterprise Automation</h2>
-                        <h3 class="h2 mb-12">Be Smart enables enterprises to achieve their Energy Management, Automation and Security goals through Artificial Intelligence and Machine Learning. It helps IoTize businesses such as retail and F&B chains by delivering real time data about energy consumption, occupancy levels and security threats. Be Smart ensures an ROI within 6 months.
+                        <h3 class="h2 mb-12">Be Smart enables enterprises to achieve their Energy Management, Automation and Security goals through Artificial Intelligence and Machine Learning. It helps IoTize businesses such as retail and F&B outlets by delivering real time data about energy consumption, occupancy levels and security threats. Be Smart ensures an ROI within 6 months.
                         </h3>
                     </div>
 
@@ -124,10 +124,11 @@
         <!--<ContactFormComponent></ContactFormComponent>-->
 
         <div v-if="india" id="india-notification">
+
+            <p>Looks like you're visiting from India.  <a class="primary-color" href="http://blazeautomation.in">Click here to go to <strong>blazeautomation.in</strong></a></p>
             <div class="close-btn" @click="india=!india">
                 [x] Close
             </div>
-            <p>Looks like you're visiting from India.  <a class="primary-color" href="http://blazeautomation.in">Click here to go to <strong>blazeautomation.in</strong></a></p>
         </div>
         <SliderComponent></SliderComponent>
     </div>

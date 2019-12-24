@@ -1,28 +1,27 @@
 <template>
-    <section>
-        <div class="ui form">
-            <div class="fields">
-                <div class="field">
-                    <label>First name</label>
-                    <input type="text" placeholder="First Name">
-                </div>
-                <div class="field">
-                    <label>Middle name</label>
-                    <input type="text" placeholder="Middle Name">
-                </div>
-                <div class="field">
-                    <label>Last name</label>
-                    <input type="text" placeholder="Last Name">
-                </div>
-            </div>
-        </div>
+    <div>
+        <!--<div class="ui form">-->
+            <!--<div class="fields">-->
+                <!--<div class="field">-->
+                    <!--<label>First name</label>-->
+                    <!--<input type="text" placeholder="First Name">-->
+                <!--</div>-->
+                <!--<div class="field">-->
+                    <!--<label>Middle name</label>-->
+                    <!--<input type="text" placeholder="Middle Name">-->
+                <!--</div>-->
+                <!--<div class="field">-->
+                    <!--<label>Last name</label>-->
+                    <!--<input type="text" placeholder="Last Name">-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
         <div class="contact-form text-center">
             <div class="py-20">
                 <div class="container">
 
                     <div class="loud highlight mb-6">CONTACT US</div>
-                    <h3>For a free assessment, share your contact details. <br/>One of our specialists will get in touch
-                        with you soon.</h3>
+                    <h3>For a free assessment, share your contact details. <br/>Our specialists will get in touch with you soon.</h3>
                     <div class="mb-12"></div>
                     <div class="form-container max-w-md mx-auto">
                         <form method="POST" action="/message">
@@ -70,7 +69,7 @@
 
         </div>
 
-    </section>
+    </div>
 </template>
 
 <script>

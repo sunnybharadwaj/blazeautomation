@@ -14,7 +14,26 @@
 
 //Contact page
 #contact-page {
+  #form {
+    .py-20 {
+      padding: 40px 0;
+    }
 
+
+  }
+
+  #offices {
+    .heading h3 {
+      font-size: 18px !important;
+    }
+    .address-detail p{
+      font-size: 14px;
+    }
+
+    a.std-link {
+      margin-bottom: 10px !important;
+    }
+  }
 
   letter-spacing: -0.02em;
   #email {

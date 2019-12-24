@@ -6,7 +6,6 @@
 @import "~semantic-ui-dropdown/dropdown.min.css";
 @import "~semantic-ui-message/message.min.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
-
 @import "variables";
 @import "general";
 @import "gridlover";
@@ -14,16 +13,13 @@
 @import "navigation";
 @import "pages/pages";
 
-
-
 .r {
   display: inline-block;
   transform: scale(0.7);
 }
 
-
 #india-notification {
-
+  text-align: center;
 
   p {
     margin: 0;
@@ -38,20 +34,26 @@
   padding: 20px 20px;
   z-index: 15000;
   border-top: 3px solid $primary;
+
 }
 
 .close-btn {
-  font-size: 12px;
-  position: absolute;
-  right: 20px;
-  top: 3px;
-  bottom: 0;
-  padding: 20px;
-  color: white;
-  opacity: 0.5;
-  &:hover {
-    cursor: pointer;
-    opacity: 1;
+  margin-top: 10px;
+  font-size: 14px;
+  @media(min-width: 800px) {
+    margin: 0;
+    font-size: 12px;
+    position: absolute;
+    right: 20px;
+    top: 3px;
+    bottom: 0;
+    padding: 20px;
+    color: white;
+    opacity: 0.5;
+    &:hover {
+      cursor: pointer;
+      opacity: 1;
+    }
   }
 }
 

@@ -12,15 +12,16 @@
 */
 
 
-//Route::post('/message', 'MessageController@store');
+Route::post('/message', 'MessageController@store');
 Route::get('/api/press', function() {
     return \App\PressPost::all();
 });
+
 Route::resource('/admin/press', 'PressController');
 
 Route::get('/api/location', function() {
-
-    $arr_ip = geoip()->getLocation('183.83.75.232');
+//    '183.83.75.232'
+    $arr_ip = geoip()->getLocation($_SERVER['REMOTE_ADDR']);
     $data = [
         "iso" => $arr_ip->iso_code,
         "location" => $arr_ip->country
