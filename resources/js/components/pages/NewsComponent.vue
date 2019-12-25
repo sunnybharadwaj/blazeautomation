@@ -13,23 +13,17 @@
                                     <div class="image-wrapper">
                                         <img class="w-full" :src="'/storage/' + news.imagepath" alt="Sunset in the mountains">
                                     </div>
-
                                 </div>
-
-                                <div class="bottom px-6 py-4">
-                                    <div class="headline">
+                                <div class="bottom ">
+                                    <div class="headline px-6 py-4">
                                         <p class="font-bold text-center">{{news.headline}}</p>
                                     </div>
                                     <div class="link text-center">
-                                        <a :href="news.url" target="_blank" class="std-link">Read More</a>
+                                        <a :href="news.url" target="_blank" class="std-link ">Read More</a>
                                     </div>
-
                                 </div>
-
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>

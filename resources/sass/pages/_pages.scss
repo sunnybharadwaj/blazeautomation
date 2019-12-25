@@ -144,11 +144,10 @@
     margin: 0 auto 30px;
     .top, .bottom {
       min-height: 140px;
-      padding: 20px;
     }
     .top {
       position: relative;
-      background: $light-gray;
+      background: rgba(78, 88, 111, 0.47);
       .image-wrapper {
         padding: 5px;
         max-width: 150px;
@@ -162,11 +161,24 @@
 
     .bottom {
       position: relative;
+
       .link {
+        background: #f9f9f9;
         position:absolute;
         left: 0;
         bottom: 0;
         width: 100%;
+        a {
+          width: 100%;
+          font-size: 14px;
+          text-transform: uppercase;
+          padding: 20px;
+          margin: 0 !important;
+          letter-spacing: 0.04em;
+        }
+        &:hover {
+          background:#efefef;
+        }
       }
     }
   }
@@ -177,7 +189,6 @@
       margin: 0 auto 30px;
       .top, .bottom {
         min-height: 180px;
-        padding: 20px;
       }
     }
 
@@ -193,7 +204,6 @@
       margin: 0 auto 30px;
       .top, .bottom {
         min-height: 180px;
-        padding: 20px;
       }
     }
     .nav-wrapper {
