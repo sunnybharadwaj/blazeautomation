@@ -3,8 +3,10 @@
 @import "tailwindcss/utilities";
 @import "~swiper/css/swiper.min.css";
 @import "~semantic-ui-form/form.min.css";
+@import "~semantic-ui-transition/transition.min.css";
 @import "~semantic-ui-dropdown/dropdown.min.css";
 @import "~semantic-ui-message/message.min.css";
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 @import "variables";
 @import "general";
@@ -18,7 +20,7 @@
   transform: scale(0.7);
 }
 
-#india-notification {
+#india-notification, .notification {
   text-align: center;
 
   p {

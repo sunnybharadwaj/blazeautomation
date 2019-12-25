@@ -123,7 +123,7 @@
         </section>
         <!--<ContactFormComponent></ContactFormComponent>-->
 
-        <div v-if="india" id="india-notification">
+        <div v-if="india" id="india-notification" class="notification">
 
             <p>Looks like you're visiting from India.  <a class="primary-color" href="http://blazeautomation.in">Click here to go to <strong>blazeautomation.in</strong></a></p>
             <div class="close-btn" @click="india=!india">

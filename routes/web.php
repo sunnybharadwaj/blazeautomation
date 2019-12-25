@@ -14,6 +14,9 @@
 use GeoIp2\Database\Reader;
 
 Route::post('/message', 'MessageController@store');
+Route::get('/api/message', function() {
+    return \App\Message::all();
+});
 Route::get('/api/press', function() {
     return \App\PressPost::all();
 });

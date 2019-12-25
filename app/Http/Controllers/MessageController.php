@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\MessageSubmitted;
 use Illuminate\Http\Request;
 use App\Message;
+
 
 class MessageController extends Controller
 {
@@ -14,23 +16,30 @@ class MessageController extends Controller
 
     public function store(Request $request)
     {
+
 //        if(request()->ajax()) {
 //            return Response::json(request()->all);
 //        }
-        $data = request()->except(['_token']);
+//        $data = request()->except(['_token']);
 //        Message::create($message);
         try {
 
             $message = new Message();
-            $message->name = request('name');
-            $message->email = request('email');
-            $message->phone = request('phone');
-            $message->location = request('location');
-            $message->businesstype = request('businesstype');
-            $message->message = request('message');
+            $message->name = request('data.name');
+            $message->email = request('data.email');
+            $message->phone = request('data.phone');
+            $message->location = request('data.location');
+            $message->businesstype = request('data.businesstype');
+            $message->message = request('data.message');
             $message->save();
 
-            session()->flash("message", "Thank you for submitting! We will get back to you shortly!");
+
+            \Mail::to('dheerajdkeswani@gmail.com')
+                ->queue(new MessageSubmitted($message));
+
+            return $message;
+//            session()->flash("message", "Thank you for submitting! We will get back to you shortly!");
+//            return $message;
 
         } catch (QueryException $ex) {
             dd($ex);
@@ -38,7 +47,7 @@ class MessageController extends Controller
         }
 
 
-        return redirect('/contact-us');
+
 //        return json_encode($message)
 //        http_response_code(201);
 //        return Response::json([
