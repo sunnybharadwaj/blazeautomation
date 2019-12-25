@@ -67,7 +67,7 @@
                 <a href="/office" class="link">Offices</a>
             </div>
             <div class="nav-link">
-                <a href="https://b1hub.com/syncswith.html" target="_blank" class="link">Syncs With</a>
+                <a href="https://b1hub.com/syncswith.html" target="_blank" class="link">Syncs With<sup class="r">®</sup></a>
             </div>
 
             <div class="nav-link">

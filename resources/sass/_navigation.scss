@@ -237,10 +237,14 @@ width:auto;
     }
     @media (min-width: 900px) {
       font-size: 16px !important;
+      &:hover {
+        color: $primary !important;
+      }
     }
     @media (min-width: 1200px) {
       font-size: 14px !important;
       margin-right: 40px;
+
     }
 
 
@@ -250,9 +254,7 @@ width:auto;
     display: block;
     letter-spacing: -0.04em;
     margin-bottom: 10px;
-    &:hover {
-      color: $primary !important;
-    }
+
   }
   .footer-heading {
     color: $primary;
