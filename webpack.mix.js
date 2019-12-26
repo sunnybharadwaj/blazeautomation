@@ -9,11 +9,8 @@ mix.js('resources/js/app.js', 'public/js')
     })
     .sourceMaps()
     .browserSync('127.0.0.1:8000')
-    .extract();
-
-if (mix.inProduction()) {
-    mix.version();
-}
+    .extract()
+    .version();
 
 
 mix.webpackConfig({
