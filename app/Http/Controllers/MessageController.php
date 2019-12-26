@@ -34,7 +34,8 @@ class MessageController extends Controller
             $message->save();
 
 
-            \Mail::to('dheerajdkeswani@gmail.com')
+
+            \Mail::to('sunny@chakradesign.co')
                 ->queue(new MessageSubmitted($message));
 
             return $message;
