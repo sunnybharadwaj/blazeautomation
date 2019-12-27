@@ -8,10 +8,7 @@ mix.js('resources/js/app.js', 'public/js')
         postCss: [ tailwindcss('./tailwind.config.js'), ]
     })
     .sourceMaps()
-    .browserSync('127.0.0.1:8000')
-    .extract()
-    .version();
-
+    .browserSync('127.0.0.1:8000');
 
 mix.webpackConfig({
     devtool: "inline-source-map"

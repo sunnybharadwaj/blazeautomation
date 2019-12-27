@@ -5,6 +5,11 @@
   p {
     margin-bottom: 16px;
   }
+
+  .intro-bg {
+    background: $gray;
+    color: white;
+  }
   #intro {
     .flex-container:nth-of-type(2) {
       position: relative;
@@ -34,6 +39,10 @@
   .team-list {
     .team-member {
       margin-bottom: 60px;
+      .flex {
+        max-width: 800px;
+        margin: 0 auto;
+      }
       .heading h4 {
         margin-top: 0;
       }

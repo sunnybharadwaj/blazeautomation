@@ -1,6 +1,7 @@
 html, .root {
   font-size: 14px;
   line-height: 32px;
+  color: $black;
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -8,8 +9,12 @@ html, .root {
     font-size: 16px;
   }
 @media (min-width: 1200px) {
-  font-size: 18px;
+  font-size: 16px;
 }
+}
+
+body {
+  min-height: 100vh !important;
 }
 body, .article {
   font-family: "Open Sans",sans-serif;
@@ -18,33 +23,35 @@ body, .article {
   margin: auto;
 }
 h1, .h1 {
-  font-size: 3.052em;
+  font-size: 2.488em;
   line-height: 1.1577778em;
   font-weight: bold;
   letter-spacing: -0.04em;
 }
 h2, .h2 {
-  font-size: 2.441em;
+  font-size: 2.074em;
   line-height: 1.3em;
   letter-spacing: -0.05em;
   font-weight: bold;
+
 }
 h3, .h3 {
-  font-size: 1.953em;
+  font-size: 1.728em;
   line-height: 1.4em;
   letter-spacing: -0.03em;
   font-weight: bold;
   margin-bottom: 12px;
 }
 h4, .h4 {
-  font-size: 1.563em;
+  font-size: 1.44em;
   font-weight: bold;
   letter-spacing: -0.02em;
   line-height: 1.4;
   margin-top:0;
+  margin-bottom: 14px;
 }
 h5, .h5 {
-  font-size: 1.25em;
+  font-size: 1.2em;
   line-height: 1.4375em;
 }
 p, ul, ol, pre, table, blockquote {

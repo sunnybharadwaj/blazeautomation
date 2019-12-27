@@ -5,7 +5,7 @@
                 <div class="overlay p-2">
                     <div class="header-text text-center">
                         <slot name="text">
-                            <h1>All Things. Be One<sup>®</sup></h1>
+                            <h1 class="h1">All Things. <span class="inline-block">Be One<sup class="r">®</sup></span></h1>
 
                         </slot>
                     </div>

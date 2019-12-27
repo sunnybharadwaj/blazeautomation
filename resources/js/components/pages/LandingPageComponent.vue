@@ -13,24 +13,26 @@
         <section id="homes">
             <div class="container">
                 <div class="desc">
-                    <h2 class="h1 primary-color">Home Automation</h2>
+
                     <div class="desc max-w-5xl">
 
                         <!--<h3 class="h3 font-normal">-->
                             <!--B.One<sup>®</sup> ’s affordable home automation makes your life more convenient and your home safer.-->
                         <!--</h3>-->
-
+                        <h2 class="h2 text-bold primary-color">Home Automation</h2>
                     </div>
                 </div>
                 <div class="page-text">
 
                 </div>
                 <div class="residences">
+
                     <ContentComponent>
                         <template slot="text">
+
                             <h4>Residences</h4>
                             <p>Home automation offers control over every important system within a residence, such as electricity, lighting, HVAC, curtains, entertainment and security, through a single, easy to use mobile app. B.One<sup class="r">®</sup>’s affordable home automation makes your life more convenient, and your home safer.</p>
-                            <a href="https://b1hub.com/" rel="noreferrer" target="_blank" class="std-btn">Know More</a>
+                            <a href="https://b1hub.com/" rel="noreferrer" target="_blank" class="std-btn component-btn component-btn">Know More</a>
                         </template>
 
                         <template slot="image">
@@ -46,7 +48,7 @@
                                 complete
                                 wireless
                                 solution and easy installation.</p>
-                            <a href="/real-estate-developers" class="std-btn">Know More</a>
+                            <a href="/real-estate-developers" class="std-btn component-btn">Know More</a>
                         </template>
 
                         <template slot="image">
@@ -60,9 +62,9 @@
         <section id="enterprises">
             <div class="container">
                 <div class="desc">
-                    <div class="max-w-4xl">
-                        <h2 class="h1">Enterprise Automation</h2>
-                        <h3 class="h2 mb-12">Be Smart enables enterprises to achieve their Energy Management, Automation and Security goals through Artificial Intelligence and Machine Learning. It helps IoTize businesses such as retail and F&B outlets by delivering real time data about energy consumption, occupancy levels and security threats. Be Smart ensures an ROI in 6 months.
+                    <div class="max-w-5xl">
+                        <h2 class="h2 primary-color">Enterprise Automation</h2>
+                        <h3 class="h2 mb-24">Be Smart enables enterprises to achieve their Energy Management, Automation and Security goals through Artificial Intelligence and Machine Learning. It helps IoTize businesses such as retail and F&B outlets by delivering real time data about energy consumption, occupancy levels and security threats. Be Smart ensures an ROI in 6 months.
                         </h3>
                     </div>
 
@@ -75,7 +77,7 @@
                                 performance and productivity while reducing the risk and keeping your customers
                                 happy. Be
                                 Smart solutions result in better profitability and efficiency.</p>
-                            <a href="/f-and-b" class="std-btn">Know More</a>
+                            <a href="/f-and-b" class="std-btn component-btn">Know More</a>
                         </template>
 
                         <template slot="image">
@@ -91,7 +93,7 @@
                                 profitability, productivity and security. Enhance customer experience by automating
                                 your
                                 retail outlet.</p>
-                            <a href="/retail" class="std-btn">Know More</a>
+                            <a href="/retail" class="std-btn component-btn">Know More</a>
                         </template>
 
                         <template slot="image">
@@ -104,13 +106,14 @@
 
         <section id="offices">
             <div class="container">
+                <h2 class="h2 primary-color">Office Automation</h2>
 
-                        <h2 class="h1">Office Automation</h2>
                 <ContentComponent>
                     <template slot="text">
+
                         <p>Automating your offices can make work-life easier. Temperature and lighting in offices have a demonstrable effect on your employees' well-being and productivity. Well-lit and well-designed environments enhance your brand's image and help you retain high-value employees.</p>
                         <p>Be Smart enables offices achieve their Energy Management, Automation and Security goals through Artificial Intelligence and Machine Learning. It helps IoTize offices and co-working spaces by delivering real time data about energy consumption, occupancy levels and security threats. Be Smart ensures an ROI within 6 months.</p>
-                        <a href="/office" class="std-btn">
+                        <a href="/office" class="std-btn component-btn">
                             <div class="text">Know More</div>
                         </a>
                     </template>

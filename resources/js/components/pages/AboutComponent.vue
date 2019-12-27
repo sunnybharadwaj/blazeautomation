@@ -4,38 +4,21 @@
 
         </div>
 
-        <section id="intro">
-            <div class="container">
-                <div class="flex flex-wrap">
-                    <div class="w-full lg:w-8/12 py-10 lg:pr-8 flex-container">
-                        <div class="max-w-3xl">
-                            <h3 class="h4 mb-4">Blaze Automation is an IoT ( Internet of Things ) company with its offices
-                                in New Jersey, USA and Hyderabad,
-                                India. Blaze has been building Home Automation and Security products for last 8
-                                years. </h3>
-                            <h4 class="h5 font-normal">Blaze has invested
-                                the last three years in research and development of B.One<sup class="r">®</sup> Hub and AI based IoT
-                                analytics platform, B.One
-                                Hub is a truly intelligent device that is powerful, intuitive, easy-to-use and future
-                                ready. B.One<sup class="r">®</sup> is a
-                                Smart Intelligent Home Automation and Security System that makes your lives more
-                                efficient and secure.</h4>
-                        </div>
-
-                    </div>
-                    <div class="w-full lg:w-4/12 flex-container">
-                        <div class="img-container">
-                            <img src="/static/logo.png" alt="">
-                        </div>
-
+        <div id="intro">
+            <div class="intro-bg bg-gray-200">
+                <div class="container text-center">
+                    <div class="max-w-3xl mx-auto p-12">
+                        <h2 class="mb-3 primary-color">About Us</h2>
+                        <p class="p">Blaze Automation is an IoT ( Internet of Things ) company with its offices in New Jersey, USA and Hyderabad, India. Blaze has been building Home Automation and Security products for last 8 years. Blaze has invested the last three years in research and development of B.One® Hub and AI based IoT analytics platform, B.One Hub is a truly intelligent device that is powerful, intuitive, easy-to-use and future ready. B.One® is a Smart Intelligent Home Automation and Security System that makes your lives more efficient and secure.</p>
                     </div>
                 </div>
 
             </div>
-        </section>
-        <section></section>
+
+        </div>
+
         <section>
-            <div class="team-list">
+            <div class="team-list mt-8">
                 <div class="container">
                     <div class="team-member">
                         <div class="flex flex-wrap">
