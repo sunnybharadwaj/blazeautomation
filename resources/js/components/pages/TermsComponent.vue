@@ -1,6 +1,6 @@
 
 <template>
-    <div>
+    <div class="info-page">
         <div class="nav-bg"></div>
         <div class="container">
             <div class="max-w-4xl mx-auto bg-gray-100 p-16">
