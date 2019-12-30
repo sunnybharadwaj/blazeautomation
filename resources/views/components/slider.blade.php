@@ -14,7 +14,7 @@
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide product-block">
-                <a class="slider-link" href="/product/eazy">
+                <a class="slider-link" target="_blank" href="/product/eazy">
                     <div class="product-wrapper">
                         <div class="product-image mx-auto">
                             <img src="/static/products/b1easy.png" alt="">
@@ -27,7 +27,7 @@
 
 
             <div class="swiper-slide product-block">
-                <a class="slider-link" href="/product/edge">
+                <a class="slider-link" target="_blank" href="/product/edge">
                     <div class="product-wrapper">
                         <div class="product-image mx-auto">
                             <img src="" alt="">
@@ -38,7 +38,7 @@
                 </a>
             </div>
             <div class="swiper-slide product-block">
-                <a class="slider-link" href="/product/wattsup">
+                <a class="slider-link" target="_blank" href="/product/wattsup">
                     <div class="product-wrapper">
                         <div class="product-image mx-auto">
                             <img src="" alt="">
@@ -49,7 +49,7 @@
                 </a>
             </div>
             <div class="swiper-slide product-block">
-                <a class="slider-link" href="/product/a10socket">
+                <a class="slider-link" target="_blank" href="/product/a10socket">
                     <div class="product-wrapper">
                         <div class="product-image mx-auto">
                             <img src="" alt="">
@@ -60,7 +60,7 @@
                 </a>
             </div>
             <div class="swiper-slide product-block">
-                <a class="slider-link" href="/product/a16socket">
+                <a class="slider-link" target="_blank" href="/product/a16socket">
                     <div class="product-wrapper">
                         <div class="product-image mx-auto">
                             <img src="" alt="">
@@ -71,7 +71,7 @@
                 </a>
             </div>
             <div class="swiper-slide product-block">
-                <a class="slider-link" href="/product/flooddetector">
+                <a class="slider-link" target="_blank" href="/product/flooddetector">
                     <div class="product-wrapper">
                         <div class="product-image mx-auto">
                             <img src="" alt="">
@@ -82,7 +82,7 @@
                 </a>
             </div>
             <div class="swiper-slide product-block">
-                <a class="slider-link" href="/product/motionsensor">
+                <a class="slider-link" target="_blank" href="/product/motionsensor">
                     <div class="product-wrapper">
                         <div class="product-image mx-auto">
                             <img src="" alt="">
@@ -93,7 +93,7 @@
                 </a>
             </div>
             <div class="swiper-slide product-block">
-                <a class="slider-link" href="/product/smartsensor">
+                <a class="slider-link" target="_blank" href="/product/smartsensor">
                     <div class="product-wrapper">
                         <div class="product-image mx-auto">
                             <img src="" alt="">
@@ -104,7 +104,7 @@
                 </a>
             </div>
             <div class="swiper-slide product-block">
-                <a class="slider-link" href="/product/domesiren">
+                <a class="slider-link" target="_blank" href="/product/domesiren">
                     <div class="product-wrapper">
                         <div class="product-image mx-auto">
                             <img src="" alt="">
@@ -115,7 +115,7 @@
                 </a>
             </div>
             <div class="swiper-slide product-block">
-                <a class="slider-link" href="/product/dimmer">
+                <a class="slider-link" target="_blank" href="/product/dimmer">
                     <div class="product-wrapper">
                         <div class="product-image mx-auto">
                             <img src="" alt="">
@@ -126,7 +126,7 @@
                 </a>
             </div>
             <div class="swiper-slide product-block">
-                <a class="slider-link" href="/product/dualrelay">
+                <a class="slider-link" target="_blank" href="/product/dualrelay">
                     <div class="product-wrapper">
                         <div class="product-image mx-auto">
                             <img src="" alt="">

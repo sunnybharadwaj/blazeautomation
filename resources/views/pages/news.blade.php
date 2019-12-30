@@ -8,7 +8,7 @@
             <div class="news-wrapper container">
                 <div class="flex flex-wrap">
                     @foreach($data as $news)
-                    @endforeach
+
                     <div class="w-full md:w-1/2 lg:w-1/3">
                         <div class="press-card">
                             <div class=" rounded overflow-hidden shadow-lg">
@@ -28,6 +28,7 @@
                             </div>
                         </div>
                     </div>
+                    @endforeach
                 </div>
             </div>
         </div>
