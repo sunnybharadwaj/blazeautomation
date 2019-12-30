@@ -287,7 +287,7 @@
                 "Effective Range/Effective Distance of Infrared Ray: 360 degrees/10meters",
                 "Smartphone: Android 4.2 or later / iOS 10.0 or later",
                 "Power Supply: 100V to 240V AC",
-                "Size: 85x85x22mm"
+                "Size: 85x85x22mm",
             ],
         },
         {
