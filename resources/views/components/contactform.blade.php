@@ -15,7 +15,7 @@
 
                         <form class="ui form" method="POST" action="/message">
                             @csrf
-                            @if(error()->any())
+                            @if($error->any())
                                 <div class="ui negative message">
                                     <i class="close icon"></i>
                                     <div class="header">
