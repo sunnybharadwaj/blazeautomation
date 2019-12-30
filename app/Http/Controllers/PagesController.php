@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\PressPost;
 use Illuminate\Http\Request;
 use GeoIp2\Database\Reader;
 
@@ -44,7 +45,8 @@ class PagesController extends Controller
     }
 
     function news() {
-        return view('pages/news');
+        $data = PressPost::all();
+        return view('pages/news', compact('data'));
     }
 
     function copyright() {

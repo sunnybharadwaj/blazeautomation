@@ -16,7 +16,7 @@
             </div>
         </div>
 
-        @if($data->iso == 'US')
+        @if($data->iso == 'IN')
             <div id="india-notification" class="notification">
                 <div class="content">
                     <p class="mb-2">Looks like you're visiting from India. <br/></p>
