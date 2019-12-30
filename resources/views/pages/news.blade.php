@@ -14,7 +14,7 @@
                             <div class=" rounded overflow-hidden shadow-lg">
                                 <div class="top ">
                                     <div class="image-wrapper">
-                                        <img class="w-full" src="'/storage/' {{$news->imagepath}}" alt="Sunset in the mountains">
+                                        <img class="w-full" src="/storage/{{$news->imagepath}}" alt="{{$news->headline}}">
                                     </div>
                                 </div>
                                 <div class="bottom ">

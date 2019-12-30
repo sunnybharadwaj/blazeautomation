@@ -15,23 +15,27 @@
 
                         <form class="ui form" method="POST" action="/message">
                             @csrf
-                            <div v-if="submitStatus === 'ERROR'" class="ui negative message">
-                                <i class="close icon"></i>
-                                <div class="header">
-                                    There seems to be error(s) in your entry.
-                                </div>
-                                <p>Please check and try again.
-                                </p></div>
+                            @if(error()->any())
+                                <div class="ui negative message">
+                                    <i class="close icon"></i>
+                                    <div class="header">
+                                        There seems to be error(s) in your entry.
+                                    </div>
+                                    <p>Please check and try again.
+                                    </p></div>
+                            @endif
 
-                            <div v-if="submitted" class="ui positive message">
+
+                            <div class="hidden ui positive message">
                                 <i class="close icon"></i>
                                 <div class="header">
                                     <p>Thank you for submitting the message!</p>
                                 </div>
                                 <p>We will get back to you shortly.
-                                </p></div>
-                            <div class="max-w-3xl mx-auto">
+                                </p>
+                            </div>
 
+                            <div class="max-w-3xl mx-auto">
                                 <div class="mx-auto min-w-full">
                                     <div :class="{ 'error': $v.name.$error , 'field': true}" >
                                         <label for="name">Full Name</label>
