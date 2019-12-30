@@ -22,10 +22,10 @@ import HeroComponent from './components/partials/HeroComponent';
 Vue.component('HeroComponent', HeroComponent);
 
 
-new Vue({
-    el:'#app',
-    router
-});
+// new Vue({
+//     el:'#app',
+//     router
+// });
 
 
 

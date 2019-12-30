@@ -25,12 +25,9 @@
 @csrf
 <div id="app" class="">
     @include('partials/header')
-    <router-view></router-view>
-
-
+    @yield('content')
 
     @if (session()->has('message'))
-
         <div id="success-msg">
             <div class="h-bar"></div>
 

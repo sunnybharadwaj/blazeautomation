@@ -13,6 +13,12 @@
 
 use GeoIp2\Database\Reader;
 
+
+Route::get('/', 'PagesController@landing');
+Route::get('/f-and-b', 'PagesController@fnb');
+
+
+
 Route::post('/message', 'MessageController@store');
 Route::get('/api/message', function() {
     return \App\Message::all();
@@ -35,9 +41,9 @@ Route::get('/api/location', function() {
     return $data;
 });
 
-Route::get('/{catchall?}', function () {
-
-    return view('layout');
-})->where('catchall', '[\/\w\.-]*');
+//Route::get('/{catchall?}', function () {
+//
+//    return view('layout');
+//})->where('catchall', '[\/\w\.-]*');
 
 
