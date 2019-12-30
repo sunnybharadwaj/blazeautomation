@@ -23,14 +23,14 @@ class MessageController extends Controller
 //        $data = request()->except(['_token']);
 //        Message::create($message);
         try {
-
+            $phone =  request('code') . '-'  . request('phone');
             $message = new Message();
-            $message->name = request('data.name');
-            $message->email = request('data.email');
-            $message->phone = request('data.phone');
-            $message->location = request('data.location');
-            $message->businesstype = request('data.businesstype');
-            $message->message = request('data.message');
+            $message->name = request('name');
+            $message->email = request('email');
+            $message->phone = $phone;
+            $message->location = request('country');
+            $message->businesstype = request('businesstype');
+            $message->message = request('message');
             $message->save();
 
 
@@ -38,7 +38,8 @@ class MessageController extends Controller
             \Mail::to('sunny@chakradesign.co')
                 ->queue(new MessageSubmitted($message));
 
-            return $message;
+            session()->flash("message-success", "true");
+            return redirect()->back();
 //            session()->flash("message", "Thank you for submitting! We will get back to you shortly!");
 //            return $message;
 

@@ -12,7 +12,7 @@
                         </div>
 
                         <div class="mb-12"></div>
-                        <div class="form-container ">
+                        <div class="form-container">
 
                             <form class="ui form" @submit.prevent="formSubmit" novalidate>
                                 <input type="hidden" name="_token" :value="csrf"/>

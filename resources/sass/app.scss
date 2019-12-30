@@ -69,3 +69,11 @@
     margin-bottom: 10px;
   }
 }
+
+#offices {
+  background: $light-gray;
+}
+
+.ui.form .field .ui.input input, .ui.form .fields .field .ui.input input {
+  width: 100%;
+}
