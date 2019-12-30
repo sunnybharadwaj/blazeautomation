@@ -26,6 +26,7 @@
                                     </p></div>
                             @endif
 
+                            
                             @if(session('message-success'))
                                 <div class="ui positive message">
                                     <i class="close icon"></i>
@@ -37,14 +38,6 @@
                             @endif
 
 
-                            <div class="hidden ui positive message">
-                                <i class="close icon"></i>
-                                <div class="header">
-                                    <p>Thank you for submitting the message!</p>
-                                </div>
-                                <p>We will get back to you shortly.
-                                </p>
-                            </div>
 
                             <div class="max-w-3xl mx-auto">
                                 <div class="mx-auto min-w-full">

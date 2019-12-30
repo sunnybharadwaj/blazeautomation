@@ -8,61 +8,77 @@
                 <div class="flex flex-wrap">
                     <div class="w-full lg:w-5/12 product-img">
                         <div class="wrapper">
-                            <img class="mx-auto" :src="thisProduct.imagepath" alt="">
+                            <img class="mx-auto" src="/static/products/10amp.png" alt="">
                         </div>
                     </div>
 
                     <div class="w-full lg:w-7/12 product-details">
-                        <h1 class="h2">{{thisProduct.name}}</h1>
-                        <h3 class="h4">{{thisProduct.desc}}</h3>
-                        <div v-if="!thisProduct.desc">
-                            <h3 class="h4">Product details coming soon. </h3>
-                        </div>
+                        <h1 class="h2">10 Amp Smart Socket</h1>
+                        <h3 class="h4">B.One Wi-Fi Smart Socket is used to control lights, devices and appliances and monitor their energy consumption from anywhere. Set schedules or ‘Actions’ with your smartphone using the B.One app.</h3>
+                        <a href="/static/products/manuals/Smart_Socket_UserManual.pdf" download class="std-btn">Download
+                            Manual</a>
 
-                        <div v-if="thisProduct.manualpath">
-                            <a :href="thisProduct.manualpath" download class="std-btn">Download Manual</a>
-                        </div>
 
-                        <div v-if="thisProduct.benefits.length">
+                        <div>
                             <h4 class="highlight-heading">KEY BENEFITS</h4>
-                            <div v-for="(benefit,key) in thisProduct.benefits">
+                            <div>
                                 <ul>
-                                    <li class="benefit point" >
+                                    <li class="benefit point">
                                         <div class="flex">
-                                            <span>{{key+1}}</span>.&nbsp;&nbsp;<span>{{benefit}}</span>
+                                            <span>1</span>.&nbsp;<span>CONTROL FROM ANYWHERE: Turn appliances on or off from anywhere with your smartphone using the B.One app (Compatible with Android & iOS)</span>
                                         </div>
                                     </li>
-                                </ul>
-                            </div>
+                                    <li class="benefit point">
+                                        <div class="flex"><span>2</span>.&nbsp;<span>VOICE CONTROL: Works with Amazon Alexa, Google Assistant and supported devices for a hands free experience.</span>
+                                        </div>
+                                    </li>
+                                    <li class="benefit point">
+                                        <div class="flex"><span>3</span>.&nbsp;<span>SCHEDULES: Schedule the Smart Socket to automatically switch on and off appliances when away or set an action for controlling many devices with a single button.</span>
+                                        </div>
+                                    </li>
+                                    <li class="benefit point">
+                                        <div class="flex"><span>4</span>.&nbsp;<span>SAVE ENERGY: Prevent power-hungry devices from being left on longer than needed and based on your geo-location.</span></div>
+                                    </li>
+                                    <li class="benefit point">
+                                        <div class="flex"><span>5</span>.&nbsp;<span>AUTO-SHUTOFF: Protects your appliance by turning it off when high & low voltages are detected.</span></div>
+                                    </li>
+                                    <li class="benefit point">
+                                        <div class="flex"><span>6</span>.&nbsp;<span>AENERGY MONITORING: Know the actual and energy costs incurred in real time. Monitor current and historical power consumption of your appliance.</span></div>
+                                    </li>
+
+                            </ul>
                         </div>
                     </div>
-
-
-
                 </div>
 
-            </div>
-        </div>
 
-        <div class="tech-specs" v-if="thisProduct.tech.length">
-            <div class="container">
-                <div >
-                    <h4 class="loud mb-6">TECHNICAL SPECIFICATIONS</h4>
-                    <div v-for="tech in thisProduct.tech">
-                        <ul>
-                            <li class="point"><p>{{tech}}</p></li>
-                        </ul>
-                    </div>
-                </div>
             </div>
 
         </div>
+    </div>
 
+    <div class="tech-specs">
+        <div class="container">
+            <div class="px-4 py-12">
+                <h4 class="loud mb-6">TECHNICAL SPECIFICATIONS</h4>
+                <div>
+                    <ul>
+                        <li class="point"><p>Operating Voltage & Frequency: 180~260V AC 50Hz</p></li>
+                        <li class="point"><p>Load Current: 10A (Max)</p></li>
+                        <li class="point"><p>Working & Storage temperature: Operating: 8°-50°C RH≤80%  Storage: -20°-70°C RH≤80%</p></li>
+                        <li class="point"><p>Radio Technology: IEEE 802.11b/g/n</p></li>
+                        <li class="point"><p>Size: 67 mm x 43 mm x 32 mm</p></li>
+                        <li class="point"><p>For indoor use only</p></li>
+                    </ul>
+                </div>
+        </div>
+    </div>
 
-        <SliderComponent></SliderComponent>
-        <ContactFormComponent></ContactFormComponent>
+    @include('components.slider')
+    @include('components.contactform')
 
     </div>
-    @include('components.contactform')
-    @include('components.slider')
+    </div>
+
+
 @endsection

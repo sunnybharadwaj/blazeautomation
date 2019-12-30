@@ -313,7 +313,7 @@
                 "Supported protocol: Wi-Fi, LTE, Z-Wave Plus, BT, BLE, Zigbee, and IR",
                 "Z-Wave radio frequency: 868.42MHz (EU) 908.42MHz (US) 921.42 MHz (ANZ)",
                 "Battery Backup: Up to 2 hours",
-                "On-board Sensors: Motion Sensor, Temperature Sensor, and Light Sensor"
+                "On-board Sensors: Motion Sensor, Temperature Sensor, and Light Sensor",
             ],
         },
         {
@@ -381,7 +381,7 @@
                 "Radio Technology: IEEE 802.11b/g/n",
                 "Size: 70 mm x 48 mm x 34 mm",
                 "For indoor use only",
-                "Requires a secured 2.4 gigahertz Wi-Fi network connection."
+                "Requires a secured 2.4 gigahertz Wi-Fi network connection.",
             ],
         },
         {

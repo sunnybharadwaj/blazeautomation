@@ -195,6 +195,12 @@ a.std-link {
     .slider-link {
       height: 100%;
     }
+
+&.inactive {
+  &:hover {
+    background: transparent;
+  }
+}
     &:hover {
       background: rgba(255, 255, 255, 0.09);
     }
