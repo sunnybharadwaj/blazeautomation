@@ -141,8 +141,8 @@
                     </div>
                 </div>
             </section>
-            {{--<ContactFormComponent></ContactFormComponent>--}}
-            {{--<SliderComponent></SliderComponent>--}}
+            @include('components.contactform')
+            @include('components.slider')
         </div>
 
     </div>

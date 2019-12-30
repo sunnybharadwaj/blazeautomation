@@ -21,22 +21,26 @@
 }
 
 #india-notification, .notification {
-  text-align: center;
 
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: $white;
+  background: $slider-gradient;
+  padding: 40px 20px;
+  z-index: 15000;
+  border-top: 10px solid $primary;
+  box-shadow: $box-shadow;
   p {
     margin: 0;
+    font-size: 18px;
   }
-  position: fixed;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  color: $white;
-  background: $gradient;
-  text-align: center;
-  padding: 20px 20px;
-  z-index: 15000;
-  border-top: 3px solid $primary;
 
+  .content {
+    padding: 20px;
+  }
 }
 
 .close-btn {

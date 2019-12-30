@@ -3,11 +3,20 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use GeoIp2\Database\Reader;
+
 
 class PagesController extends Controller
 {
     function landing() {
-        return view('pages/landing');
+        $ip = (request()->ip());
+        $arr_ip = geoip()->getLocation($ip);
+        $data = (object)[
+            "iso" => $arr_ip->iso_code,
+            "location" => $arr_ip->country
+        ];
+
+        return view('pages/landing', compact('data'));
     }
 
     function about() {

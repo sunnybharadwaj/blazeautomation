@@ -1,7 +1,6 @@
 <template>
     <div id="landing-page" class="page-wrapper">
 
-
         <h1 class="hidden">Blaze Automation - Smart Automation Systems</h1>
         <HeroComponent>
             <template slot="text">

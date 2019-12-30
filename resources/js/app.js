@@ -7,19 +7,19 @@ require('semantic-ui-form/form.min');
 require('semantic-ui-dropdown/dropdown.min');
 // require('semantic-ui-modal/modal.min');
 
-import router from './routes_com'
-
-import ContactFormComponent from './components/partials/ContactFormComponent';
-Vue.component('ContactFormComponent', ContactFormComponent);
-
-import SliderComponent from './components/partials/sliderComponent';
-Vue.component('SliderComponent', SliderComponent);
-
-import ContentComponent from './components/partials/contentBlock';
-Vue.component('ContentComponent', ContentComponent);
-
-import HeroComponent from './components/partials/HeroComponent';
-Vue.component('HeroComponent', HeroComponent);
+// import router from './routes_com'
+//
+// import ContactFormComponent from './components/partials/ContactFormComponent';
+// Vue.component('ContactFormComponent', ContactFormComponent);
+//
+// import SliderComponent from './components/partials/sliderComponent';
+// Vue.component('SliderComponent', SliderComponent);
+//
+// import ContentComponent from './components/partials/contentBlock';
+// Vue.component('ContentComponent', ContentComponent);
+//
+// import HeroComponent from './components/partials/HeroComponent';
+// Vue.component('HeroComponent', HeroComponent);
 
 
 // new Vue({
@@ -29,20 +29,20 @@ Vue.component('HeroComponent', HeroComponent);
 
 
 
-$(window).scroll(function() {
-    let scroll = $(window).scrollTop();
-    let Nav = $('nav');
-    if (scroll >= 1) {
-        Nav.addClass('scrolled');
-    } else if (scroll === 0) {
-        Nav.removeClass('scrolled');
-    }
-});
+
 
 
 $(document).ready(function() {
 
-
+    $(window).scroll(function() {
+        let scroll = $(window).scrollTop();
+        let Nav = $('nav');
+        if (scroll >= 1) {
+            Nav.addClass('scrolled');
+        } else if (scroll === 0) {
+            Nav.removeClass('scrolled');
+        }
+    });
     var mySwiper = new Swiper ('.swiper-container', {
         slidesPerView: 1,
 
@@ -95,5 +95,9 @@ $(document).ready(function() {
 
     $('#mobile-menu-close').click(function() {
         $('.mobile-nav-container').hide();
+    });
+
+    $('#notification-close-btn').click(function() {
+        $('#india-notification').hide();
     });
 });

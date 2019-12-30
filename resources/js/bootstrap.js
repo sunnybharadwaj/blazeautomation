@@ -1,12 +1,12 @@
-import Vue from 'vue';
+// import Vue from 'vue';
 import axios from 'axios';
-import VueRouter from 'vue-router';
-import Vuelidate from 'vuelidate'
+// import VueRouter from 'vue-router';
+// import Vuelidate from 'vuelidate'
 
-Vue.use(Vuelidate);
-Vue.use(VueRouter);
+// Vue.use(Vuelidate);
+// Vue.use(VueRouter);
 
-window.Vue = Vue;
+// window.Vue = Vue;
 window.axios = axios;
 window.$ = window.jQuery = require('jquery');
 

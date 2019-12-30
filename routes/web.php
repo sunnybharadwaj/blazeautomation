@@ -1,15 +1,5 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
 use GeoIp2\Database\Reader;
 
@@ -25,6 +15,20 @@ Route::get('/contact-us', 'PagesController@cotact');
 Route::get('/copyright-dispute-policy', 'PagesController@copyright');
 Route::get('/terms-of-use', 'PagesController@terms');
 Route::get('/privacy-policy', 'PagesController@privacy');
+
+Route::group(array('prefix' => 'product'), function () {
+   Route::get('/eazy', 'ProductsController@eazy');
+   Route::get('/edge', 'ProductsController@edge');
+   Route::get('/wattsup', 'ProductsController@wattsup');
+   Route::get('/a10socket', 'ProductsController@a10socket');
+   Route::get('/a16socket', 'ProductsController@a16socket');
+   Route::get('/flooddetector', 'ProductsController@flooddetector');
+   Route::get('/motionsensor', 'ProductsController@motionsensor');
+   Route::get('/smartsensor', 'ProductsController@smartsensor');
+   Route::get('/domesiren', 'ProductsController@domesiren');
+   Route::get('/dimmer', 'ProductsController@dimmer');
+   Route::get('/dualrelay', 'ProductsController@dualrelay');
+});
 
 
 

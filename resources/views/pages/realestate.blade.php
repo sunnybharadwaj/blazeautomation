@@ -105,7 +105,7 @@
                 <img class="mx-auto" src="/static/realestate/clients.png" alt="">
             </div>
         </section>
-        {{--<ContactFormComponent></ContactFormComponent>--}}
-        {{--<SliderComponent></SliderComponent>--}}
+        @include('components.contactform')
+        @include('components.slider')
     </div>
 @endsection

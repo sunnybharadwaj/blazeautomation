@@ -9,18 +9,26 @@
                 <div class="image-container">
                     <div class="overlay p-2">
                         <div class="header-text text-center">
-                            <slot name="text">
-                                <h1 class="h1">All Things. <span class="inline-block">Be One<sup class="r">®</sup></span></h1>
-
-                            </slot>
+                            <h1 class="h1">All Things. <span class="inline-block">Be One<sup class="r">®</sup></span></h1>
                         </div>
                     </div>
                 </div>
-                <div class="">
-
-                </div>
             </div>
         </div>
+
+        @if($data->iso == 'US')
+            <div id="india-notification" class="notification">
+                <div class="content">
+                    <p class="mb-2">Looks like you're visiting from India. <br/></p>
+                    <p><a class="primary-color" href="http://blazeautomation.in">Click here to go to <strong>blazeautomation.in</strong></a></p>
+                    <div id="notification-close-btn" class="close-btn">
+                        [x] Close
+                    </div>
+                </div>
+            </div>
+        @endif
+
+
 
     {{--<!--<div :v-if="this.data.iso === 'IN'">{{this.data.iso}}</div>-->--}}
 
@@ -154,6 +162,7 @@
         </section>
         <!--<ContactFormComponent></ContactFormComponent>-->
 
+        @include('components.slider')
         {{--<div v-if="india" id="india-notification" class="notification">--}}
 
             {{--<p>Looks like you're visiting from India.  <a class="primary-color" href="http://blazeautomation.in">Click here to go to <strong>blazeautomation.in</strong></a></p>--}}
