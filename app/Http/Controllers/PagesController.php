@@ -37,4 +37,16 @@ class PagesController extends Controller
     function news() {
         return view('pages/news');
     }
+
+    function copyright() {
+        return view('pages/copyright');
+    }
+
+    function terms() {
+        return view('pages/terms');
+    }
+
+    function privacy() {
+        return view('pages/privacy');
+    }
 }

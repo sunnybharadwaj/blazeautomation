@@ -16,6 +16,17 @@ use GeoIp2\Database\Reader;
 
 Route::get('/', 'PagesController@landing');
 Route::get('/f-and-b', 'PagesController@fnb');
+Route::get('/about-us', 'PagesController@about');
+Route::get('/retail', 'PagesController@retail');
+Route::get('/real-estate-developers', 'PagesController@realestate');
+Route::get('/news', 'PagesController@news');
+Route::get('/office', 'PagesController@offices');
+Route::get('/contact-us', 'PagesController@cotact');
+Route::get('/copyright-dispute-policy', 'PagesController@copyright');
+Route::get('/terms-of-use', 'PagesController@terms');
+Route::get('/privacy-policy', 'PagesController@privacy');
+
+
 
 
 
