@@ -21,8 +21,13 @@
         "sass-loader": "^7.1.0",
         "vue-template-compiler": "^2.6.11"
     },
+    "browserslist": [
+        "defaults"
+    ],
     "dependencies": {
+        "browserslist": "^4.8.3",
         "jquery": "^3.4.1",
+        "motion-ui": "^2.0.3",
         "semantic-ui-dropdown": "^2.4.1",
         "semantic-ui-form": "^2.4.0",
         "semantic-ui-message": "^2.3.1",
