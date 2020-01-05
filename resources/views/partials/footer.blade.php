@@ -61,9 +61,12 @@
         </div>
 
         <div class="bottom-nav text-right relative ">
-            <div class="brand">
-                <img src="/static/logo.png" alt="">
-            </div>
+            <a href="/">
+                <div class="brand">
+                    <img src="/static/logo.png" alt="">
+                </div>
+            </a>
+
             <a href="/privacy-policy" class="footer-link">Privacy Policy</a>
             <a href="/copyright-dispute-policy" class="footer-link">Copyright Dispute Policy</a>
             <a href="/terms-of-use" class="footer-link">Terms of Use</a>

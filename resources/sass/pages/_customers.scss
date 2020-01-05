@@ -1,4 +1,14 @@
 .page-wrapper.customer-page {
+
+  section {
+    padding: 60px 0;
+    &:nth-of-type(even) {
+      background: $light-gray;
+    }
+  }
+
+
+
   .text-container {
     position: relative;
     .icon {

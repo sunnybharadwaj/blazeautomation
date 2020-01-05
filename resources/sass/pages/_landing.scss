@@ -21,18 +21,74 @@
         font-size: 60px;
       }
     }
-
-
   }
 
+
+
+
+  .content-section {
+    .image {
+      margin-bottom: 20px;
+    }
+    h2 {
+      margin-bottom: 15px;
+      margin-top: 15px;
+      font-weight: normal !important;
+      text-transform: uppercase;
+      letter-spacing: 0.003em;
+    }
+    &:nth-of-type(odd) {
+      background: $light-gray;
+    }
+    .container {
+      padding:80px 30px;
+    }
+
+
+    h3.h4 {
+      margin:15px 0 10px;
+    }
+    .text .content-wrapper{
+      padding: 0 30px;
+
+      .btn-container {
+        min-height: 46px;
+        margin: 15px 0;
+        position: relative;
+        a {
+          position: absolute;
+          right: 0;
+        }
+      }
+    }
+  }
+
+
   .content-block {
+    p {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
     .flex .content {
       margin-bottom: 0;
     }
 
     .text-content {
-      padding: 20px 0;
+      padding: 0 0 60px 0;
     }
+    @media (min-width: 600px) {
+
+    }
+    @media (min-width: 900px) {
+
+    }
+    @media (min-width: 1200px) {
+      .text-content {
+        padding: 20px 0;
+      }
+    }
+
+
   }
 
   //.container > div {

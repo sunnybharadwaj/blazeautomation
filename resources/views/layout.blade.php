@@ -48,6 +48,11 @@
 
 
 <script src="{{mix('/js/app.js')}}"></script>
+<script>
+    $('#notification-close-btn').click(function () {
+        $('#india-notification').hide();
+    });
+</script>
 
 {{--<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>--}}
 </body>

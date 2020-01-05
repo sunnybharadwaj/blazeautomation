@@ -6,8 +6,8 @@
                 <!--<img class="bsmart" src="/static/b1.png" alt="">-->
                 <h2 class="loud primary-color text-center mb-6">OUR PRODUCTS</h2>
             </div>
-            <h3 class="h4 text-center mb-4">Automate your homes, offices and enterprises with <span
-                        class="inline-block">Be Smart</span> extensive range of products.</h3>
+            {{--<h3 class="h4 text-center mb-4">Automate your homes, offices and enterprises with <span--}}
+                        {{--class="inline-block">Be Smart</span> extensive range of products.</h3>--}}
         </div>
 
     </div>

@@ -14,22 +14,22 @@
 
 
 .std-btn {
-
+  border-radius: 4px;
   display: inline-block;
   letter-spacing: -0.03em;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 14px !important;
   padding: 10px 28px;
   margin: 14px 0;
   color: $black;
-  border: 3px solid $primary;
-  background: white;
+  border: 1px solid #a8a8a8;
+font-weight: bold;
+  background: #f7f7f7;
   transition: all 0.2s ease-in-out;
 
   &:hover {
     background: $primary;
     color: white;
-    border: 3px solid $primary;
+    border: 1px solid $primary;
   }
 
   &.component-btn {

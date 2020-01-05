@@ -1,7 +1,7 @@
-
 require('./bootstrap');
 
 import Swiper from 'swiper';
+
 require('semantic-ui-transition/transition.min');
 require('semantic-ui-form/form.min');
 require('semantic-ui-dropdown/dropdown.min');
@@ -28,13 +28,9 @@ require('semantic-ui-dropdown/dropdown.min');
 // });
 
 
+$(document).ready(function () {
 
-
-
-
-$(document).ready(function() {
-
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         let scroll = $(window).scrollTop();
         let Nav = $('nav');
         if (scroll >= 1) {
@@ -43,7 +39,16 @@ $(document).ready(function() {
             Nav.removeClass('scrolled');
         }
     });
-    var mySwiper = new Swiper ('.swiper-container', {
+
+    $('.mui-fade-right').transition({
+        animation: 'fade right in',
+        duration: '0.6s',
+        onComplete: function () {
+            console.log("hey");
+        }
+    });
+
+    var mySwiper = new Swiper('.swiper-container', {
         slidesPerView: 1,
 
         autoplay: {
@@ -89,15 +94,12 @@ $(document).ready(function() {
         },
     });
 
-    $('#mobile-menu-btn').click(function(){
+    $('#mobile-menu-btn').click(function () {
         $('.mobile-nav-container').show();
     });
 
-    $('#mobile-menu-close').click(function() {
+    $('#mobile-menu-close').click(function () {
         $('.mobile-nav-container').hide();
     });
 
-    $('#notification-close-btn').click(function() {
-        $('#india-notification').hide();
-    });
 });

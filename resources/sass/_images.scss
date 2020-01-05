@@ -1,0 +1,23 @@
+#landing-page {
+  .image {
+    min-height: 550px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-attachment: scroll;
+    background-color: #010B15;
+  }
+   .home-automation .image {
+     background-image: url('/static/landing/homes.jpg');
+   }
+
+  .enterprises .image {
+    background-image: url('/static/landing/enterprises.jpg');
+  }
+
+  .offices .image {
+    background-image: url('/static/landing/offices.jpg');
+  }
+ }
