@@ -1,36 +1,36 @@
 {{--<header>--}}
-    {{--<nav>--}}
-        {{--<div class="list flex">--}}
-            {{--<div class="nav-link-group">--}}
-                {{--<div class="link-head">Homes</div>--}}
-                {{--<div class="drop-down first">--}}
-                    {{--<a href="https://b1hub.com/" target="_blank" class="link">Residences</a>--}}
-                    {{--<a href="/real-estate-developers" class="link">Real Estate Developers</a>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-            {{--<div class="nav-link-group">--}}
-                {{--<div class="link-head">Enterprises</div>--}}
-                {{--<div class="drop-down hidden">--}}
-                    {{--<a href="/f-and-b" class="link">Food & Beverages</a>--}}
-                    {{--<a href="/retail" class="link">Retail</a>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-            {{--<div class="nav-link">--}}
-                {{--<a href="/office" class="link">Offices</a>--}}
-            {{--</div>--}}
-            {{--<div class="nav-link">--}}
-                {{--<a href="https://b1hub.com/syncswith.html" target="_blank" class="link">Syncs With</a>--}}
-            {{--</div>--}}
+{{--<nav>--}}
+{{--<div class="list flex">--}}
+{{--<div class="nav-link-group">--}}
+{{--<div class="link-head">Homes</div>--}}
+{{--<div class="drop-down first">--}}
+{{--<a href="https://b1hub.com/" target="_blank" class="link">Residences</a>--}}
+{{--<a href="/real-estate-developers" class="link">Real Estate Developers</a>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--<div class="nav-link-group">--}}
+{{--<div class="link-head">Enterprises</div>--}}
+{{--<div class="drop-down hidden">--}}
+{{--<a href="/f-and-b" class="link">Food & Beverages</a>--}}
+{{--<a href="/retail" class="link">Retail</a>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--<div class="nav-link">--}}
+{{--<a href="/office" class="link">Offices</a>--}}
+{{--</div>--}}
+{{--<div class="nav-link">--}}
+{{--<a href="https://b1hub.com/syncswith.html" target="_blank" class="link">Syncs With</a>--}}
+{{--</div>--}}
 
-            {{--<div class="nav-link">--}}
-                {{--<a href="/about-us" class="link">About</a>--}}
-            {{--</div>--}}
+{{--<div class="nav-link">--}}
+{{--<a href="/about-us" class="link">About</a>--}}
+{{--</div>--}}
 
-            {{--<div class="nav-link">--}}
-                {{--<a href="/contact-us" class="link">Contact Us</a>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</nav>--}}
+{{--<div class="nav-link">--}}
+{{--<a href="/contact-us" class="link">Contact Us</a>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</nav>--}}
 {{--</header>--}}
 
 
@@ -56,7 +56,6 @@
                 </div>
 
 
-
             </div>
         </div>
 
@@ -66,17 +65,40 @@
                     <img src="/static/logo.png" alt="">
                 </div>
             </a>
+            <div class="social-links">
+                <div class="flex justify-center lg:justify-end">
+                    <a href="https://www.facebook.com/Blaze-Automation-104110580945441/" target="_blank"
+                       class="social-link">
+                    <span class="icon">
+                        <img src="/static/icons/facebook.png" alt="Facebook">
+                    </span>
+                    </a>
+                    <a href="https://twitter.com/b1hub" target="_blank" class="social-link">
+                    <span class="icon">
+                        <img src="/static/icons/twitter.png" alt="Facebook">
+                    </span>
+                    </a>
+                    <a href="https://www.linkedin.com/company/blazeautomation" target="_blank" class="social-link">
+                    <span class="icon">
+                        <img src="/static/icons/linkedin.png" alt="Facebook">
+                    </span>
+                    </a>
+                </div>
 
-            <a href="/privacy-policy" class="footer-link">Privacy Policy</a>
-            <a href="/copyright-dispute-policy" class="footer-link">Copyright Dispute Policy</a>
-            <a href="/terms-of-use" class="footer-link">Terms of Use</a>
+            </div>
+
+            <div class="mt-4 lg:mt-0">
+                <a href="/privacy-policy" class="footer-link">Privacy Policy</a>
+                <a href="/copyright-dispute-policy" class="footer-link">Copyright Dispute Policy</a>
+                <a href="/terms-of-use" class="footer-link">Terms of Use</a>
+            </div>
+
         </div>
 
         <div class="mobile-footer">
 
         </div>
     </div>
-
 
 
 </footer>

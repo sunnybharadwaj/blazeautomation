@@ -203,6 +203,16 @@ footer {
   color: $white;
   padding: 60px 0 20px;
 
+  .social-links {
+    .icon {
+      width: 35px;
+      display: inline-block;
+      height: 35px;
+      margin-right: 8px;
+      margin-left: 6px;
+    }
+  }
+
   .footer-heading {
     font-size: 14px ;
     text-transform: uppercase ;
@@ -264,7 +274,13 @@ width:auto;
     margin-right: 20px;
     font-weight: bold;
     &:last-of-type {
-      margin-right: 13px;
+
+
+      @media (min-width: 900px) {
+        margin-right: 8px;
+
+      }
+
     }
     &:hover {
       color: $primary;
@@ -319,6 +335,9 @@ footer .footer-menu a.footer-nav-link {
     text-align: center;
     margin-bottom: 20px;
   }
+  .footer-link {
+    margin-right: 0;
+  }
   @media (min-width: 600px) {
 
   }
@@ -334,6 +353,11 @@ footer .footer-menu a.footer-nav-link {
       display: inline-block;
       text-align: right;
       margin-bottom: 20px;
+      margin-right: 20px;
+
+      &:last-of-type {
+        margin-right: 13px;
+      }
     }
   }
 
