@@ -28,12 +28,14 @@
 
                             
                             @if(session('message-success'))
-                                <div class="ui positive message">
-                                    <i class="close icon"></i>
-                                    <div class="header">
-                                        <p>Thank you for submitting the message!</p>
+                                <div id="india-notification" class="notification">
+                                    <div class="content">
+                                        <p class="mb-2">Thank you for submitting the message!<br/></p>
+                                        <p>We will get back to you shortly.</p>
+                                        <div id="notification-close-btn" class="close-btn">
+                                            [x] Close
+                                        </div>
                                     </div>
-                                    <p>We will get back to you shortly.</p>
                                 </div>
                             @endif
 
