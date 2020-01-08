@@ -16,17 +16,17 @@
             </div>
         </div>
 
-        @if($data->iso == 'IN')
-            <div id="india-notification" class="notification">
-                <div class="content">
-                    <p class="mb-2">Looks like you're visiting from India. <br/></p>
-                    <p><a class="primary-color" href="http://blazeautomation.in">Click here to go to <strong>blazeautomation.in</strong></a></p>
-                    <div id="notification-close-btn" class="close-btn">
-                        [x] Close
-                    </div>
-                </div>
-            </div>
-        @endif
+        {{--@if($data->iso == 'IN')--}}
+            {{--<div id="india-notification" class="notification">--}}
+                {{--<div class="content">--}}
+                    {{--<p class="mb-2">Looks like you're visiting from India. <br/></p>--}}
+                    {{--<p><a class="primary-color" href="http://blazeautomation.in">Click here to go to <strong>blazeautomation.in</strong></a></p>--}}
+                    {{--<div id="notification-close-btn" class="close-btn">--}}
+                        {{--[x] Close--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--@endif--}}
 
 
         <section class="home-automation content-section">
