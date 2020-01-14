@@ -1,5 +1,9 @@
 require('./bootstrap');
+import Swiper from 'swiper';
 
+require('semantic-ui-transition/transition.min');
+require('semantic-ui-form/form.min');
+require('semantic-ui-dropdown/dropdown.min');
 
 // require('semantic-ui-modal/modal.min');
 
