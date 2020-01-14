@@ -19,3 +19,9 @@ if (token) {
 } else {
     console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
 }
+
+import Swiper from 'swiper';
+
+require('semantic-ui-transition/transition.min');
+require('semantic-ui-form/form.min');
+require('semantic-ui-dropdown/dropdown.min');
