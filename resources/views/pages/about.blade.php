@@ -99,7 +99,7 @@
                             <div class="text w-full md:w-8/12">
                                 <div class="heading">
                                     <h3>Sarada Akkineni</h3>
-                                    <h4 class="loud highlight">Chairman</h4>
+                                    <h4 class="loud highlight">Technical Director</h4>
                                 </div>
                                 <div class="Description">
                                     <div class="max-w-xl">
