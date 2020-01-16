@@ -11,5 +11,5 @@
 
 Thanks,<br>
 Chakra Bot<br>
-blazeautomation.com
+blazeautomation.in
 @endcomponent

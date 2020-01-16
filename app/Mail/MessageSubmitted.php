@@ -28,6 +28,6 @@ class MessageSubmitted extends Mailable
      */
     public function build()
     {
-        return $this->subject('New message to blazeautomation.com')->markdown('emails.message-submitted');
+        return $this->subject('New message to blazeautomation.in')->markdown('emails.message-submitted');
     }
 }
