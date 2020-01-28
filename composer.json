@@ -9,6 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.3",
+        "biscolab/laravel-recaptcha": "^3.0",
         "fideloper/proxy": "^4.0",
         "geoip2/geoip2": "~2.4",
         "guzzlehttp/guzzle": "^6.5",
