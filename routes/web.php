@@ -2,7 +2,7 @@
 
 
 use GeoIp2\Database\Reader;
-
+use App\Message;
 
 Route::get('/', 'PagesController@landing');
 Route::get('/f-and-b', 'PagesController@fnb');
@@ -30,13 +30,13 @@ Route::group(array('prefix' => 'product'), function () {
    Route::get('/dualrelay', 'ProductsController@dualrelay');
 });
 
-
-
+//todo:remove this code
+Route::get('/message', 'MessageController@index');
 
 
 Route::post('/message', 'MessageController@store');
 Route::get('/api/message', function() {
-    return \App\Message::all();
+    return Message::all();
 });
 Route::get('/api/press', function() {
     return \App\PressPost::all();

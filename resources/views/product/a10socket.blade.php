@@ -73,11 +73,11 @@
                 </div>
         </div>
     </div>
-
+    </div>
     @include('components.slider')
     @include('components.contactform')
 
-    </div>
+
     </div>
 
 

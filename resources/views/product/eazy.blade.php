@@ -23,7 +23,7 @@
 
                         <div v-if="thisProduct.benefits.length">
                             <h4 class="highlight-heading">KEY BENEFITS</h4>
-                            <div>
+
                                 <ul>
                                     <li class="benefit point">
                                         <div class="flex">
@@ -46,10 +46,8 @@
                                         <div class="flex"><span>5</span>.&nbsp;<span>Works with over 110+ devices and is compatible with remotes of most brands.</span>
                                         </div>
                                     </li>
-                            </div>
-                            </li>
                             </ul>
-                        </div>
+
                     </div>
                 </div>
 
@@ -84,7 +82,7 @@
     @include('components.contactform')
 
 
-
+</div>
 
 
 @endsection

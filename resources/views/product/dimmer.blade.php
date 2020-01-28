@@ -55,7 +55,7 @@
             </div>
 
         </div>
-    </div>
+
 
     <div class="tech-specs hidden">
         <div class="container">
@@ -82,7 +82,7 @@
     @include('components.contactform')
 
 
-
+    </div>
 
 
 @endsection
