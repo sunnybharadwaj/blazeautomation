@@ -35,6 +35,7 @@ class MessageController extends Controller
 
 
             $emails = ['support@blazeautomation.com', 'dheerajdkeswani@gmail.com','sunny@chakradesign.co'];
+            $testEmails= ['sunny@chakradesign.co'];
 
             \Mail::to($emails)
                 ->queue(new MessageSubmitted($message));

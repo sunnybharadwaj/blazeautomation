@@ -1,9 +1,5 @@
 @extends('layout')
 @section('content')
-    @include('components.contactform')
-    @include('components.slider')
-@endsection@extends('layout')
-@section('content')
     <div id="product-detail-page">
         <div class="nav-bg"></div>
 
@@ -27,7 +23,6 @@
 
                         <div v-if="thisProduct.benefits.length">
                             <h4 class="highlight-heading">KEY BENEFITS</h4>
-                            <div>
                                 <ul>
                                     <li class="benefit point">
                                         <div class="flex">
@@ -50,10 +45,8 @@
                                         <div class="flex"><span>5</span>.&nbsp;<span>Works with over 110+ devices and is compatible with remotes of most brands.</span>
                                         </div>
                                     </li>
-                            </div>
-                            </li>
                             </ul>
-                        </div>
+
                     </div>
                 </div>
 
@@ -61,33 +54,34 @@
             </div>
 
         </div>
-    </div>
-
-    <div class="tech-specs">
-        <div class="container">
-            <div class="px-4 py-12">
-                <h4 class="loud mb-6">TECHNICAL SPECIFICATIONS</h4>
-                <div>
-                    <ul>
-                        <li class="point"><p>Built-in Sensor: Temperature and Illuminance</p></li>
-                        <li class="point"><p>Supported Communication Method: Wi-Fi (2.4 GHz Only), I(Infrared)"</p>
-                        </li>
-                        <li class="point"><p>Effective Range/EffectiveDistance of Infrared Ray: 360
-                                degrees/10meters</p></li>
-                        <li class="point"><p>Smartphone: Android 4.2 or later / iOS 10.0 or later</p></li>
-                        <li class="point"><p>Power Supply: 100V to 240V AC</p></li>
-                        <li class="point"><p>Size: 85x85x22mm</p></li>
-                    </ul>
-                </div>
-            </div>
         </div>
 
+
+        <div class="tech-specs">
+            <div class="container">
+                <div class="px-4 py-12">
+                    <h4 class="loud mb-6">TECHNICAL SPECIFICATIONS</h4>
+                    <div>
+                        <ul>
+                            <li class="point"><p>Built-in Sensor: Temperature and Illuminance</p></li>
+                            <li class="point"><p>Supported Communication Method: Wi-Fi (2.4 GHz Only), I(Infrared)"</p>
+                            </li>
+                            <li class="point"><p>Effective Range/EffectiveDistance of Infrared Ray: 360
+                                    degrees/10meters</p></li>
+                            <li class="point"><p>Smartphone: Android 4.2 or later / iOS 10.0 or later</p></li>
+                            <li class="point"><p>Power Supply: 100V to 240V AC</p></li>
+                            <li class="point"><p>Size: 85x85x22mm</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        @include('components.slider')
+        @include('components.contactform')
+
     </div>
-
-    @include('components.slider')
-    @include('components.contactform')
-
-
 
 
 

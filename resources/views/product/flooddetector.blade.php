@@ -44,8 +44,7 @@
                                         <div class="flex"><span>5</span>.&nbsp;<span>Works with over 110+ devices and is compatible with remotes of most brands.</span>
                                         </div>
                                     </li>
-                            </div>
-                            </li>
+
                             </ul>
                         </div>
                     </div>
@@ -82,7 +81,7 @@
     @include('components.contactform')
 
 
-
+</div>
 
 
 @endsection
