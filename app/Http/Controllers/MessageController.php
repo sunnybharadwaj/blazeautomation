@@ -48,7 +48,7 @@ class MessageController extends Controller
             $emails = ['support@blazeautomation.com', 'dheerajdkeswani@gmail.com','sunny@chakradesign.co'];
             $testEmails= ['sunny@chakradesign.co'];
 
-            \Mail::to($testEmails)
+            \Mail::to($emails)
                 ->queue(new MessageSubmitted($message));
 
             session()->flash("message-success", "true");
