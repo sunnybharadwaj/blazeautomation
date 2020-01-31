@@ -29,7 +29,7 @@
         {{--@endif--}}
 
 
-        <section class="home-automation content-section">
+        <section id="home-section-1" class="section-content home-automation content-section">
             <div class="container">
                 <div class="flex flex-wrap">
                     <div class="w-full lg:w-1/2">
@@ -63,7 +63,7 @@
             </div>
         </section>
 
-        <section class="enterprises content-section">
+        <section id="home-section-2" class="section-content enterprises content-section">
             <div class="container">
                 <div class="flex flex-wrap">
                     <div class="w-full lg:w-1/2">
@@ -104,7 +104,7 @@
             </div>
         </section>
 
-        <section class="offices content-section">
+        <section id="home-section-3" class="section-content offices content-section">
             <div class="container">
                 <div class="flex flex-wrap">
                     <div class="w-full lg:w-1/2">

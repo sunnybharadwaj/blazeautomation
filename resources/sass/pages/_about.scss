@@ -7,8 +7,13 @@
   }
 
   .intro-bg {
-    background: $gray;
-    color: white;
+    background: $light-gray;
+    color: $black;
+
+    p.p {
+      font-size: 18px;
+      line-height: 1.4;
+    }
   }
   #intro {
     .flex-container:nth-of-type(2) {

@@ -17,7 +17,10 @@
             </div>
         </div>
 
-        <section>
+
+
+
+        <section id="offices-1" class="section-content">
             <div class="container">
                 <div class="content-block">
                     <div class="flex flex-wrap">
@@ -42,7 +45,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="offices-2" class="section-content">
             <div class="container">
                 <div class="content-block">
                     <div class="flex flex-wrap">
@@ -66,7 +69,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="offices-3" class="section-content">
             <div class="container">
                 <div class="content-block">
                     <div class="flex flex-wrap">
@@ -88,7 +91,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="offices-4" class="section-content">
             <div class="container">
                 <div class="content-block">
                     <div class="flex flex-wrap">

@@ -4,6 +4,7 @@
 use GeoIp2\Database\Reader;
 use App\Message;
 
+
 Route::get('/', 'PagesController@landing');
 Route::get('/f-and-b', 'PagesController@fnb');
 Route::get('/about-us', 'PagesController@about');

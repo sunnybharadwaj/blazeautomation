@@ -17,6 +17,7 @@ class MessageController extends Controller
     public function store(Request $request)
     {
 
+
 //        if(request()->ajax()) {
 //            return Response::json(request()->all);
 //        }
@@ -24,6 +25,14 @@ class MessageController extends Controller
 //        Message::create($message);
         try {
             $phone =  request('code') . '-'  . request('phone');
+            $request->validate([
+                "name" => "required",
+                "email" => "required",
+                "businesstype" => "required",
+                "message" => "required",
+                'captcha' => 'required|captcha'
+            ]);
+
             $message = new Message();
             $message->name = request('name');
             $message->email = request('email');
@@ -32,6 +41,8 @@ class MessageController extends Controller
             $message->businesstype = request('businesstype');
             $message->message = request('message');
             $message->save();
+
+
 
 
             $emails = ['support@blazeautomation.com', 'dheerajdkeswani@gmail.com','sunny@chakradesign.co'];

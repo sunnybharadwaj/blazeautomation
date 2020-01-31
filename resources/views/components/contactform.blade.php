@@ -17,13 +17,20 @@
                         <form class="ui form" method="POST" action="/message">
                             @csrf
                             @if($errors->any())
+
+
                                 <div class="ui negative message">
                                     <i class="close icon"></i>
-                                    <div class="header">
+                                    <div class="header ">
                                         There seems to be error(s) in your entry.
                                     </div>
-                                    <p>Please check and try again.
-                                    </p></div>
+                                    <div class="p-2"></div>
+                                    <ul>
+                                        @foreach ($errors->all() as $error)
+                                            <li>- {{$error}}</li>
+                                        @endforeach
+                                    </ul>
+                                </div>
                             @endif
 
                             
@@ -1049,10 +1056,12 @@
                                     </div>
                                     <div class="mb-4"></div>
                                     <div class="field">
-                                        {{--<div :class="{ 'error': $v.message.$error , 'field': true}">--}}
                                         <label for="message">Message</label>
                                         <textarea required v-model="message" name="message" id="message" cols="30"
                                                   rows="10"></textarea>
+                                    </div>
+                                    <div class="field">
+                                        {!!$captchaform!!}
                                     </div>
                                     <button class="std-btn" type="submit">Submit</button>
                                 </div>
