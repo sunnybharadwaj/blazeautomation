@@ -22,7 +22,9 @@ class AppServiceProvider extends ServiceProvider
 
 
         $form = '<p>' . captcha_img() . '</p>';
-        $form .= '<p><input type="text" name="captcha"></p>';
+        $form .= '<label for="captcha">Enter Captcha</label>';
+        $form .= '<p><input type="text" id="captcha" name="captcha" placeholder="Prove you are not a bot. Type in what you see above."></p>';
+
         $form .= '</form>';
 
 
