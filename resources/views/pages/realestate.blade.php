@@ -19,7 +19,12 @@
 
 
 
-        <section>
+
+
+
+
+
+        <section id="real-estate-1" class="section-content">
             <div class="container">
                 <div class="content-block">
                     <div class="flex flex-wrap">
@@ -39,7 +44,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="real-estate-2" class="section-content">
             <div class="container">
 
                 <div class="content-block">
@@ -60,7 +65,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="real-estate-3" class="section-content">
             <div class="container">
                 <div class="content-block">
                     <div class="flex flex-wrap">
@@ -80,7 +85,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="real-estate-4" class="section-content">
             <div class="container">
                 <div class="content-block">
                     <div class="flex flex-wrap">

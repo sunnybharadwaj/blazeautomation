@@ -47,13 +47,14 @@
 </div>
 
 
-
+<script src="/js/waypoints/lib/noframework.waypoints.js"></script>
 <script src="{{mix('/js/app.js')}}"></script>
 <script>
     $('#notification-close-btn').click(function () {
         $('#india-notification').hide();
     });
 </script>
+
 
 <script src="https://www.google.com/recaptcha/api.js?render=6LeJ3dAUAAAAAE2c2SiFpQ1USjxA2GHmpUx1ETJt"></script>
 <script>

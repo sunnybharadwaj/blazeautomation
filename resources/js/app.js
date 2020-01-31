@@ -5,30 +5,30 @@ require('semantic-ui-transition/transition.min');
 require('semantic-ui-form/form.min');
 require('semantic-ui-dropdown/dropdown.min');
 
-// require('semantic-ui-modal/modal.min');
-
-// import router from './routes_com'
-//
-// import ContactFormComponent from './components/partials/ContactFormComponent';
-// Vue.component('ContactFormComponent', ContactFormComponent);
-//
-// import SliderComponent from './components/partials/sliderComponent';
-// Vue.component('SliderComponent', SliderComponent);
-//
-// import ContentComponent from './components/partials/contentBlock';
-// Vue.component('ContentComponent', ContentComponent);
-//
-// import HeroComponent from './components/partials/HeroComponent';
-// Vue.component('HeroComponent', HeroComponent);
-
-
-// new Vue({
-//     el:'#app',
-//     router
-// });
-
 
 $(document).ready(function () {
+
+    var pageSections = $('.page-wrapper section.section-content');
+
+    for (var i = 0; i < pageSections.length; i++) {
+        var currentElem = $(pageSections[i])[0];
+        new Waypoint({
+            element: currentElem,
+            offset: '90%',
+            handler: function () {
+                var currentElemId = $(this.element).attr('id');
+                if (!$(this.element).hasClass('move-this-item')) {
+                    $(this.element).addClass('move-this-item');
+                    $('#' + currentElemId + '.move-this-item')
+                        .transition({
+                            animation: 'fade in down',
+                            duration: 1200
+                        });
+                }
+            }
+        });
+    }
+
 
     $(window).scroll(function () {
         let scroll = $(window).scrollTop();
@@ -40,13 +40,6 @@ $(document).ready(function () {
         }
     });
 
-    $('.mui-fade-right').transition({
-        animation: 'fade right in',
-        duration: '0.6s',
-        onComplete: function () {
-            console.log("hey");
-        }
-    });
 
     var mySwiper = new Swiper('.swiper-container', {
         slidesPerView: 1,

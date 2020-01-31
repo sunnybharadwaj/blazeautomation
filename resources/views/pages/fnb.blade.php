@@ -16,7 +16,7 @@
             </div>
 
 
-            <section>
+            <section id="fnb-1" class="section-content">
                 <div class="container">
                     <div class="content-block">
                         <div class="flex flex-wrap">
@@ -35,7 +35,7 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section id="fnb-2" class="section-content">
                 <div class="container">
                     <div class="content-block">
                         <div class="flex flex-wrap">
@@ -54,7 +54,7 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section id="fnb-3" class="section-content">
                 <div class="container">
                     <div class="content-block">
                         <div class="flex flex-wrap">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section id="fnb-4" class="section-content">
                 <div class="container">
                     <div class="content-block">
                         <div class="flex flex-wrap">
@@ -92,7 +92,7 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section id="fnb-5" class="section-content">
                 <div class="container">
                     <div class="content-block">
                         <div class="flex flex-wrap">
@@ -111,7 +111,7 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section id="fnb-6" class="section-content">
                 <div class="container">
                     <div class="content-block">
                         <div class="flex flex-wrap">
@@ -130,7 +130,7 @@
                     </div>
                 </div>
             </section>
-            <section id="clients ">
+            <section id="clients " class="section-content">
                 <div class="py-12">
                     <div class="container ">
                         <h3 class="loud text-center primary-color mb-12">Clients</h3>
@@ -147,3 +147,6 @@
 
     </div>
 @endsection
+
+
+
