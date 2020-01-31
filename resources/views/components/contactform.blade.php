@@ -17,6 +17,12 @@
                         <form class="ui form" method="POST" action="/message">
                             @csrf
                             @if($errors->any())
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{$error}}</li>
+                                    @endforeach
+                                </ul>
+
                                 <div class="ui negative message">
                                     <i class="close icon"></i>
                                     <div class="header">
@@ -1054,6 +1060,8 @@
                                         <textarea required v-model="message" name="message" id="message" cols="30"
                                                   rows="10"></textarea>
                                     </div>
+
+{!!$captchaform!!}
                                     <button class="std-btn" type="submit">Submit</button>
                                 </div>
                             </div>
